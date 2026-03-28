@@ -2,6 +2,8 @@
 title: "Captain's Log: May, 2022"
 date: "2022-05-31"
 description: "My last letter was in October of 2021. Since then, I've written and re-written this letter at least three times. Maybe I should just send the damn"
+image: "/images/essays/captains-log-may-2022.png"
+imageAlt: "Captain's Log May 2022"
 oldPath: "/post/10-captains-log-may-2022"
 ---
 

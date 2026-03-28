@@ -2,6 +2,8 @@
 title: "Drink the Radioactive Gatorade"
 date: "2026-03-07"
 description: "My best description of the current moment is that a small subset of the population just realized they can drink radioactive Gatorade and get superpowers."
+image: "/images/essays/drink-radioactive-gatorade.png"
+imageAlt: "Drink the Radioactive Gatorade"
 oldPath: "/p/drink-the-radioactive-gatorade"
 ---
 

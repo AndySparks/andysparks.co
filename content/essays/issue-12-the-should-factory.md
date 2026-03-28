@@ -2,6 +2,8 @@
 title: "The Should Factory"
 date: "2023-01-08"
 description: "Your inner jerk telling you what you should have done. Should is a word we use to shame ourselves and others. Don't should yourself."
+image: "/images/essays/hoo-boy-12.png"
+imageAlt: "Hoo Boy Issue 12"
 oldPath: "/hoo-boy/issue-12-the-should-factory"
 ---
 
@@ -50,6 +52,8 @@ Sales and marketing are easy to measure, but engineering? Whenever a team plans 
 This playlist won't be for everyone, but it's the playlist I've been using to get shit done for the last month or two, and I'll be adding to it over 2023. It's big, upbeat, loud, and intense.
 
 ### Books
+
+![Stop Co-Founder Conflict](/images/essays/stop-co-founder-conflict.png)
 
 **[Stop Co-Founder Conflict](https://stopcofounderconflict.com/)**
 

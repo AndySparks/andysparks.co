@@ -10,6 +10,8 @@ export type Essay = {
   date: string;
   description: string;
   oldPath?: string;
+  image?: string;
+  imageAlt?: string;
   content: string;
 };
 
@@ -31,6 +33,8 @@ export function getAllEssays(): EssayMeta[] {
         date: data.date || "2020-01-01",
         description: data.description || "",
         oldPath: data.oldPath,
+        image: data.image,
+        imageAlt: data.imageAlt,
       };
     });
 
@@ -52,6 +56,8 @@ export function getEssayBySlug(slug: string): Essay | null {
     date: data.date || "2020-01-01",
     description: data.description || "",
     oldPath: data.oldPath,
+    image: data.image,
+    imageAlt: data.imageAlt,
     content,
   };
 }

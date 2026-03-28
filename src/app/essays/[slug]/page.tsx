@@ -2,6 +2,7 @@ import { Container } from "@/components/Container";
 import { getEssayBySlug, getAllEssaySlugs } from "@/lib/essays";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import Image from "next/image";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import "../../../styles/essay.css";
 
@@ -51,6 +52,18 @@ export default async function EssayPage({ params }: Props) {
               day: "numeric",
             })}
           </div>
+          {essay.image && (
+            <div className="essay-hero-image">
+              <Image
+                src={essay.image}
+                alt={essay.imageAlt || essay.title}
+                width={640}
+                height={400}
+                style={{ width: "100%", height: "auto" }}
+                priority
+              />
+            </div>
+          )}
         </header>
 
         <div className="essay-content">

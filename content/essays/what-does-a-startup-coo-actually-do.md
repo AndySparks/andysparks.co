@@ -11,6 +11,8 @@ I believe the job of a founding COO is to do the most important things the compa
 
 Founding COOs need to be zero-to-one people who are good at and comfortable with firing themselves.
 
+![The founding COO role: the intersection of things the company needs done and things you can take from 0 to 1](/images/essays/coo-diagram-1.png)
+
 ## How my role as COO evolved
 
 I wasn't always the COO. Mattermark is the same legal entity as Referly, but as Danielle says, "[Mattermark wasn't a pivot](https://medium.com/@DanielleMorrill/mattermark-wasnt-a-pivot-883efd58d65)." I was not a co-founder of Referly. [Danielle](https://medium.com/u/27d13727d627?source=post_page-----bbeb0f8648ee----------------------) and Kevin actually hired me after I [shut down my startup](http://andysparks.co/Losing-a-Battle-and-Focusing-on-Winning-the-War), LaunchGram. I was an individual contributor hired when Referly was gasping for air, and my job description was essentially, "go on missions for Danielle."
@@ -29,6 +31,8 @@ In the early days we got our data by hand. We had an advantage over incumbents a
 
 So the first team we built at Mattermark was a team of data analysts who filled a forest of spreadsheets with data on companies in VC firm portfolios. I led this team in my first functional owner role, and we decided to change my title to "Head of Research & Data."
 
+![Mattermark research spreadsheet tracking company data](/images/essays/coo-diagram-2.png)
+
 As we built repeatable processes to get certain data points -- we call it the "human algorithm" -- we realized I had taken the team from 0-1. It was time to hire a much more qualified Head of Data.
 
 ## Mission #2: Figure out sales
@@ -43,6 +47,8 @@ I was good at this mission, but I didn't want to do eight demos a day and carry 
 
 Early on in my second mission, at one of our company all-hands meetings, I remember when one of our engineers asked, "Andy, I know you're working really hard, but what is it that you do?" We all laughed, and I explained the things I had been working on.
 
+![What would you say you do here?](/images/essays/coo-diagram-3.gif)
+
 I felt like an [imposter](https://en.wikipedia.org/wiki/Impostor_syndrome) though, because my latest mission was as an individual contributor. Co-founders are supposed to manage teams and run the business, right? I believed I had to directly manage people to be a leader. I was asking myself what I was going to lead. Ultimately, I knew an opportunity would present itself and that as long as I focused on driving value for our customers and our business, I was in the right place.
 
 ***Takeaway:*** *Changing roles often is hard enough for the person doing it, but it can be confusing to the rest of the team. Make sure to clearly articulate your new responsibilities.*
@@ -50,6 +56,8 @@ I felt like an [imposter](https://en.wikipedia.org/wiki/Impostor_syndrome) thoug
 ## Mission #3: Becoming "COO"
 
 My third mission was less well defined because, well, it was about five missions at once. This fall, we needed to get a new office, figure out recruiting, start a customer support & success team, and turn our startup into a professionally managed company (see legal, accounting, HR, and all the fun stuff).
+
+![Juggling too many things at once](/images/essays/coo-diagram-4.png)
 
 At this time, I had the choice to go with "VP of Facilities, Recruiting, Customer Support & Success, Finance, & HR," or something more catch-all like COO.
 

@@ -2,6 +2,8 @@
 title: "The False Cultural Promises of a CEO"
 date: "2022-10-16"
 description: "Managers often operate in what the author calls the land of broken promises, claiming high concern for both people and production while delivering neither."
+image: "/images/essays/broken-promises.png"
+imageAlt: "The land of broken promises"
 oldPath: "/hoo-boy/issue-7-are-you-living-in-the-land-of-broken-promises"
 ---
 
@@ -49,6 +51,8 @@ Startups particularly struggle with this gap, promising fast-paced, people-frien
 4. If desired, set goals for shifting your style
 5. Communicate changes to your team and request ongoing feedback
 
+![Broken promises in practice](/images/essays/broken-promises-in-practice.png)
+
 **Example:** A manager believing they excel at both dimensions discovers their team sees them as production-focused but dismissive of people concerns. After adjusting to prioritize production, they swing too far and neglect people.
 
 **The Bottom Line:** Self-awareness enables accurate expectations and behavioral goals that improve both employee experience and organizational performance.
@@ -74,6 +78,8 @@ Bri Kimmel surveyed 500 tech workers. The top request was straightforward: *paid
 Sam Hinkie, founder of 87capital and former Philadelphia 76ers GM, discusses building meaningful relationships in a thoughtful podcast conversation.
 
 ### Books
+
+![Quit by Annie Duke](/images/essays/quit.png)
 
 **Quit: The Power of Knowing When to Walk Away**
 

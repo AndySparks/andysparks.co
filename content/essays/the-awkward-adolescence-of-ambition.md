@@ -2,6 +2,8 @@
 title: "The Awkward Adolescence of Ambition"
 date: "2025-10-07"
 description: "Ambition is not willpower, hunger, or hustle. It is awareness, a noticing of something inside us longing to be heard and expressed."
+image: "/images/essays/awkwardness-of-adolescence.png"
+imageAlt: "The Awkward Adolescence of Ambition"
 oldPath: "/p/the-awkward-adolescence-of-ambition"
 ---
 

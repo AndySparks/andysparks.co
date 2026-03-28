@@ -2,6 +2,8 @@
 title: "If Someone Quits, Who Will Replace Them?"
 date: "2022-10-30"
 description: "Exceptional managers cultivate relationships with talented professionals well before job openings materialize. This is the art of bench building."
+image: "/images/essays/bench-building.png"
+imageAlt: "Building a bench for hiring"
 oldPath: "/hoo-boy/issue-8-want-to-hire-great-people-learn-to-build-a-bench"
 ---
 
@@ -58,6 +60,8 @@ Planning and anticipation constitute core managerial responsibilities. Managers 
 **Jennifer Garvey Berger's "The Mental Habits of Effective Leaders"** explores the Constructive Development Framework for leadership growth. Notable insight: "A great leader makes you feel bigger when you're in the room with them."
 
 ### Books
+
+![Hell Yeah or No by Derek Sivers](/images/essays/hell-yeah-or-no.png)
 
 **Derek Sivers' "Hell Yeah or No"** presents decision-making frameworks considering happiness, long-term benefit, and usefulness to others.
 

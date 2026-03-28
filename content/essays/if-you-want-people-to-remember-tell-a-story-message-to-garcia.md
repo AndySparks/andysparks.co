@@ -2,6 +2,8 @@
 title: "If You Want People to Remember, Tell a Story"
 date: "2024-08-27"
 description: "In my work as an executive coach, I too often see leaders get frustrated when their team fails to understand a core value. A good story changes that."
+image: "/images/essays/letter-to-garcia.png"
+imageAlt: "A Message to Garcia"
 oldPath: "/p/if-you-want-people-to-remember-tell-a-story-message-to-garcia"
 ---
 
@@ -40,6 +42,8 @@ In the madhouse pressure cooker environment of running a startup, too few CEOs, 
 After all, the message you're responsible for getting to Garcia is building a team capable of getting their messages to their Garcia.
 
 ## On the Personal Front
+
+![Kate and Andy at their wedding](/images/essays/married-ratatat.png)
 
 Kate and I celebrate as we walk to the head table to the tune of Ratatat's Loud Pipes.
 

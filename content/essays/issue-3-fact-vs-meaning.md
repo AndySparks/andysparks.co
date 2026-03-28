@@ -2,6 +2,8 @@
 title: "The Stories in Our Heads (Fact vs. Meaning)"
 date: "2022-08-21"
 description: "Andy Sparks explores how we construct narratives around observed events, distinguishing between facts and the meanings we assign to them."
+image: "/images/essays/constructing-meaning.png"
+imageAlt: "Constructing meaning diagram"
 oldPath: "/hoo-boy/issue-3-fact-vs-meaning"
 ---
 
@@ -41,6 +43,8 @@ When recognizing you're operating in "Meaning Land":
 - "The Unicorn Launcher #3" podcast featuring accountability and transparency in coaching
 
 **Books**
+![Inspired by Marty Cagan](/images/essays/inspired.png)
+
 - *Inspired: How to Create Tech Products Customers Love* by Marty Cagan
 
 **Dice Roll**

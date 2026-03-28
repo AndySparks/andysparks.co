@@ -2,6 +2,8 @@
 title: "We Don't Have a Word for a Great Business Culture"
 date: "2022-10-02"
 description: "Using the Blake-Mouton Managerial Grid to explore why we don't have a word for 9,9 management, and why that's a disappointing commentary on our collective failure."
+image: "/images/essays/mouton-blake-managerial-grid.png"
+imageAlt: "Mouton-Blake Managerial Grid"
 oldPath: "/hoo-boy/issue-6-whats-better-than-bureaucracy"
 ---
 
@@ -49,6 +51,8 @@ The pinnacle of management, according to Mouton & Blake, is an organization wher
 
 The application of a 2x2 always yields one thing regardless of the axes: the knee-jerk desire to call out how reality isn't reducible to two variables. And it's not, but that's not the point. The point is to _play with the ideas_.
 
+![Mouton-Blake Managerial Grid simplified](/images/essays/mouton-blake-managerial-grid-simple.png)
+
 I set out to give each box a name, inspired by Ed Batista (in [this piece](https://www.edbatista.com/2019/04/accountability-and-empathy.html)), but I couldn't come up with _one word_ that fits in the 9,9 management box. So I DM'd, texted, and tweeted, asking for help.
 
 I knew I was onto something when people responded with skepticism and cynicism about whether 9,9 management is even possible.
@@ -84,6 +88,8 @@ Jaleh does a fantastic job combining well-organized thoughts with graphics that 
 Did you know Andy coined the term "Product-Market Fit," (aka "PMF"), but he attributes the idea to Don Valentine? In the podcast with Mike Maples at Floodgate, Andy shares two _tangible_ heuristics for knowing if you have PMF for consumer companies _and_ two for enterprise businesses. My favorite part is a story about how "Every great marketer I know is a revisionist," where Andy shares how Google had a _hard time_ selling ads initially.
 
 ### Books
+
+![Learning in Relationship](/images/essays/learning-in-relationship.png)
 
 [Learning in Relationship](https://www.amazon.com/Learning-Relationship-Foundation-Personal-Professional/dp/1887259015)
 

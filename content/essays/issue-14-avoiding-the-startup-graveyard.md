@@ -2,6 +2,8 @@
 title: "Avoiding the Startup Graveyard"
 date: "2023-02-05"
 description: "Two problematic ingredients, low pricing combined with high-touch sales processes, create conditions that can seduce and ultimately destroy founders and their companies."
+image: "/images/essays/startup-graveyard-small.png"
+imageAlt: "The startup graveyard"
 oldPath: "/hoo-boy/issue-14-avoiding-the-startup-graveyard"
 ---
 
@@ -30,6 +32,8 @@ Two problematic ingredients, low pricing combined with high-touch sales processe
 ### Why It Matters
 
 Every company on the path to $1B in revenue must determine its customer acquisition strategy. The core question: Will the business model involve selling high-priced products to a small customer base or affordable products to many customers?
+
+![Startup graveyard diagram](/images/essays/startup-graveyard.png)
 
 This decision determines which of three sales models to implement:
 
@@ -98,6 +102,8 @@ Gokul Rajaram observed that Series B and C companies sometimes hire Chief Produc
 This episode explores pricing and value capture through the NFL's history. The hosts conclude the NFL may be among the few organizations that captures all, or exceeds, the value it creates.
 
 ### Books
+
+![Don't Call It That](/images/essays/dont-call-it-that.png)
 
 **Don't Call it That**
 

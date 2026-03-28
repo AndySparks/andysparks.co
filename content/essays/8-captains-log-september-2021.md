@@ -2,6 +2,8 @@
 title: "Captain's Log: September 2021"
 date: "2021-09-09"
 description: "A lot has happened since I sent Edition 7 of letters in April. Most importantly, I'm excited to share about my new climate-focused coaching company"
+image: "/images/essays/captains-log-sep-2021.jpeg"
+imageAlt: "Captain's Log September 2021"
 oldPath: "/post/8-captains-log-september-2021"
 ---
 

@@ -2,6 +2,8 @@
 title: "The Roots of Your Obsession"
 date: "2022-11-13"
 description: "What do you find so interesting that it out-competes Netflix for your attention? Every obsession has a legacy, and we can choose to embrace it."
+image: "/images/essays/obsession-tree.png"
+imageAlt: "The obsession tree"
 oldPath: "/hoo-boy/issue-9-every-obsession-has-a-legacy"
 ---
 
@@ -85,6 +87,8 @@ Alex Hormozi, the founder of [Acquisition.com](http://acquisition.com/), tweeted
 I read and listen to just about anything Matt puts out these days. Before I was a coach, I'd refresh the Google Doc for **The Great CEO Within**, waiting for a new chapter to drop. Today, I regularly refer to Matt's methodology and tactics for building companies with my clients. He shares his ideas generously, and I love how sincerely he cares about building great companies that work for the employers **_and_** the employees. My favorite part of this episode comes early when he talks about how he makes a bet with CEOs he coaches that ends up helping them become aware of just how often fear is driving them to misjudge situations.
 
 ### Books
+
+![WTF?: What's the Future and Why It's Up to Us](/images/essays/wtf-whats-the-future.png)
 
 **[WTF? What's the Future and Why it's Up to Us](https://www.notion.so/WTF-What-s-the-Future-and-Why-it-s-Up-to-Us-05810ceb8eac4dd4899a4e48feff9571)**
 

@@ -2,6 +2,8 @@
 title: "Conducting a Time Audit"
 date: "2023-02-26"
 description: "Dee Hock believed great managers should allocate 50% of time managing themselves. To manage yourself effectively, begin by examining how you spend your time."
+image: "/images/essays/time-audit-small.png"
+imageAlt: "Time audit"
 oldPath: "/hoo-boy/issue-15-audit-your-time-dont-waste-it"
 ---
 
@@ -25,6 +27,8 @@ To manage yourself effectively, begin by examining how you spend your time.
 
 ### The Three-Step Framework: Get It; Know It; Use It
 
+![Time audit output](/images/essays/time-audit-output.png)
+
 **Get It**: Track and classify how you're spending your time over 3-4 weeks (ideally twice yearly).
 
 **Know It**: Review your data to determine whether your time allocation aligns with your priorities.
@@ -32,6 +36,8 @@ To manage yourself effectively, begin by examining how you spend your time.
 **Use It**: Make decisions about eliminating, delegating, reassigning, or modifying activities.
 
 ### Tracking and Classifying Your Time
+
+![Notion screenshot for time tracking](/images/essays/notion-screenshot.png)
 
 Record your activities with specificity rather than broad categories. Instead of logging "marketing," note "reviewed product marketing messaging draft." Use spreadsheets, Slack channels, or calendar reviews to document your work.
 
@@ -52,6 +58,8 @@ Key recommendations:
 4. **"Could this activity be modified to be shorter or better use my time?"** If yes, **modify**.
 
 Activities passing these filters should be **kept** if they feel essential.
+
+![Time audit breakdown](/images/essays/time-audit-breakdown.png)
 
 ### The Compounding Effect
 
@@ -78,6 +86,8 @@ Lenny Rachitsky explores product management fundamentals and how great product t
 Andrew Chen, a16z partner and former Uber growth leader, discusses why startups sometimes fail to gain traction despite effort.
 
 ### Books
+
+![The Effective Executive](/images/essays/effective-executive.png)
 
 **The Effective Executive**
 

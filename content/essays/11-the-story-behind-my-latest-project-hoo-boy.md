@@ -2,6 +2,8 @@
 title: "The Story Behind My Latest Project, Hoo Boy."
 date: "2022-10-23"
 description: "The star of this issue is my latest project: Hoo Boy. It's a newsletter I send every other week where I write for founders navigating how to manage"
+image: "/images/essays/captains-log-oct-2022.png"
+imageAlt: "Captain's Log October 2022"
 oldPath: "/post/11-the-story-behind-my-latest-project-hoo-boy"
 ---
 

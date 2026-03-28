@@ -2,6 +2,8 @@
 title: "Captain's Log: October 2021"
 date: "2021-10-27"
 description: "You might be confused. Doesn't this email usually come from MailChimp? Yes, yes, it does. But I was sick of paying $50 / mo. for something I can"
+image: "/images/essays/captains-log-oct-2021.JPG"
+imageAlt: "Captain's Log October 2021"
 oldPath: "/post/9-captains-log-october-2021"
 ---
 

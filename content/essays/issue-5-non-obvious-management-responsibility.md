@@ -2,6 +2,8 @@
 title: "Great Managers Manage Themselves First"
 date: "2022-09-18"
 description: "Dee Hock, Visa's founder, challenged conventional management wisdom by advocating that managers should dedicate approximately half their time to self-management."
+image: "/images/essays/self-awareness-emotional-management.png"
+imageAlt: "Self-awareness and emotional management diagram"
 oldPath: "/hoo-boy/issue-5-non-obvious-management-responsibility"
 ---
 
@@ -33,6 +35,8 @@ The six-step model demonstrates how extended chains of perception, emotion, and 
 - *Lex Fridman #294 - Tony Fadell* - Explores product management philosophy and the collective responsibility for understanding customer value before development begins.
 
 **Books:**
+![The Art of Possibility](/images/essays/art-of-possibility.png)
+
 - *The Art of Possibility* - Co-authored by Rosamund Stone Zander and Benjamin Zander, featuring practical approaches to bold thinking.
 - *Wake Up to Your Life* - Ken McLeod's framework on self-observation
 

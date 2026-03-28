@@ -2,6 +2,8 @@
 title: "Startup States: Jungle, Dirt Road, Highway"
 date: "2022-12-18"
 description: "Based on Jeff Bussgang's framework, Andy Sparks explores three distinct phases of startup maturity: the jungle, dirt roads, and the highway."
+image: "/images/essays/jungle-dirtroad-highway.png"
+imageAlt: "Startup phases: Jungle, Dirt Road, Highway"
 oldPath: "/hoo-boy/issue-11-startup-phases-jungle-dirt-road-highway"
 ---
 
@@ -58,6 +60,8 @@ Patrick Collison, Stripe CEO: "people's disposition with regard to the company i
 - Hugh Jackman's Tim Ferriss interview praised for groundedness and family-first decision making
 
 ### Books
+![The Tools by Phil Stutz](/images/essays/the-tools-phil-stutz.png)
+
 - *The Tools* by Phil Stutz - addresses self-expression, confidence, and emotional regulation
 
 ### Resources

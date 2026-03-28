@@ -2,6 +2,8 @@
 title: "How My Coaching Works"
 date: "2021-09-08"
 description: "The field of coaching has a ton of variability. So when I meet someone interested in working together, they inevitably have a lot of questions."
+image: "/images/essays/coaching-screenshot.png"
+imageAlt: "How my coaching works"
 oldPath: "/post/how-my-coaching-works"
 ---
 

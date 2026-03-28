@@ -2,6 +2,8 @@
 title: "This is the Work"
 date: "2025-05-29"
 description: "There's no shortage of stories about who you should be. Some are handed to you with love, others not so much. A few you carve for yourself."
+image: "/images/essays/this-is-the-work.png"
+imageAlt: "This is the Work"
 oldPath: "/p/this-is-the-work"
 ---
 

@@ -2,6 +2,8 @@
 title: "1800's Wisdom: Three Components of a Business"
 date: "2022-12-04"
 description: "Andrew Ure argued factories needed three harmonious systems: the moral system, the mechanical system, and the commercial system. This still holds today."
+image: "/images/essays/hoo-boy-10.png"
+imageAlt: "Hoo Boy Issue 10"
 oldPath: "/hoo-boy/issue-10-breaking-businesses-down-into-three-systems"
 ---
 
@@ -32,6 +34,8 @@ When defining management or business simply, it communicates easily but loses in
 Andrew Ure lived in Glasgow, Scotland, in the early 1800s. After earning degrees in chemistry and natural philosophy, Ure took a position at Anderson's Institution, a school founded to educate factory workers and managers. He taught and trained many owners and managers of major UK factories during the first half of the century.
 
 A widespread early 1800s issue involved workers skipping work or stopping entirely, leaving proprietors with chaos. To address this, Ure argued factories needed three harmonious systems, compared to "the muscular, the nervous, and the sanguiferous systems of an animal":
+
+![Andrew Ure's three systems](/images/essays/andrew-ures-3-systems.png)
 
 1. **The Moral System**: "The condition of personnel."
 2. **The Mechanical System**: "The techniques and processes of production."
@@ -70,6 +74,8 @@ Regina, former COO at Mochary Method (led by Matt Mochary, author of _The Great 
 This Huberman Lab episode features Dr. Suzuki, a prominent memory researcher. A standout section covers four factors making information memorable: (1) novelty, (2) repetition, (3) association, and (4) emotional resonance.
 
 ### Books
+
+![How to Castrate a Bull](/images/essays/how-to-castrate-a-bull.png)
 
 **How to Castrate a Bull**
 

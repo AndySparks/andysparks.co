@@ -2,6 +2,8 @@
 title: "The Compound Interest of Books"
 date: "2025-02-06"
 description: "There's an unexpected upside to my bad habit of buying too many books: when they all sit unread together, they create a kind of natural selection."
+image: "/images/essays/21-essays-by-andy.png"
+imageAlt: "21 essays by Andy"
 oldPath: "/p/the-compound-interest-of-books"
 ---
 
@@ -32,6 +34,8 @@ We considered staying in San Francisco or moving to New York, they both have obv
 - [Why Greatness Cannot Be Planned: The Myth of the Objective](https://www.amazon.com/Why-Greatness-Cannot-Planned-Objective/dp/3319155237): It's popular wisdom that goals are Good. But what if they're not? What if everything you know about achieving big audacious goals is wrong? It turns out, everything you think you know *might be wrong*. This was a short, fun read and it challenged how I think about how I spend my time. I think you'll like it.
 
 - [Work Zones](https://x.com/0xAneri/status/1863682276564893700): This is a great practical way of thinking about effort at work. With the rise of Andrew Huberman and Peter Attia, it seems like we're all aware of heart rate zones now. Zone two cardio: all the rage! What if we applied the five heart rate zones to work? Some weeks would be zone 0 weeks: vacation! Others might be zone 5: no personal life, working nights and weekends. I've found this helpful for teams to have shared language, and I've also found it helpful with my wife to set expectations for the week ahead.
+
+![Flyover country](/images/essays/flyover-country.png)
 
 ## From the Archives
 
