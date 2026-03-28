@@ -19,7 +19,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: {
     default: "Andy Sparks",
-    template: "%s | Andy Sparks",
+    template: "%s / Andy Sparks",
   },
   description:
     "Executive coach to startup founders and CEOs. Writing about craft, psychology, and human flourishing.",
