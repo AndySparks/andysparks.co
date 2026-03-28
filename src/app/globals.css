@@ -1,1 +1,121 @@
 @import "tailwindcss";
+
+/* ===== DESIGN TOKENS ===== */
+:root {
+  /* --- Colors: Greens (dominant) --- */
+  --color-evergreen: #2b3a24;
+  --color-forest: #3d4f2f;
+  --color-olive: #556b3a;
+  --color-leaf: #6e8a4a;
+  --color-spring: #8aaa5e;
+
+  /* --- Colors: Golds & Warm Accents --- */
+  --color-brass: #c9952c;
+  --color-gilt: #deb04a;
+  --color-firelight: #e8c76a;
+  --color-ember: #b85c2a;
+
+  /* --- Colors: Foundations --- */
+  --color-parchment: #f2ead4;
+  --color-warm-paper: #e5dabf;
+  --color-khaki: #c4b496;
+  --color-chocolate: #3b2f26;
+  --color-night: #1e1a16;
+
+  /* --- Colors: Cool Note --- */
+  --color-river: #6b8fa3;
+  --color-smoke: #8fb3c4;
+
+  /* --- Semantic Colors --- */
+  --color-background: var(--color-parchment);
+  --color-ink: var(--color-chocolate);
+  --color-ink-light: #5a5040;
+  --color-primary: var(--color-forest);
+  --color-accent: var(--color-brass);
+  --color-muted: var(--color-khaki);
+  --color-divider: #d4c9a8;
+
+  /* --- Typography --- */
+  --font-body: var(--font-fraunces), Georgia, "Times New Roman", serif;
+  --font-mono: var(--font-ibm-plex-mono), "Courier New", monospace;
+
+  --type-display: 42px;
+  --type-h1: 32px;
+  --type-h2: 26px;
+  --type-h3: 22px;
+  --type-body: 19px;
+  --type-subtitle: 22px;
+  --type-sm: 14px;
+  --type-xs: 13px;
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-body: 1.7;
+
+  /* --- Spacing (base 8) --- */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 32px;
+  --space-lg: 48px;
+  --space-xl: 64px;
+  --space-2xl: 96px;
+  --space-3xl: 128px;
+
+  /* --- Layout --- */
+  --width-content: 640px;
+  --width-wide: 940px;
+  --width-max: 1200px;
+}
+
+/* ===== BASE STYLES ===== */
+html {
+  background-color: var(--color-background);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  line-height: var(--leading-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1 {
+  font-size: var(--type-h1);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  color: var(--color-evergreen);
+}
+
+h2 {
+  font-size: var(--type-h2);
+  font-weight: 600;
+  line-height: var(--leading-snug);
+  color: var(--color-evergreen);
+}
+
+h3 {
+  font-size: var(--type-h3);
+  font-weight: 600;
+  line-height: var(--leading-snug);
+  color: var(--color-forest);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
+  transition: text-decoration-color 0.15s ease;
+}
+
+a:hover {
+  text-decoration-color: var(--color-primary);
+}
+
+/* ===== SELECTION ===== */
+::selection {
+  background-color: color-mix(in srgb, var(--color-forest) 20%, transparent);
+}
