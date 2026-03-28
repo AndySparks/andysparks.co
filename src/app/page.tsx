@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import Image from "next/image";
 import Link from "next/link";
 import "../styles/home.css";
 
@@ -27,22 +28,14 @@ export default function Home() {
           before relocating to Columbus, OH with my wife Kate.
         </p>
 
-        {/* Phase 2: Add actual headshot image */}
-        <div
+        <Image
+          src="/images/headshot.jpg"
+          alt="Andy Sparks"
+          width={640}
+          height={640}
+          priority
           className="home-photo"
-          style={{
-            height: 400,
-            background: "var(--color-warm-paper)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontFamily: "var(--font-mono)",
-            fontSize: "var(--type-sm)",
-            color: "var(--color-muted)",
-          }}
-        >
-          [Photo placeholder]
-        </div>
+        />
       </Container>
     </section>
   );
