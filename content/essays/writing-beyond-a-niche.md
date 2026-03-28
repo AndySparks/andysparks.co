@@ -2,6 +2,8 @@
 title: "Writing Beyond a Niche"
 date: "2023-09-21"
 description: "Season One of Hoo Boy was the Season of the Hedgehog. Season Two will be the Season of the Fox. A fox knows many things, but a hedgehog knows one."
+image: "/images/essays/fox-at-desk.png"
+imageAlt: "A fox at a desk"
 oldPath: "/p/writing-beyond-a-niche"
 ---
 

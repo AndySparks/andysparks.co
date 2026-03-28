@@ -2,6 +2,8 @@
 title: "On New Chapters (and My New Chapter)"
 date: "2022-07-24"
 description: "Andy Sparks announces the launch of Hoo Boy, a new newsletter focused on business building and workplace culture, and explores Frederic Hudson's Cycle of Renewal."
+image: "/images/essays/cycle-of-renewal.png"
+imageAlt: "The Cycle of Renewal diagram"
 oldPath: "/hoo-boy/issue-1-cycle-of-renewal"
 ---
 
@@ -36,6 +38,10 @@ This week's featured concept comes from Frederic Hudson's *The Adult Years* (199
 
 **Audio:** Huberman Lab episode on workspace optimization for productivity
 
-**Books:** *Therapy Journal* for founders processing organizational dynamics
+**Books:**
+
+![Therapy Journal](/images/essays/therapy-journal.png)
+
+*Therapy Journal* for founders processing organizational dynamics
 
 **Report:** Carta's H1 2022 State of Startup Compensation Report covering hiring data and salary trends

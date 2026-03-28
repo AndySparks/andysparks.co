@@ -2,6 +2,8 @@
 title: "Using a DSLR as a Webcam for Zoom Calls"
 date: "2020-12-21"
 description: "My camera setup, desk accessories, and tips for using a Sony Alpha a6400 DSLR as a webcam for Zoom calls."
+image: "/images/essays/dslr-webcam-setup.jpeg"
+imageAlt: "Andy Sparks' DSLR webcam setup"
 oldPath: "/post/using-a-dslr-as-a-webcam-for-zoom-calls"
 ---
 

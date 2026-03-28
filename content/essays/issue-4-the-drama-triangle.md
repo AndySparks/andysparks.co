@@ -2,6 +2,8 @@
 title: "A Model for Cutting Down on Gossip and Drama at Work"
 date: "2022-09-04"
 description: "Andy Sparks explores the Drama Triangle, a psychological framework developed by Dr. Stephen Karpman in 1972 that explains how interpersonal conflicts emerge."
+image: "/images/essays/drama-triangle.png"
+imageAlt: "The Drama Triangle diagram"
 oldPath: "/hoo-boy/issue-4-the-drama-triangle"
 ---
 

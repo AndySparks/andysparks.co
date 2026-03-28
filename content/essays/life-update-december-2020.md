@@ -2,6 +2,8 @@
 title: "Captain's Log: December 2020"
 date: "2020-12-28"
 description: "Each of us needs our own village of people, and 2020 has made that particularly hard. Even before COVID, I would often cite a quote from Kurt Vonnegut."
+image: "/images/essays/letters-6-header.png"
+imageAlt: "Letters issue 6 header"
 oldPath: "/post/life-update-december-2020"
 ---
 
@@ -44,6 +46,10 @@ As I sat down to write, wiggling my fingers to loosen 'em up, I realized the las
 - **Updating My Captain's Log**: In 2017, I began recording various things in GitHub in what I call my "Captain's Log." I keep public reading lists and annual commonplace logs. I just updated 2020 in case you're interested in browsing.
 
 - **Annual Review**: I've done an annual review for four out of the last five years. I skipped last year and wish I hadn't. This year, I'm drawing inspiration from Jonny Miller's Reflecting Forwards (paying for his template goes toward supporting his wedding, Jonny is a delightful person, btw) and Steve Schlafman's The Ultimate Annual Review (Steve is also a delight, and a fellow traveler on the coach path).
+
+![Before the move](/images/essays/life-update-dec-2020-before.png)
+
+![Screenshot of morning pages](/images/essays/life-update-dec-2020-screenshot.png)
 
 - **Upgrading My Camera Setup**: As a coach, I'm now spending a lot of time on Zoom calls. Each session is deeply personal, but I felt like my camera left a lot to be desired in terms of creating an experience closer to sitting in a room together. Each session is "the product," and I wanted to make sure clients got the best experience possible. So I invested in a new DSLR camera, and it makes a big difference. I created a post with my equipment here.
 

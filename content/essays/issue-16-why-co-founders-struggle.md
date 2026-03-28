@@ -2,6 +2,8 @@
 title: "Why We're Unprepared for Co-Founder Relationships"
 date: "2023-03-12"
 description: "What makes business partnerships so much more likely to overwhelm us when compared to life partnerships? Start conditions differ, blame is easier than responsibility."
+image: "/images/essays/fight-small.png"
+imageAlt: "Co-founders struggling"
 oldPath: "/hoo-boy/issue-16-why-co-founders-struggle"
 ---
 
@@ -127,6 +129,8 @@ I've followed Dr. Emily Anhalt on Twitter for quite some time. She is a clinical
 Tech CEOs aren't exactly enjoying a moment of public popularity, what with Elon Unchained being the tech sideshow of early 2023 and all. So, listening to Luis von Ahn, Co-Founder, and CEO of Duolingo, speak with Tim was a breath of fresh air. Luis was surprisingly down-to-earth for the CEO of a public technology company, and the story of Duolingo is wholesome in so many ways. Tim and Luis talk for the second time in this episode (in their [first recording](https://tim.blog/2016/01/26/luis-von-ahn/), Duolingo was 60 people; it's now 600), so the contrast between the two episodes is a rare view into the mind of an early CEO and a public company CEO.
 
 ### Books
+
+![Consolations by David Whyte](/images/essays/consolations.png)
 
 **[Consolations](https://www.amazon.com/Consolations-Nourishment-Underlying-Meaning-Everyday/dp/1786897636/ref=pd_lpo_2?pd_rd_w=4Yqvu&content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_r=1DX9X87DQ8D33H24DVBG&pd_rd_wg=eoEYs&pd_rd_r=fc761995-121f-450d-8059-56629769b696&pd_rd_i=1786897636&psc=1)**
 

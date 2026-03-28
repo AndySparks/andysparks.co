@@ -2,6 +2,8 @@
 title: "Exceptional People are Wonderful and I'd Like to Have More of Them"
 date: "2025-04-04"
 description: "Are exceptional people rare flukes we're lucky to stumble across, or are there a lot more of them out there, just waiting for a bit of sun?"
+image: "/images/essays/exceptional-people.png"
+imageAlt: "Exceptional people"
 oldPath: "/p/more-exceptional-people-please"
 ---
 
@@ -26,6 +28,8 @@ They smell even better than they look.
 Lately, I've been thinking about how lucky I am to live in what I feel is an exceptional neighborhood: German Village in Columbus, Ohio. It's on the register of historic places, with mostly brick houses on mostly brick roads and zoning that allows for restaurants and a bar here and there. It's pretty and I knew it was pretty when we moved last fall. But as nature unlocks for spring, I'm feeling particularly grateful for _how well-gardened_ our neighborhood is.
 
 Only a couple of weeks into spring, and I'm realizing how stunning our streets really are. They're lined with magnolias, white, light pink, and deep pink verging on purple, and wow, do they smell good. Hyacinths pop up everywhere, alongside bright yellow forsythia bushes, pear trees, and a number of other plants with a penchant for colorful bravado in the spring.
+
+![Magnolias in German Village](/images/essays/magnolias.png)
 
 Yes, spring is pretty. But man, it's wonderful to _see_ the culture of a tiny 233-acre neighborhood. We've all decided this is going to be an exceptionally pretty neighborhood, and everyone is on board. Maybe we can have nice things, after all.
 

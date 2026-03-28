@@ -21,10 +21,28 @@
   color: var(--color-ink-light);
 }
 
+.essay-hero-image {
+  margin-top: var(--space-md);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.essay-hero-image img {
+  display: block;
+}
+
 .essay-content {
   font-size: var(--type-body);
   line-height: var(--leading-body);
   color: var(--color-ink);
+}
+
+.essay-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--space-md) 0;
+  border-radius: 4px;
 }
 
 .essay-content h2 {

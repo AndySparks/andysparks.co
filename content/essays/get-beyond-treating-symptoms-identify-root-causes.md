@@ -2,6 +2,8 @@
 title: "Get Beyond Treating Symptoms: Identify Root Causes"
 date: "2024-02-13"
 description: "As an executive coach, I help people get unstuck. After three years and 1,400+ hours with clients, I wanted to share a bit about how I do that."
+image: "/images/essays/root-cause-analysis.png"
+imageAlt: "Root cause analysis"
 oldPath: "/p/get-beyond-treating-symptoms-identify-root-causes"
 ---
 

@@ -2,6 +2,8 @@
 title: "Does Your Calendar Reflect Your Priorities?"
 date: "2022-08-07"
 description: "Years ago, Keith Rabois shared a principle that stuck with Sparks: your calendar should reflect your priorities. Most founder frustrations stem from misaligned time."
+image: "/images/essays/time-blocking-calendar.png"
+imageAlt: "Time blocking calendar example"
 oldPath: "/hoo-boy/issue-2-does-your-calendar-reflect-your-priorities"
 ---
 

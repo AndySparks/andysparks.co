@@ -2,6 +2,8 @@
 title: "Running Great One-on-Ones"
 date: "2023-03-26"
 description: "1:1 meetings, when done well, are to a great working relationship as diet and exercise are to long-term health. A comprehensive guide to effective one-on-ones."
+image: "/images/essays/one-on-one-small.png"
+imageAlt: "One-on-one meetings"
 oldPath: "/hoo-boy/issue-17-teach-your-teamt-run-great-one-on-one-meetings"
 ---
 
@@ -71,6 +73,8 @@ Subordinates should maintain a "running agenda document" (spreadsheet, Google Do
 
 ### Meeting Content
 
+![1-on-1 meetings template](/images/essays/1-on-1s.png)
+
 **Brief Status Report**
 - Present progress on goals, KPIs, and action items in consistent format
 - Limit to 5-10 minutes
@@ -132,6 +136,8 @@ In 1993, Dyson observed: "Scientific revolutions are more often driven by new to
 Nintendo was founded in 1889, 92 years before Donkey Kong, making handmade playing cards. In a 3.5-hour episode, hosts Ben and David cover Nintendo's complete history. Perfect for those who grew up with Nintendo, appreciate transformative business stories, or enjoy compelling narratives.
 
 ### Books
+
+![Scaling People](/images/essays/scaling-people.png)
 
 **[Scaling People](https://www.amazon.com/Scaling-People-Tactics-Management-Building/dp/1953953212)**
 

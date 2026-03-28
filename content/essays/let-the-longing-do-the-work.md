@@ -2,6 +2,8 @@
 title: "Captain's Log: October 2020; Letting the Longing Do the Work"
 date: "2020-10-20"
 description: "Six weeks ago, I wrapped up my last week as CEO of Holloway to pursue a vague new career made up of a mixture of research, writing, and coaching."
+image: "/images/essays/dolores-in-the-morn.jpg"
+imageAlt: "Morning at Dolores Park"
 oldPath: "/post/let-the-longing-do-the-work"
 ---
 

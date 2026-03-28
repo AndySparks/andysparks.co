@@ -2,6 +2,8 @@
 title: "Captain's Log: April 2021"
 date: "2021-04-14"
 description: "Last week, we announced that paperback and hardcover copies of my book, The Holloway Guide to Raising Venture Capital, are available on Amazon."
+image: "/images/essays/life-update-april-2021.jpeg"
+imageAlt: "Life update April 2021"
 oldPath: "/post/life-update-april-2021"
 ---
 

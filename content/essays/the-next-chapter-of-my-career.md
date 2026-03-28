@@ -2,6 +2,8 @@
 title: "The Next Chapter of My Career"
 date: "2020-09-03"
 description: "This week, I handed Holloway's CEO reins over to my co-founder, Josh Levy. As we built Holloway over the last four years, I got the chance to explore the depths"
+image: "/images/essays/wanderer.png"
+imageAlt: "Wanderer above the Sea of Fog by Caspar David Friedrich"
 oldPath: "/post/the-next-chapter-of-my-career"
 ---
 

@@ -2,6 +2,8 @@
 title: "Why Every Startup Hires the Wrong Sales Leader First"
 date: "2023-01-22"
 description: "The Sales Learning Curve from Mark Leslie and Charles Holloway's 2006 HBR paper is essential reading for startup founders planning sales organization growth."
+image: "/images/essays/hoo-boy-13.png"
+imageAlt: "Hoo Boy Issue 13"
 oldPath: "/hoo-boy/issue-13-the-entirely-avoidable-super-duper-expensive-sales-mistake"
 ---
 
@@ -21,6 +23,8 @@ William Thorndike, The Outsiders
 ## The Sales Learning Curve
 
 The core premise references Mark Leslie and Charles Holloway's 2006 Harvard Business Review paper on sales strategy. This framework is essential reading for startup founders planning sales organization growth.
+
+![The Sales Learning Curve](/images/essays/sales-learning-curve.png)
 
 ### Key Concept: Three Phases of Sales Development
 
@@ -71,6 +75,8 @@ Martin Casado emphasizes founder-led selling as foundational; a cautionary note 
 **"#533 (Armchair Expert): Phil Stutz"** - Licensed therapist Phil Stutz discusses psychology and personal development; content relevant to leadership mindset and resilience.
 
 ### Books
+![Who: A Method for Hiring](/images/essays/who-method-for-hiring.png)
+
 **"Who: The A Method for Hiring"** by Geoff Smart and Randy Street - Comprehensive hiring framework rated as reliable and practical methodology for building strong teams.
 
 ### Dice Roll
