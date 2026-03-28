@@ -26,6 +26,10 @@ Personal website for Andy Sparks. Built with Next.js, deployed on Vercel.
 5. Color palette: earth tones (greens, golds, oranges) on parchment. Never cold or sterile.
 6. Warmth is non-negotiable. The site should feel handmade and alive.
 
+## Setup
+
+Run `npm install` before any other command. Dependencies are not checked in.
+
 ## Commands
 
 - `npm run dev` -- local dev server
