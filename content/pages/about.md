@@ -1,5 +1,5 @@
 ---
-title: "About Andy Sparks"
+title: "About Me"
 ---
 
 ## The short version
