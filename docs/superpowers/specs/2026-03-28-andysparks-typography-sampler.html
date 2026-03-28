@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Typography Sampler</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #f2ead4;
+    color: #2a2520;
+    padding: 0;
+    min-height: 100vh;
+  }
+  .header-bar {
+    background: #2b3a24;
+    color: #f2ead4;
+    padding: 16px 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  .header-bar h1 { font-size: 16px; font-weight: 600; color: #deb04a; margin-bottom: 4px; }
+  .header-bar p { opacity: 0.7; }
+  .sampler-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .font-section {
+    padding: 48px 32px;
+    border-bottom: 1px solid #d4c9a8;
+    max-width: 100%;
+  }
+  .font-section:last-child { border-bottom: none; }
+  .font-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #3d4f2f;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .font-label .tag {
+    background: #3d4f2f;
+    color: #f2ead4;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 10px;
+    letter-spacing: 0.05em;
+  }
+  .font-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: #8a7e6a;
+    margin-bottom: 24px;
+  }
+  .display-text {
+    font-size: 42px;
+    line-height: 1.15;
+    font-weight: 700;
+    color: #2b3a24;
+    margin-bottom: 8px;
+    max-width: 700px;
+  }
+  .subtitle-text {
+    font-size: 22px;
+    line-height: 1.35;
+    font-weight: 300;
+    color: #556b3a;
+    margin-bottom: 24px;
+    max-width: 640px;
+    font-style: italic;
+  }
+  .body-text {
+    font-size: 19px;
+    line-height: 1.7;
+    color: #2a2520;
+    max-width: 640px;
+    margin-bottom: 16px;
+  }
+  .body-text a {
+    color: #3d4f2f;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: #3d4f2f88;
+  }
+  .body-text em { font-style: italic; }
+  .h2-text {
+    font-size: 26px;
+    line-height: 1.3;
+    font-weight: 600;
+    color: #2b3a24;
+    margin-bottom: 12px;
+    margin-top: 24px;
+    max-width: 640px;
+  }
+  .meta-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    color: #8a7e6a;
+    margin-bottom: 20px;
+  }
+  .pull-quote {
+    font-size: 24px;
+    line-height: 1.5;
+    font-style: italic;
+    color: #556b3a;
+    border-left: 3px solid #c9952c;
+    padding-left: 20px;
+    margin: 24px 0;
+    max-width: 580px;
+  }
+
+  /* Dark mode preview strip */
+  .dark-preview {
+    background: #1e1a16;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: 24px;
+    max-width: 700px;
+  }
+  .dark-preview .display-text { color: #e8c76a; }
+  .dark-preview .body-text { color: #c4b496; }
+  .dark-preview .body-text a { color: #deb04a; text-decoration-color: #deb04a88; }
+
+  .verdict {
+    background: #2b3a24;
+    color: #f2ead4;
+    padding: 32px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .verdict h2 { font-size: 18px; color: #deb04a; margin-bottom: 12px; font-family: 'IBM Plex Mono', monospace; }
+  .verdict .note { color: #a89878; margin-top: 16px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<div class="header-bar">
+  <h1>Typography Sampler</h1>
+  <p>5 serif candidates on parchment, with real content. Scroll to compare.</p>
+</div>
+
+<div class="sampler-grid">
+
+  <!-- ==================== OPTION A: FRAUNCES ==================== -->
+  <div class="font-section">
+    <div class="font-label">Option A <span class="tag">Free / Variable</span></div>
+    <div class="font-meta">Fraunces &mdash; Undercase Type. Old-style soft serif with "wonky" optical details. Variable font with optical size axis.</div>
+
+    <div class="display-text" style="font-family: 'Fraunces', serif;">Serious Aims, Playful Methods</div>
+    <div class="subtitle-text" style="font-family: 'Fraunces', serif;">A philosophy of human flourishing.</div>
+    <div class="meta-text">March 28, 2026 &middot; 12 min read</div>
+
+    <div class="body-text" style="font-family: 'Fraunces', serif;">
+      The best partnerships are built on <a href="#">mutual trust</a>, but trust is not a permanent state. It erodes slowly, then all at once. The question is whether you notice before the fracture, or after. Every generation faces two challenges: to create <em>real progress</em> that broadly improves the human condition, and to convince people we can continue to do so.
+    </div>
+
+    <div class="h2-text" style="font-family: 'Fraunces', serif;">Why Co-Founders Struggle</div>
+    <div class="body-text" style="font-family: 'Fraunces', serif;">
+      Curiosity is one of the most beautiful and useful qualities a person can have. It begins in the small, human impulse to ask <em>why?</em> Why does that work, why did that happen, what's behind it? Wonder is not idle; it's the starting point of every improvement in the human condition.
+    </div>
+
+    <div class="pull-quote" style="font-family: 'Fraunces', serif;">
+      A society that loses its capacity for attention loses its ability to think, to care, and to progress.
+    </div>
+
+    <div class="dark-preview">
+      <div class="display-text" style="font-family: 'Fraunces', serif;">Reading by Firelight</div>
+      <div class="body-text" style="font-family: 'Fraunces', serif;">
+        Near-black with warm stippled texture. Light radiates from the content like <a href="#">firelight in a dark forest</a>. Disappointment is the cost of imagination; you can't see what could be without grieving what isn't.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== OPTION B: LORA ==================== -->
+  <div class="font-section">
+    <div class="font-label">Option B <span class="tag">Free</span></div>
+    <div class="font-meta">Lora &mdash; Cyreal. Calligraphic serif with moderate contrast. Designed for body text with a warm, readable character.</div>
+
+    <div class="display-text" style="font-family: 'Lora', serif;">Serious Aims, Playful Methods</div>
+    <div class="subtitle-text" style="font-family: 'Lora', serif;">A philosophy of human flourishing.</div>
+    <div class="meta-text">March 28, 2026 &middot; 12 min read</div>
+
+    <div class="body-text" style="font-family: 'Lora', serif;">
+      The best partnerships are built on <a href="#">mutual trust</a>, but trust is not a permanent state. It erodes slowly, then all at once. The question is whether you notice before the fracture, or after. Every generation faces two challenges: to create <em>real progress</em> that broadly improves the human condition, and to convince people we can continue to do so.
+    </div>
+
+    <div class="h2-text" style="font-family: 'Lora', serif;">Why Co-Founders Struggle</div>
+    <div class="body-text" style="font-family: 'Lora', serif;">
+      Curiosity is one of the most beautiful and useful qualities a person can have. It begins in the small, human impulse to ask <em>why?</em> Why does that work, why did that happen, what's behind it? Wonder is not idle; it's the starting point of every improvement in the human condition.
+    </div>
+
+    <div class="pull-quote" style="font-family: 'Lora', serif;">
+      A society that loses its capacity for attention loses its ability to think, to care, and to progress.
+    </div>
+
+    <div class="dark-preview">
+      <div class="display-text" style="font-family: 'Lora', serif;">Reading by Firelight</div>
+      <div class="body-text" style="font-family: 'Lora', serif;">
+        Near-black with warm stippled texture. Light radiates from the content like <a href="#">firelight in a dark forest</a>. Disappointment is the cost of imagination; you can't see what could be without grieving what isn't.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== OPTION C: NEWSREADER ==================== -->
+  <div class="font-section">
+    <div class="font-label">Option C <span class="tag">Free / Variable</span></div>
+    <div class="font-meta">Newsreader &mdash; Production Type. High-contrast editorial serif with optical sizing. Designed for both text and display use.</div>
+
+    <div class="display-text" style="font-family: 'Newsreader', serif;">Serious Aims, Playful Methods</div>
+    <div class="subtitle-text" style="font-family: 'Newsreader', serif;">A philosophy of human flourishing.</div>
+    <div class="meta-text">March 28, 2026 &middot; 12 min read</div>
+
+    <div class="body-text" style="font-family: 'Newsreader', serif;">
+      The best partnerships are built on <a href="#">mutual trust</a>, but trust is not a permanent state. It erodes slowly, then all at once. The question is whether you notice before the fracture, or after. Every generation faces two challenges: to create <em>real progress</em> that broadly improves the human condition, and to convince people we can continue to do so.
+    </div>
+
+    <div class="h2-text" style="font-family: 'Newsreader', serif;">Why Co-Founders Struggle</div>
+    <div class="body-text" style="font-family: 'Newsreader', serif;">
+      Curiosity is one of the most beautiful and useful qualities a person can have. It begins in the small, human impulse to ask <em>why?</em> Why does that work, why did that happen, what's behind it? Wonder is not idle; it's the starting point of every improvement in the human condition.
+    </div>
+
+    <div class="pull-quote" style="font-family: 'Newsreader', serif;">
+      A society that loses its capacity for attention loses its ability to think, to care, and to progress.
+    </div>
+
+    <div class="dark-preview">
+      <div class="display-text" style="font-family: 'Newsreader', serif;">Reading by Firelight</div>
+      <div class="body-text" style="font-family: 'Newsreader', serif;">
+        Near-black with warm stippled texture. Light radiates from the content like <a href="#">firelight in a dark forest</a>. Disappointment is the cost of imagination; you can't see what could be without grieving what isn't.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== OPTION D: SOURCE SERIF 4 ==================== -->
+  <div class="font-section">
+    <div class="font-label">Option D <span class="tag">Free / Variable</span></div>
+    <div class="font-meta">Source Serif 4 &mdash; Adobe/Frank Grie&szlig;hammer. Workhorse editorial serif. Clear, warm, highly readable. Variable with optical sizing.</div>
+
+    <div class="display-text" style="font-family: 'Source Serif 4', serif;">Serious Aims, Playful Methods</div>
+    <div class="subtitle-text" style="font-family: 'Source Serif 4', serif;">A philosophy of human flourishing.</div>
+    <div class="meta-text">March 28, 2026 &middot; 12 min read</div>
+
+    <div class="body-text" style="font-family: 'Source Serif 4', serif;">
+      The best partnerships are built on <a href="#">mutual trust</a>, but trust is not a permanent state. It erodes slowly, then all at once. The question is whether you notice before the fracture, or after. Every generation faces two challenges: to create <em>real progress</em> that broadly improves the human condition, and to convince people we can continue to do so.
+    </div>
+
+    <div class="h2-text" style="font-family: 'Source Serif 4', serif;">Why Co-Founders Struggle</div>
+    <div class="body-text" style="font-family: 'Source Serif 4', serif;">
+      Curiosity is one of the most beautiful and useful qualities a person can have. It begins in the small, human impulse to ask <em>why?</em> Why does that work, why did that happen, what's behind it? Wonder is not idle; it's the starting point of every improvement in the human condition.
+    </div>
+
+    <div class="pull-quote" style="font-family: 'Source Serif 4', serif;">
+      A society that loses its capacity for attention loses its ability to think, to care, and to progress.
+    </div>
+
+    <div class="dark-preview">
+      <div class="display-text" style="font-family: 'Source Serif 4', serif;">Reading by Firelight</div>
+      <div class="body-text" style="font-family: 'Source Serif 4', serif;">
+        Near-black with warm stippled texture. Light radiates from the content like <a href="#">firelight in a dark forest</a>. Disappointment is the cost of imagination; you can't see what could be without grieving what isn't.
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== OPTION E: CRIMSON PRO ==================== -->
+  <div class="font-section">
+    <div class="font-label">Option E <span class="tag">Free</span></div>
+    <div class="font-meta">Crimson Pro &mdash; Jacques Le Bailly. Old-style book serif inspired by Garamond. Elegant, classical, excellent for long reading.</div>
+
+    <div class="display-text" style="font-family: 'Crimson Pro', serif;">Serious Aims, Playful Methods</div>
+    <div class="subtitle-text" style="font-family: 'Crimson Pro', serif;">A philosophy of human flourishing.</div>
+    <div class="meta-text">March 28, 2026 &middot; 12 min read</div>
+
+    <div class="body-text" style="font-family: 'Crimson Pro', serif;">
+      The best partnerships are built on <a href="#">mutual trust</a>, but trust is not a permanent state. It erodes slowly, then all at once. The question is whether you notice before the fracture, or after. Every generation faces two challenges: to create <em>real progress</em> that broadly improves the human condition, and to convince people we can continue to do so.
+    </div>
+
+    <div class="h2-text" style="font-family: 'Crimson Pro', serif;">Why Co-Founders Struggle</div>
+    <div class="body-text" style="font-family: 'Crimson Pro', serif;">
+      Curiosity is one of the most beautiful and useful qualities a person can have. It begins in the small, human impulse to ask <em>why?</em> Why does that work, why did that happen, what's behind it? Wonder is not idle; it's the starting point of every improvement in the human condition.
+    </div>
+
+    <div class="pull-quote" style="font-family: 'Crimson Pro', serif;">
+      A society that loses its capacity for attention loses its ability to think, to care, and to progress.
+    </div>
+
+    <div class="dark-preview">
+      <div class="display-text" style="font-family: 'Crimson Pro', serif;">Reading by Firelight</div>
+      <div class="body-text" style="font-family: 'Crimson Pro', serif;">
+        Near-black with warm stippled texture. Light radiates from the content like <a href="#">firelight in a dark forest</a>. Disappointment is the cost of imagination; you can't see what could be without grieving what isn't.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="verdict">
+  <h2>My Take</h2>
+  <p><strong>A (Fraunces)</strong> has the most personality. The "wonky" details give it a hand-crafted, slightly playful quality that matches "serious aims, playful methods." It's the most distinctive and the hardest to confuse with another site. It also has a variable optical size axis, so it adapts beautifully from body to display.</p>
+  <p style="margin-top: 8px;"><strong>C (Newsreader)</strong> is the most editorial. High contrast, confident at display sizes, very readable at body. More formal than Fraunces but still warm.</p>
+  <p style="margin-top: 8px;"><strong>D (Source Serif 4)</strong> is the safest excellent choice. Rock-solid readability, warm without being fussy. If Fraunces feels too playful, this is the fallback.</p>
+  <div class="note">All rendered on your actual parchment background (#f2ead4) with the palette greens. IBM Plex Mono stays for meta/code. Scroll through and see which one you'd want to read 5,000 words in.</div>
+</div>
+
+</body>
+</html>
