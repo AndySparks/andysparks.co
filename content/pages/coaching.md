@@ -2,8 +2,6 @@
 title: "Executive Coaching"
 ---
 
-## Executive Coaching
-
 I do my best work at the inflection point: you've got wiggles of product-market fit, you're building a real executive team for the first time, and the job just changed underneath you. Yesterday you were building the product. Today you're building the organization that builds the product.
 
 I work with startup founders, CEOs, and their executive teams. Usually venture-backed, usually B2B software, usually somewhere between ten and a few hundred employees.

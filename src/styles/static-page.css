@@ -54,3 +54,34 @@
   font-weight: 600;
   color: var(--color-evergreen);
 }
+
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-lg);
+  max-width: 768px;
+}
+
+.about-intro-text {
+  flex: 0 1 480px;
+}
+
+.about-photo {
+  width: 256px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .about-intro {
+    flex-direction: column;
+  }
+
+  .about-photo {
+    width: 100%;
+    height: auto;
+    max-width: 256px;
+  }
+}
