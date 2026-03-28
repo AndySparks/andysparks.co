@@ -6,15 +6,6 @@ export default function Home() {
   return (
     <section className="home-hero">
       <Container>
-        <h1 className="home-headline">
-          Serious aims,
-          <br />
-          playful methods.
-        </h1>
-        <p className="home-subtitle">
-          Executive coach to startup founders and CEOs.
-        </p>
-
         <p className="home-body">
           I help founders and CEOs navigate the emotional and practical
           challenges of building companies. Right now I&apos;m working on{" "}
