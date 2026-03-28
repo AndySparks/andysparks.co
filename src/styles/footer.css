@@ -1,0 +1,107 @@
+.site-footer {
+  margin-top: var(--space-3xl);
+  padding-top: var(--space-lg);
+  padding-bottom: var(--space-xl);
+  border-top: 1px solid var(--color-divider);
+}
+
+.site-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-lg);
+}
+
+.site-footer-signup {
+  flex: 1;
+  max-width: 360px;
+}
+
+.site-footer-signup h3 {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  font-weight: 600;
+  color: var(--color-evergreen);
+  margin-bottom: var(--space-xs);
+}
+
+.site-footer-signup p {
+  font-size: var(--type-sm);
+  color: var(--color-ink-light);
+  margin-bottom: var(--space-sm);
+}
+
+.site-footer-signup-form {
+  display: flex;
+  gap: var(--space-xs);
+}
+
+.site-footer-signup-input {
+  flex: 1;
+  padding: var(--space-xs) 12px;
+  font-family: var(--font-mono);
+  font-size: var(--type-sm);
+  background: var(--color-warm-paper);
+  border: 1px solid var(--color-divider);
+  border-radius: 4px;
+  color: var(--color-ink);
+}
+
+.site-footer-signup-input::placeholder {
+  color: var(--color-muted);
+}
+
+.site-footer-signup-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.site-footer-signup-button {
+  padding: var(--space-xs) var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: var(--type-sm);
+  font-weight: 600;
+  background: var(--color-forest);
+  color: var(--color-parchment);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.site-footer-signup-button:hover {
+  background: var(--color-evergreen);
+}
+
+.site-footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.site-footer-links a {
+  font-family: var(--font-mono);
+  font-size: var(--type-xs);
+  color: var(--color-ink-light);
+  text-decoration: none;
+}
+
+.site-footer-links a:hover {
+  color: var(--color-primary);
+}
+
+.site-footer-social {
+  display: flex;
+  gap: var(--space-sm);
+  margin-top: var(--space-sm);
+}
+
+@media (max-width: 640px) {
+  .site-footer-inner {
+    flex-direction: column;
+  }
+
+  .site-footer-signup {
+    max-width: 100%;
+  }
+}
