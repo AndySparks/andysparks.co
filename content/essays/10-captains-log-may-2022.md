@@ -1,0 +1,43 @@
+---
+title: "Captain's Log: May, 2022"
+date: "2022-05-31"
+description: "My last letter was in October of 2021. Since then, I've written and re-written this letter at least three times. Maybe I should just send the damn"
+oldPath: "/post/10-captains-log-may-2022"
+---
+
+My last letter was in October of 2021. Since then, I've written and re-written this letter at least three times. Maybe I should just send the damn thing when I do that. But I don't want this newsletter to be a content factory. With all the weekly, daily, and monthly newsletters, I like that this is a place I can push send "when it feels right."
+
+Before I get to what's been going on in my life, I want to share a bit about the above quote from Dean Keith Simonton's *Greatness*. Since leaving Holloway, I've made a few commitments a bit too soon. I committed to writing an newsletter with Jerry Colonna (which we stopped after only a few editions), I committed to starting a podcast about relationships between leaders and their teams (which I stopped before I ever recorded a single episode), and I've tried--twice since October--to start up a weekly newsletter for clients and other CEOs. These things haven't stuck. So what's with that?
+
+It would be easy to see this and call it "shiny object syndrome." But the truth of the experience for me is that they've been only partially thought out attempts to solve for a set of things I want but haven't had words for. I want to create (write, podcast, etc.), but for some reason I wasn't motivated by the things I chose to write about or talk about.
+
+So a few weeks ago, I noticed I was procrastinating on all the things. So I stopped and decided to spend the remainder of the quarter getting to the bottom of my motivation stall (instead of doing all the things I had planned out). It's almost the inverse of what Simonton and Skinner were referring to. Instead of dropping everything because of something I was interested in, I dropped everything because I noticed I was blocked.
+
+And after two weeks, I'm the most unblocked I've been in two years. Everything fits into a cohesive picture. But I know I've been psyched about projects before and soured on them after a bit. So instead of rushing off to make an announcement, I'm going to sit on it through June and make sure the projects have staying power.
+
+## Major Events
+
+**Back Pain**: My decision to sit on my ideas for a month and a half turned out to be a fortunate one in an unfortunate way. I've been struggling with lower back pain on-and-off for six years. Until 2021, I only had one incident that was bad enough to take me out of action. But since 2021, I've had at least three weeks where I've been unable to do anything other than lay on my back. For all but the most recent, I could point to a thing I did. "Oh, I lifted those boards wrong, I'll just stop lifting boards and be more careful lifting things." But two weeks ago, I was on my ass after... walking a lot one day. So, other than my regular coaching schedule, my full-time job is now recovering my mobility and getting rid of this pain. In a lot of ways, I think this is a real opportunity. It's obviously a bummer to be in so much pain, but it's a wake-up call that I'm not invincible. I'm glad I'm going through this now, as it's definitely a catalyst to get my butt to stop ignoring acute pain, get to physical therapy, change my diet, and get into great shape again.
+
+**We Live in San Francisco Now (again)**: It was only in May of 2021 that Kate and I moved to Denver. But in December of 2021, Andreessen Horowitz offered Kate a job on their biotech team. She loved the team, loved the shape of the job. And to be honest, we never fell in love with Denver. So, we moved back to San Francisco in January. And I have to eat crow here. After 8 years in San Francisco, I left with a bad taste in my mouth and I took the city for granted. Coming back, I see everything in a new light. The year-round flowers, the never-too-hot and never-too-cold is pretty damned nice. And the food. Every city has its issues, but San Francisco is a beautiful place full of wonderful people.
+
+## Projects
+
+**Letters to Captain's Log**: You may have noticed the newsletter changed names (again). I'm sorry for all the back-and-forth, and I can imagine it feels uncomfortable with all the jostling. I imagine my readers saying, "Lawd, this guy sure is flaky about his naming." But once I get past the self-criticism, I can see that I didn't have a great name and "Letters" was always a placeholder until I came up with something that fit. Captain's Log feels right for public updates on my life, projects, and more.
+
+**Brand New Website**: With all my newfound clarity, I just shipped a total refresh of my personal website. If all the fun new stuff I'm cooking up passes the test of time (am I still pumped about it in six weeks?), then I'll be updating it even further soon.
+
+## Top 5 Recommendations
+
+1. **Greatness**: I came across this book in an obscure set of Twitter replies where Marc Andreessen said something along the lines of this being the best thing ever published on the nature of "great" people. I haven't read enough on the subject to say definitively whether it's the best or not, but it is a rigorous summary of such a wide and extensive set of research that I feel like to read this book is to ingest thousands of hours of knowledge in a much smaller timeframe. Greatness addresses questions of upbringing, motivation, hard work, personality, the significance of psychopathology, and more as they relate to how and why geniuses became geniuses.
+
+2. **The Kool-Aid Factory**: "A set of zines about the ways organizations coordinate," brought to you by Brie Wolfson (formerly of Stripe Press and Figma). Each "zine" like "The Constitutional Documents Issue" is full of context, practical to-dos, and examples. Brie has done a terrific job on creating a beautiful, well-researched, and immediately practical set of resources essential to any founder or startup operator.
+
+3. **The Mochary Method Curriculum**: Matt Mochary is the CEO coach behind *The Great CEO Within*, a favorite book amongst most CEOs I know (and coach). Matt has made public an extensive series of tactical Google Docs to help founders build their companies. It's a go-to now for me, as even when I'm working with a CEO through something I know well (like... *onboarding),* I'll check Matt's curriculum to see if there's anything new to learn or recommend.
+
+4. **A Boring Set of Plastic Bottles**: About a year ago, I was at my friend Brett's house. Next to his stove was a set of these OXO plastic squeeze bottles, one labeled "Olive Oil," and the other "Avocado Oil." The tapered nozzle allows for more control over where the oil goes in your pan (instead of just pouring a blob of oil in). If you're a cook, you'll love these (and they're like $11).
+
+5. **Night Rider Playlist Radio**: When I need to focus, nothing helps more than upbeat, dark, moody house music. The Night Rider playlist is a public playlist by Spotify, but a few months ago I put the playlist on the "radio" feature in Spotify, and it delivered hit after hit. If you're looking for some new concentration music, give this a shot!
+
+Thanks for reading--I'm looking forward to what's next.
+Andy.
