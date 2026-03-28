@@ -22,14 +22,6 @@ Then the pandemic hit, and I realized I'd rather help founders think clearly tha
 
 I also wrote [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about).
 
-## Interviews & Media
-
-You can find past interviews and media appearances [here](/media). If you'd like me on your podcast or at your event, [reach out](/contact).
-
-### Media bio:
-
-Andy Sparks is an executive coach to startup founders and CEOs. Previously, he was Co-founder and CEO at Holloway, a digital book publishing company, and Co-founder and COO at Mattermark, a business data and analytics company. He's the author of [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about) and is building [Management Craft](https://managementcraft.co/), a platform that teaches founders how to become great managers. Andy designed his own degree and graduated from The Ohio State University. He lives in Columbus, OH with his wife, Kate.
-
 ## The rest
 
 I was born in Denver and moved to the suburbs of Philadelphia when I was eleven. I loved to draw, hated math, and spent a lot of time helping my dad with projects he refused to hire a contractor for.
@@ -49,3 +41,11 @@ I love video games, mostly RPGs and strategy. I can't wait for Crimson Desert.
 I have two cartoon tattoos: Calvin and Hobbes, and Merlin from The Sword in the Stone. Both are reminders not to take myself too seriously.
 
 If any of that sounds like someone you'd want to grab a beer with, [get in touch](/contact).
+
+## Interviews & Media
+
+You can find past interviews and media appearances [here](/media). If you'd like me on your podcast or at your event, [reach out](/contact).
+
+### Media bio:
+
+Andy Sparks is an executive coach to startup founders and CEOs. Previously, he was Co-founder and CEO at Holloway, a digital book publishing company, and Co-founder and COO at Mattermark, a business data and analytics company. He's the author of [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about) and is building [Management Craft](https://managementcraft.co/), a platform that teaches founders how to become great managers. Andy designed his own degree and graduated from The Ohio State University. He lives in Columbus, OH with his wife, Kate.

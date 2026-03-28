@@ -19,23 +19,37 @@ export default function AboutPage() {
   const introContent = page.content.slice(0, splitIndex);
   const restContent = page.content.slice(splitIndex);
 
+  // Split intro into the h2 heading and the body paragraphs
+  // so the heading renders full-width and only paragraphs sit beside the photo
+  const firstParagraphIndex = introContent.indexOf("\n\n", introContent.indexOf("##"));
+  const introHeading = introContent.slice(0, firstParagraphIndex);
+  const introBody = introContent.slice(firstParagraphIndex).trim();
+
   return (
     <section className="static-page">
       <Container wide>
         <h1>{page.title}</h1>
+        <div className="static-page-content">
+          <MDXRemote source={introHeading} />
+        </div>
         <div className="about-intro">
           <div className="about-intro-text static-page-content">
-            <MDXRemote source={introContent} />
+            <MDXRemote source={introBody} />
           </div>
-          <Image
-            src="/images/about-photo.jpg"
-            alt="Andy Sparks"
-            width={256}
-            height={320}
-            className="about-photo"
-          />
+          <figure className="about-photo-figure">
+            <Image
+              src="/images/about-photo.jpg"
+              alt="Andy Sparks"
+              width={256}
+              height={320}
+              className="about-photo"
+            />
+            <figcaption className="about-photo-caption">
+              Wedding day, Shotwell&apos;s Saloon.
+            </figcaption>
+          </figure>
         </div>
-        <div className="static-page-content">
+        <div className="static-page-content about-body">
           <MDXRemote source={restContent} />
         </div>
       </Container>

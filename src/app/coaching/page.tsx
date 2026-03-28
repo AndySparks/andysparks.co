@@ -15,9 +15,9 @@ export default function CoachingPage() {
 
   return (
     <section className="static-page">
-      <Container>
+      <Container wide>
         <h1>{page.title}</h1>
-        <div className="static-page-content">
+        <div className="static-page-content about-body">
           <MDXRemote source={page.content} />
         </div>
       </Container>
