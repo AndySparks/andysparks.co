@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "./Container";
+import { MobileNav } from "./MobileNav";
 import "../styles/header.css";
 
 const NAV_LINKS = [
@@ -23,6 +24,7 @@ export function Header() {
               </Link>
             ))}
           </nav>
+          <MobileNav />
         </div>
       </Container>
     </header>
