@@ -31,6 +31,22 @@ export async function POST(request: NextRequest) {
       unsubscribed: false,
     });
 
+    await resend.emails.send({
+      from: "Andy Sparks <hi@andysparks.co>",
+      to: email,
+      subject: "Welcome — you're in",
+      text: [
+        "Thanks for subscribing!",
+        "",
+        "I write about startups, coaching, craft, and human flourishing. You'll hear from me when I publish something new — no spam, no fluff.",
+        "",
+        "In the meantime, you can browse past essays at https://andysparks.co/essays",
+        "",
+        "Cheers,",
+        "Andy",
+      ].join("\n"),
+    });
+
     return NextResponse.json({ success: true });
   } catch {
     return NextResponse.json(
