@@ -32,9 +32,11 @@ export default function AboutPage() {
     <section className="static-page">
       <Container wide>
         <h1>{page.title}</h1>
+        <div className="about-intro-heading static-page-content">
+          <MDXRemote source={introHeading} />
+        </div>
         <div className="about-intro">
           <div className="about-intro-text static-page-content">
-            <MDXRemote source={introHeading} />
             <MDXRemote source={introBody} />
           </div>
           <figure className="about-photo-figure">

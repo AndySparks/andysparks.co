@@ -59,6 +59,11 @@
   max-width: var(--width-content);
 }
 
+.about-intro-heading h2 {
+  margin-top: 0;
+  margin-bottom: var(--space-md);
+}
+
 .about-intro {
   display: flex;
   align-items: flex-start;
