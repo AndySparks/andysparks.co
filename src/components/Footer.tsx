@@ -16,7 +16,7 @@ const SOCIAL_LINKS = [
   { href: "https://x.com/SparksZilla", label: "X" },
   { href: "https://www.linkedin.com/in/andyjsparks/", label: "LinkedIn" },
   {
-    href: "https://www.goodreads.com/author/show/19221938.Andy_Sparks",
+    href: "https://www.goodreads.com/author/show/20464942.Andy_Sparks",
     label: "GoodReads",
   },
 ];

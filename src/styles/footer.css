@@ -45,6 +45,7 @@
   border: 1px solid var(--color-divider);
   border-radius: 4px;
   color: var(--color-ink);
+  transition: border-color var(--duration-fast) var(--ease-default);
 }
 
 .site-footer-signup-input::placeholder {
@@ -66,11 +67,18 @@
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: background 0.15s ease;
+  transition: background var(--duration-fast) var(--ease-default),
+              transform var(--duration-press) var(--ease-out);
 }
 
-.site-footer-signup-button:hover {
-  background: var(--color-evergreen);
+.site-footer-signup-button:active {
+  transform: scale(var(--scale-press));
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .site-footer-signup-button:hover {
+    background: var(--color-evergreen);
+  }
 }
 
 .site-footer-links {
@@ -84,10 +92,13 @@
   font-size: var(--type-xs);
   color: var(--color-ink-light);
   text-decoration: none;
+  transition: color var(--duration-fast) var(--ease-default);
 }
 
-.site-footer-links a:hover {
-  color: var(--color-primary);
+@media (hover: hover) and (pointer: fine) {
+  .site-footer-links a:hover {
+    color: var(--color-primary);
+  }
 }
 
 .site-footer-social {

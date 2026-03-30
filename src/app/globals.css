@@ -66,6 +66,14 @@
   --width-prose: 720px;
   --width-wide: 940px;
   --width-max: 1200px;
+
+  /* --- Animation --- */
+  --duration-fast: 150ms;       /* color changes, underlines, hover states */
+  --duration-press: 160ms;      /* button press feedback */
+  --duration-motion: 200ms;     /* enter/exit, scale, position changes */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);  /* UI interactions */
+  --ease-default: ease-out;     /* simple color/opacity transitions */
+  --scale-press: 0.97;          /* button/pressable active scale */
 }
 
 /* ===== BASE STYLES ===== */
@@ -109,14 +117,24 @@ a {
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-color: color-mix(in srgb, var(--color-primary) 50%, transparent);
-  transition: text-decoration-color 0.15s ease;
+  transition: text-decoration-color var(--duration-fast) var(--ease-default);
 }
 
-a:hover {
-  text-decoration-color: var(--color-primary);
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    text-decoration-color: var(--color-primary);
+  }
 }
 
 /* ===== SELECTION ===== */
 ::selection {
   background-color: color-mix(in srgb, var(--color-forest) 20%, transparent);
+}
+
+/* ===== REDUCED MOTION ===== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
 }
