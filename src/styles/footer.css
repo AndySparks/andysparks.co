@@ -81,6 +81,23 @@
   }
 }
 
+.site-footer-signup-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.site-footer-signup-success {
+  font-family: var(--font-mono);
+  font-size: var(--type-sm);
+  color: var(--color-forest);
+}
+
+.site-footer-signup-error {
+  font-size: var(--type-sm);
+  color: var(--color-ember);
+  margin-top: var(--space-xs);
+}
+
 .site-footer-links {
   display: flex;
   flex-direction: column;

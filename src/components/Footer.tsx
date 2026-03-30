@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { Container } from "./Container";
 import "../styles/footer.css";
@@ -22,6 +23,35 @@ const SOCIAL_LINKS = [
 ];
 
 export function Footer() {
+  const [status, setStatus] = useState<"idle" | "sending" | "done" | "error">(
+    "idle"
+  );
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus("sending");
+
+    const form = e.currentTarget;
+    const email = (form.elements.namedItem("email") as HTMLInputElement).value;
+
+    try {
+      const res = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      if (res.ok) {
+        setStatus("done");
+        form.reset();
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
+  }
+
   return (
     <footer className="site-footer">
       <Container wide>
@@ -29,21 +59,37 @@ export function Footer() {
           <div className="site-footer-signup">
             <h3>Stay in touch</h3>
             <p>Essays on startups, coaching, craft, and human flourishing.</p>
-            {/* Phase 2: Wire up to Resend API */}
-            <form
-              className="site-footer-signup-form"
-              onSubmit={(e) => e.preventDefault()}
-            >
-              <input
-                type="email"
-                placeholder="you@example.com"
-                className="site-footer-signup-input"
-                aria-label="Email address"
-              />
-              <button type="submit" className="site-footer-signup-button">
-                Subscribe
-              </button>
-            </form>
+            {status === "done" ? (
+              <p className="site-footer-signup-success">
+                You&rsquo;re subscribed!
+              </p>
+            ) : (
+              <form
+                className="site-footer-signup-form"
+                onSubmit={handleSubmit}
+              >
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  className="site-footer-signup-input"
+                  aria-label="Email address"
+                  required
+                />
+                <button
+                  type="submit"
+                  className="site-footer-signup-button"
+                  disabled={status === "sending"}
+                >
+                  {status === "sending" ? "Subscribing\u2026" : "Subscribe"}
+                </button>
+              </form>
+            )}
+            {status === "error" && (
+              <p className="site-footer-signup-error">
+                Something went wrong. Please try again.
+              </p>
+            )}
           </div>
 
           <div className="site-footer-links">
