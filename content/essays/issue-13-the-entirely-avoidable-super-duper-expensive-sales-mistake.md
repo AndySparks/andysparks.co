@@ -12,17 +12,17 @@ oldPath: "/hoo-boy/issue-13-the-entirely-avoidable-super-duper-expensive-sales-m
 ### Opening Question
 > "How many of the voices in my head belong to others around me, and do I like that or not?"
 
-Jennifer Garvey Berger, The Knowledge Project #43
+Jennifer Garvey Berger, [The Knowledge Project #43](https://podcasts.apple.com/us/podcast/the-knowledge-project-with-shane-parrish/id990149481?i=1000421932549)
 
 ### Featured Quote
 
 Leadership requires mastery in two domains: operational efficiency and capital deployment strategy. Most executives emphasize operations management, yet the most successful leaders focus equally on how they allocate generated resources across five deployment options and three funding mechanisms.
 
-William Thorndike, The Outsiders
+William Thorndike, [The Outsiders](https://www.amazon.com/Outsiders-Unconventional-Radically-Rational-Blueprint/dp/1422162672)
 
 ## The Sales Learning Curve
 
-The core premise references Mark Leslie and Charles Holloway's 2006 Harvard Business Review paper on sales strategy. This framework is essential reading for startup founders planning sales organization growth.
+The core premise references Mark Leslie and Charles Holloway's 2006 Harvard Business Review paper, [The Sales Learning Curve](https://hbr.org/2006/07/the-sales-learning-curve), on sales strategy. This framework is essential reading for startup founders planning sales organization growth.
 
 ![The Sales Learning Curve](/images/essays/sales-learning-curve.png)
 
@@ -34,7 +34,7 @@ The framework identifies three distinct phases requiring different sales rep pro
 - Rep type: "Renaissance Rep"
 - Characteristics: Creates own sales materials, comfortable with ambiguity, handles basic sales operations, deeply interested in company technology, identifies customer value opportunities
 - Recommendation: Hire 3-4 reps maximum
-- Also called "Magical Sales Reps" by Jason Lemkin
+- Also called "[Magical Sales Reps](https://www.saastr.com/that-first-magical-sales-rep/)" by Jason Lemkin
 
 **Phase II: Transition**
 - Rep type: "Enlightened Rep"
@@ -66,21 +66,21 @@ Founders frequently hire execution-phase reps for initiation-phase roles, partic
 ## Reads & Resources
 
 ### Articles
-**"Merciful Exits (On Under-Performing Executives)"** by Ed Batista explores the decision-making process for removing underperforming executives, clarifying what founders owe departing leaders versus what they don't.
+**"[Merciful Exits (On Under-Performing Executives)](https://www.edbatista.com/2021/03/merciful-exits-on-under-performing-executives.html)"** by Ed Batista explores the decision-making process for removing underperforming executives, clarifying what founders owe departing leaders versus what they don't.
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 Martin Casado emphasizes founder-led selling as foundational; a cautionary note warns against situations where only founders can successfully sell the product, creating non-scalable revenue.
 
 ### Audio
-**"#533 (Armchair Expert): Phil Stutz"** - Licensed therapist Phil Stutz discusses psychology and personal development; content relevant to leadership mindset and resilience.
+**"[#533 (Armchair Expert): Phil Stutz](https://open.spotify.com/episode/7y3gJ4A7BsMmzxfg7Nn9pm?si=5c91e7f73f574d9a)"** - Licensed therapist Phil Stutz discusses psychology and personal development; content relevant to leadership mindset and resilience.
 
 ### Books
 ![Who: A Method for Hiring](/images/essays/who-method-for-hiring.png)
 
-**"Who: The A Method for Hiring"** by Geoff Smart and Randy Street - Comprehensive hiring framework rated as reliable and practical methodology for building strong teams.
+**"[Who: The A Method for Hiring](https://www.amazon.com/Who-Method-Hiring-Geoff-Smart-ebook/dp/B001EL6RWY)"** by Geoff Smart and Randy Street - Comprehensive hiring framework rated as reliable and practical methodology for building strong teams.
 
 ### Dice Roll
-- Job Responsibilities Rubric
-- Job Expectations Templates
+- [Job Responsibilities Rubric](https://docs.google.com/document/d/1dMxcNgm3pQe_dR9_UjwucbxtSG1k7Wj8RFdQag5FQ-U/edit)
+- [Job Expectations Templates](https://docs.google.com/spreadsheets/d/16JX80AJ79_efuXEOFgnCva5BVZodawEgaZUkq_r2Jc8/copy)
 
 These templates align managers and direct reports on performance metrics and expectations, reducing miscommunication and team attrition.

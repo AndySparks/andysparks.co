@@ -134,7 +134,7 @@ What I would do wasn't clear, but I knew that I respected these people, and work
 
 Two weeks later, Danielle and Kevin decided to let everyone go at Referly, but they asked me to stay to help create the next thing. Danielle had raised $1.2M for Referly, and we had about half of that left... to do basically whatever we wanted. While Danielle wasn't "closing the company down," she was giving up a product she had worked tirelessly on for more than a year. I saw her going through the same things I had gone through, just on a four-month delayed schedule.
 
-We didn't know what we were doing for a while, and figuring out what to do is a different story. Through the early days of what would become Mattermark, I still felt like shit. Sometimes I wondered whether I was a washed up entrepreneur screwing around with two other washed up entrepreneurs.
+We didn't know what we were doing for a while, and figuring out what to do is a different story. Through the early days of what would become [Mattermark](https://medium.com/u/40233f4ee393?source=post_page-----2116ce56234e--------------------------------), I still felt like shit. Sometimes I wondered whether I was a washed up entrepreneur screwing around with two other washed up entrepreneurs.
 
 Maybe that was true, but as we settled on something interesting to work on, I started to feel a whole lot better.
 

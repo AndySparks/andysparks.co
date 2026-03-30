@@ -34,7 +34,7 @@ When recognizing you're operating in "Meaning Land":
 ## Reads & Resources
 
 **Articles**
-- Michael Dearing's Heavybit talk on pricing strategy
+- [Michael Dearing's Heavybit talk on pricing strategy](https://www.heavybit.com/library/video/harrison-metals-michael-dearing-on-pricing/)
 
 **Twitter**
 - Paul Graham on hiring only when lack of that person limits growth
@@ -45,7 +45,7 @@ When recognizing you're operating in "Meaning Land":
 **Books**
 ![Inspired by Marty Cagan](/images/essays/inspired.png)
 
-- *Inspired: How to Create Tech Products Customers Love* by Marty Cagan
+- [*Inspired: How to Create Tech Products Customers Love*](https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507) by Marty Cagan
 
 **Dice Roll**
 - Dee Hock's management time allocation framework (5% subordinates, 20% peers, 25% up, 50% self)

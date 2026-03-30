@@ -1,7 +1,7 @@
 ---
-title: "Coaches Should Accelerate Your Growth"
+title: "Coaches Should Accelerate Your [Growth](https://fs.blog/2015/03/carol-dweck-mindset/)"
 date: "2019-03-24"
-description: "Tyler Lyman, a new Good Work subscriber, wrote us on Monday asking if we had plans any time soon to explore the relationship between startup founder"
+description: "[Tyler Lyman](https://twitter.com/tblyman), a new Good Work subscriber, wrote us on Monday asking if we had plans any time soon to explore the relationship between startup founder"
 oldPath: "/post/coaches-should-accelerate-your-growth"
 ---
 
@@ -11,7 +11,7 @@ Inspired, I dashed off my thoughts on how working with our amazing coach, Christ
 
 "Are coaches like having a butler or a gardener--things certain rich people have but only because they have a mansion or a big estate?" he asked.
 
-While not quite like having a butler or a gardener, Josh was of course right in pointing out that access to executive coaching is a privilege. In that moment, he also acted as a great coach to me, showing me a blindspot but not making me feel ashamed of it. The best coaches, whether they're a paid executive coach, a parent, or just a friend who listens earnestly over a few pints, perform the same function. Put one way, "A coach is someone who can give correction without causing resentment." They're there to help you be successful, and to do this they tactfully help you become aware of behavior that's impeding your goals.
+While not quite like having a butler or a gardener, Josh was of course right in pointing out that access to executive coaching is a privilege. In that moment, he also acted as a great coach to me, showing me a blindspot but not making me feel ashamed of it. The best coaches, whether they're a paid executive coach, a parent, or just a friend who listens earnestly over a few pints, perform the same function. Put one way, "A [coach is](https://en.wikipedia.org/wiki/John_Wooden) someone who can give correction without causing resentment." They're there to help you be successful, and to do this they tactfully help you become aware of behavior that's impeding your goals.
 
 While coaches can be valuable regardless of your position in a company, they can be immensely valuable to CEOs, as the nature of their role leaves them without a manager to mentor them. If you're calling the shots on whether you or someone on your team gets a coach, think about it as an investment, not a one-time cost.
 

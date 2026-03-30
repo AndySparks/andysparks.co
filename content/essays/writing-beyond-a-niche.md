@@ -9,7 +9,7 @@ oldPath: "/p/writing-beyond-a-niche"
 
 Season One of Hoo Boy was the Season of the Hedgehog. Season Two, I'm excited to announce, will be the Season of the Fox.
 
-"A fox knows many things, but a hedgehog knows one big thing," quothe ancient Greek poet Archilochus, apparently. Unfortunately, he didn't read _The Artist's Way_ by Julia Cameron, so we don't have piles of morning pages explaining the quote. But, in 1953, we got an essay on the idea from the philosopher Isaiah Berlin. In "The Fox and the Hedgehog," Berlin divided writers into two groups: the foxes, who study and write on a variety of themes and subjects, and the hedgehogs hammer on one idea over and over again.
+"A fox knows many things, but a hedgehog knows one big thing," quothe ancient Greek poet Archilochus, apparently. Unfortunately, he didn't read _The Artist's Way_ by [Julia Cameron](https://en.wikipedia.org/wiki/Julia_Cameron), so we don't have piles of morning pages explaining the quote. But, in 1953, we got an essay on the idea from the philosopher Isaiah Berlin. In "The Fox and the Hedgehog," Berlin divided writers into two groups: the foxes, who study and write on a variety of themes and subjects, and the hedgehogs hammer on one idea over and over again.
 
 Over the last five years, I've noticed an explosion of hedgehogs writing online, and it's easy to see why. It seems like there's a new "The X Guy" every day ("The Writing Guy," "The Public Speaking Guy," and so on). The hedgehog's toolkit, picking a narrow audience and delivering for them, is a good one. It's easier for people to rally around your banner when you're the guys making a podcast about M&A than it is to start a general business podcast.
 
@@ -25,13 +25,13 @@ It turns out brevity, like most things people prefer, is not easy. Or as mathema
 
 Good Work's audience grew to five or so thousand subscribers, but despite how much I loved writing the newsletter, I couldn't justify how long it took.
 
-After Holloway, I began coaching other founders and took two more swings at The Way of the Hedgehog with newsletters about coaching or issues that repeatedly came up with founders I worked with. I briefly collaborated on a newsletter with a much more experienced executive coach, Jerry Colonna, and eventually launched Season One of Hoo Boy.
+After Holloway, I began coaching other founders and took two more swings at The Way of the Hedgehog with newsletters about coaching or issues that repeatedly came up with founders I worked with. I briefly collaborated on a newsletter with a much more experienced executive coach, [Jerry Colonna](https://www.reboot.io/team/jerry-colonna/), and eventually launched Season One of Hoo Boy.
 
 At first, Hoo Boy was easy. Anyone who has ever coached startup founders will be familiar with the deja vu of hilariously similar-but-different, situations popping up again and again. Not only did these situations provide me with endless material, they fed my curiosity as I'd learn more about each subject as I wrote.
 
 But the subjects founders brought up, and the ones I got curious about, while _adjacent to_ or _relevant to_, leadership and best practices for building a business, began to deviate enough that I didn't know how to coherently integrate them into Hoo Boy.
 
-In early August, I read _In Over Our Heads_ by Bob Kegan and came across a passage that made things click for me:
+In early August, I read _In Over Our Heads_ by [Bob Kegan](https://en.wikipedia.org/wiki/Robert_Kegan) and came across a passage that made things click for me:
 
 > _"These expectations [for adulthood] are chronicled, and even shaped, in the growing collection of cultural documents academics call (with no irony) 'literatures': 'the marriage literature,' 'the management literature,' 'the adult education literature,' and the like... for the most part, these literatures do not talk to each other, take no account of each other, have nothing to do with each other. The people who create the leadership literature do not read the parenting literature... there is no place to look to consider what is being asked of the adult as a whole."_
 
@@ -43,7 +43,7 @@ This fascination with marriage and intimacy and "literature" is a perfect exampl
 
 The fear of being declared a charlatan by psychologists I don't know, have never met, and whose names I don't even know, combined with the chip on my shoulder from Mattermark and the patience to sit with both to understand them, led me to stop writing Hoo Boy in February. I couldn't focus on business tactics and mental models in my writing when my curiosity was pulling me elsewhere.
 
-Since then, I've been wrestling with how to coherently give readers an idea of what to expect from my writing without zipping up a poorly sewn hedgehog costume. I thought, "Who else does what I want to do?" and "Whose writing do I _really admire?_" One writer came to mind above all others: Maria Popova at _The Marginalian_ (formerly _BrainPickings_). Maria's about page reads:
+Since then, I've been wrestling with how to coherently give readers an idea of what to expect from my writing without zipping up a poorly sewn hedgehog costume. I thought, "Who else does what I want to do?" and "Whose writing do I _really admire?_" One writer came to mind above all others: [Maria Popova](https://twitter.com/brainpicker) at _[The Marginalian](https://www.themarginalian.org/)_ (formerly _BrainPickings_). Maria's about page reads:
 
 > _"a one-woman labor of love, exploring what it means to live a tender, thoughtful life of purpose and gladness, wonder-smitten by reality, governed by the understanding that creativity is a combinatorial force: ideas, insights, knowledge, and inspiration acquired in the course of being alive and awake to the world, composited into things of beauty and substance we call our own."_
 
@@ -80,4 +80,4 @@ Where Season One felt like a carefully prepared lecture to an audience with meti
 
 - I still haven't seen _Oppenheimer._
 
-_Thanks to Rachel Jepsen and Nathan Baschez for reading and editing drafts of this post._
+_Thanks to [Rachel Jepsen](https://open.substack.com/users/15170507-rachel-jepsen?utm_source=mentions) and [Nathan Baschez](https://open.substack.com/users/5636840-nathan-baschez?utm_source=mentions) for reading and editing drafts of this post._

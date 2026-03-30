@@ -19,7 +19,7 @@ Sparks emphasizes his commitment stems from extensive preparation: two months of
 
 ## The Cycle of Renewal
 
-This week's featured concept comes from Frederic Hudson's *The Adult Years* (1991). The framework contrasts linear life progression (school, career, marriage, retirement) with cyclical patterns of renewal.
+This week's featured concept comes from Frederic Hudson's [*The Adult Years*](https://www.amazon.com/Adult-Years-Mastering-Art-Self-Renewal/dp/0787948012) (1991). The framework contrasts linear life progression (school, career, marriage, retirement) with cyclical patterns of renewal.
 
 **Four Stages:**
 
@@ -32,16 +32,16 @@ This week's featured concept comes from Frederic Hudson's *The Adult Years* (199
 
 ## Reads & Resources
 
-**Articles:** Regina Gerbeaux's Notion document on running efficient meetings
+**Articles:** Regina Gerbeaux's Notion document on [running efficient meetings](https://chiefs-of-staff.notion.site/Run-efficient-meetings-that-don-t-suck-68e6580f20ff42de8a2d8974679ead7c)
 
-**Twitter:** Brad Stulberg's thread on peak performance habits, emphasizing "Do the Work before Talking About the Work"
+**Twitter:** [Brad Stulberg's thread on peak performance habits](https://twitter.com/BStulberg/status/1545765424289169409), emphasizing "Do the Work before Talking About the Work"
 
-**Audio:** Huberman Lab episode on workspace optimization for productivity
+**Audio:** [Huberman Lab episode on workspace optimization for productivity](https://podcastnotes.org/huberman-lab/episode-57-optimizing-workspace-for-productivity-focus-creativity-huberman-lab/)
 
 **Books:**
 
 ![Therapy Journal](/images/essays/therapy-journal.png)
 
-*Therapy Journal* for founders processing organizational dynamics
+[*Therapy Journal*](https://shop.therapynotebooks.com/products/therapy-journal) for founders processing organizational dynamics
 
-**Report:** Carta's H1 2022 State of Startup Compensation Report covering hiring data and salary trends
+**Report:** [Carta's H1 2022 State of Startup Compensation Report](https://carta.com/blog/compensation-report-h1-2022/) covering hiring data and salary trends

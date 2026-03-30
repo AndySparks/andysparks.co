@@ -29,16 +29,16 @@ The six-step model demonstrates how extended chains of perception, emotion, and 
 ## Reads & Resources
 
 **Articles:**
-- *What I Learned About People Who Scale* - Pedro Franceschi discusses how high-growth environments demand constant personal evolution alongside organizational change.
+- [*What I Learned About People Who Scale*](https://building.brex.com/what-i-learned-about-people-that-scale-1c1901d48a41) - Pedro Franceschi discusses how high-growth environments demand constant personal evolution alongside organizational change.
 
 **Audio:**
-- *Lex Fridman #294 - Tony Fadell* - Explores product management philosophy and the collective responsibility for understanding customer value before development begins.
+- [*Lex Fridman #294 - Tony Fadell*](https://lexfridman.com/tony-fadell/) - Explores product management philosophy and the collective responsibility for understanding customer value before development begins.
 
 **Books:**
 ![The Art of Possibility](/images/essays/art-of-possibility.png)
 
-- *The Art of Possibility* - Co-authored by Rosamund Stone Zander and Benjamin Zander, featuring practical approaches to bold thinking.
-- *Wake Up to Your Life* - Ken McLeod's framework on self-observation
+- [*The Art of Possibility*](https://www.amazon.com/The-Art-of-Possibility-audiobook/dp/B004HY9254/) - Co-authored by Rosamund Stone Zander and Benjamin Zander, featuring practical approaches to bold thinking.
+- [*Wake Up to Your Life*](https://www.amazon.com/Wake-Your-Life-Discovering-Attention/dp/0062516817) - Ken McLeod's framework on self-observation
 
 **Resources:**
-- *Practical Typography* - Matthew Butterick's guide to typography fundamentals for designers and founders
+- [*Practical Typography*](https://practicaltypography.com/) - Matthew Butterick's guide to typography fundamentals for designers and founders

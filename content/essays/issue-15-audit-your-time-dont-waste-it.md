@@ -69,35 +69,35 @@ A CEO using her time even 10% more effectively can cascade that efficiency throu
 
 ### Articles
 
-**How to Use Gmail More Effectively**
+**[How to Use Gmail More Effectively](https://klinger.io/posts/how-to-use-gmail-more-efficiently)**
 
 Andreas Klinger applies David Allen's "Getting Things Done" methodology to email management, offering practical systems for processing inbox overload.
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 
 **The Best of Lenny's Newsletter in 2022**
 
-Lenny Rachitsky explores product management fundamentals and how great product teams create market-fit solutions.
+[Lenny Rachitsky](https://twitter.com/lennysan) explores product management fundamentals and how great product teams create market-fit solutions.
 
 ### Audio
 
-**Solving the Cold Start Problem**
+**[Solving the Cold Start Problem](https://podcasts.apple.com/us/podcast/solving-the-cold-start-problem-w-andrew-chen/id1187402810?i=1000543715525)**
 
-Andrew Chen, a16z partner and former Uber growth leader, discusses why startups sometimes fail to gain traction despite effort.
+[Andrew Chen](https://twitter.com/andrewchen), a16z partner and former Uber growth leader, discusses why startups sometimes fail to gain traction despite effort.
 
 ### Books
 
 ![The Effective Executive](/images/essays/effective-executive.png)
 
-**The Effective Executive**
+**[The Effective Executive](https://www.amazon.com/Effective-Executive-Definitive-Getting-Things/dp/0062574345/)**
 
 Peter Drucker's essential text addresses self-management as foundational to leadership effectiveness, often overlooked by emerging leaders.
 
 ### Dice Roll
 
-**The Cognitive Distortions of Founders**
+**[The Cognitive Distortions of Founders](https://www.harrisonmetal.com/library/the-cognitive-distortions-of-founders)**
 
-Michael Dearing at Harrison Metal identifies five common founder thinking patterns, each containing both superpowers and potential pitfalls.
+[Michael Dearing](https://twitter.com/mcgd) at Harrison Metal identifies five common founder thinking patterns, each containing both superpowers and potential pitfalls.
 
 ## Three Key Takeaways
 

@@ -18,7 +18,7 @@ Management fundamentally centers on listening, to oneself, one's team, and custo
 In April and May 2022, Sparks established three objectives:
 
 - Identify a topic engaging enough to sustain a year of newsletter content
-- Write about subjects he genuinely finds interesting, inspired by Morgan Housel's approach
+- Write about subjects he genuinely finds interesting, inspired by [Morgan Housel](https://twitter.com/morganhousel)'s approach
 - Grow the audience sufficiently to market future services through the newsletter alone
 
 ## Growth Metrics
@@ -49,11 +49,11 @@ Planning and anticipation constitute core managerial responsibilities. Managers 
 
 ### Articles
 
-**Elad Gil's "Hiring Executives"** from *The High Growth Handbook* recommends defining roles before identifying candidates, essentially advocating bench-building methodology.
+**Elad Gil's "[Hiring Executives](https://growth.eladgil.com/book/chapter-4-building-the-executive-team/hiring-executives/)"** from [*The High Growth Handbook*](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100) recommends defining roles before identifying candidates, essentially advocating bench-building methodology.
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 
-**Simon Sinek on Experience Premium:** Sinek explains why experienced hires command higher compensation: "I pay them more for a skillset I hope we never have to use."
+**[Simon Sinek](https://twitter.com/simonsinek) on Experience Premium:** Sinek explains why experienced hires command higher compensation: "I pay them more for a skillset I hope we never have to use."
 
 ### Audio
 
@@ -63,8 +63,8 @@ Planning and anticipation constitute core managerial responsibilities. Managers 
 
 ![Hell Yeah or No by Derek Sivers](/images/essays/hell-yeah-or-no.png)
 
-**Derek Sivers' "Hell Yeah or No"** presents decision-making frameworks considering happiness, long-term benefit, and usefulness to others.
+**[Derek Sivers](https://twitter.com/sivers)' "[Hell Yeah or No](https://sive.rs/n)"** presents decision-making frameworks considering happiness, long-term benefit, and usefulness to others.
 
 ### Dice Roll
 
-**Tom Killion's Woodcut Prints:** Japanese-style handmade woodcuts depicting California landscapes.
+**[Tom Killion's Woodcut Prints](https://tomkillion.com/):** Japanese-style handmade woodcuts depicting California landscapes.

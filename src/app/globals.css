@@ -43,14 +43,14 @@
   --type-h1: 32px;
   --type-h2: 26px;
   --type-h3: 22px;
-  --type-body: 19px;
+  --type-body: 20px;
   --type-subtitle: 22px;
   --type-sm: 14px;
   --type-xs: 13px;
 
   --leading-tight: 1.2;
   --leading-snug: 1.35;
-  --leading-body: 1.7;
+  --leading-body: 1.6;
 
   /* --- Spacing (base 8) --- */
   --space-xs: 8px;
@@ -63,6 +63,7 @@
 
   /* --- Layout --- */
   --width-content: 640px;
+  --width-prose: 720px;
   --width-wide: 940px;
   --width-max: 1200px;
 }

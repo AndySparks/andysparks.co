@@ -74,7 +74,7 @@ The point is simple: when you find something that beats Netflix in a battle for 
 
 For years, [Beth Scheer](https://twitter.com/homebrewbeth) at Homebrew has been writing helpful long-form guides for startup founders on topics like [diversity](https://quip.com/7GSaAovqAPEh), [immigration](https://quip.com/Y0rRAWZrVReG), [benefits](https://quip.com/BGenAiTcbxGo), [onboarding](https://quip.com/h3efABIaaG4y), [compensation](https://quip.com/HEB3Ah9dYD6o), [sourcing talent](https://quip.com/wuTHAU3kmiKh), and [performance management](https://quip.com/MwcgA10sGgFC). Each one is **_awesome_**. This one on executive coaching is so good that I recommend any potential client I speak with read it before we talk, and it's a great place to point people out if they have questions about coaching.
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 
 **["The Biggest Cost Reduction That Took Me Too Long to Learn"](https://twitter.com/AlexHormozi/status/1587593900541505536?s=20&t=DMXxfcoGnKY4NZxS08iQLg)**
 

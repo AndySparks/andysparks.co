@@ -39,4 +39,4 @@ We considered staying in San Francisco or moving to New York, they both have obv
 
 ## From the Archives
 
-In [*Hilarious Mistakes*](https://www.andysparks.co/post/hilarious-mistakes), I wrote about looking back with fondness on the silly things we've done in the past not with shame, but amusement and appreciation for letting them teach us what we've needed to learn.
+In [*Hilarious Mistakes*](/essays/hilarious-mistakes), I wrote about looking back with fondness on the silly things we've done in the past not with shame, but amusement and appreciation for letting them teach us what we've needed to learn.

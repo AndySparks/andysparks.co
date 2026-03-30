@@ -42,7 +42,10 @@ export default async function EssayPage({ params }: Props) {
 
   return (
     <section className="essay-page">
-      <Container>
+      <Container prose>
+        <Link href="/essays" className="essay-back">
+          &larr; Essays
+        </Link>
         <header className="essay-header">
           <h1 className="essay-title">{essay.title}</h1>
           <div className="essay-date">
@@ -57,8 +60,8 @@ export default async function EssayPage({ params }: Props) {
               <Image
                 src={essay.image}
                 alt={essay.imageAlt || essay.title}
-                width={640}
-                height={400}
+                width={720}
+                height={450}
                 style={{ width: "100%", height: "auto" }}
                 priority
               />
@@ -70,9 +73,6 @@ export default async function EssayPage({ params }: Props) {
           <MDXRemote source={essay.content} />
         </div>
 
-        <Link href="/essays" className="essay-back">
-          &larr; All essays
-        </Link>
       </Container>
     </section>
   );

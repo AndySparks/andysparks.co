@@ -33,7 +33,7 @@ If we pay attention to what draws us, patterns emerge. Each interest feels like 
 
 Admiration, I've found, is a terrific guide. The books I've stuffed with post-its and highlights, the lectures I've replayed until my wife teases me, over and over again, I return to a collection of writers, humorists, designers, urbanists, psychologists, and science-fiction authors. All, deep down, are committed craftspeople, philosophers, and communicators.
 
-An ambition doesn't arrive overnight, and that should comfort us as we explore and play with what we love. Many times, with time and perspective, we see the things we chased with youthful conviction were not ends but means, not the whole melody, but ingredients. Bill Watterson, the creator of the comic Calvin and Hobbes, said, "The truth is, most of us discover where we're heading when we arrive." I have that tattooed on my right arm.
+An ambition doesn't arrive overnight, and that should comfort us as we explore and play with what we love. Many times, with time and perspective, we see the things we chased with youthful conviction were not ends but means, not the whole melody, but ingredients. [Bill Watterson](https://twitter.com/calvinn_hobbes/status/1053347230696976384), the creator of the comic Calvin and Hobbes, said, "The truth is, most of us discover where we're heading when we arrive." I have that tattooed on my right arm.
 
 Finding your ambition is more remembrance than discovery. It happens slowly, then all at once. You feel as if every fiber of your being might be torn apart if you don't find a way to do this thing. To reject your ambition here is a prison sentence, and you are the warden. To embrace it is a reunion with yourself. Quiet. Seismic. Both overdue and right on time.
 

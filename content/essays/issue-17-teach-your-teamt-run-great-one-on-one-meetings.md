@@ -17,13 +17,13 @@ This article provides comprehensive guidance for conducting effective one-on-one
 
 > "Is everyone on my team focused and productive? If not, is there something I could be doing differently?"
 
-Erika Andersen, *Learning to Learn*
+Erika Andersen, [*Learning to Learn*](https://hbr.org/2016/03/learning-to-learn)
 
 ### A Quote
 
 > "Those who make the most of meetings frequently spend substantially more time preparing for the meeting than in the meeting itself."
 
-Jim Collins, *The Effective Executive*
+Jim Collins, [*The Effective Executive*](https://www.amazon.com/Effective-Executive-Definitive-Harperbusiness-Essentials-ebook/dp/B01F1WZGNC)
 
 ## Teach Your Team to Run Great 1:1s
 
@@ -125,9 +125,9 @@ Ed Batista explores "managing up" through an empathy lens. He notes that "the ex
 
 ### From Twitter
 
-**Freeman Dyson on Tool-Driven Scientific Revolutions**
+**[Freeman Dyson on Tool-Driven Scientific Revolutions](https://twitter.com/stevesi/status/1557848673366601728)**
 
-In 1993, Dyson observed: "Scientific revolutions are more often driven by new tools than concepts." We're entering a tool-driven revolution in artificial intelligence. Bill Gates declared AI "the most revolutionary technology in decades," comparing it to "the microprocessor, the personal computer, the Internet, and the mobile phone."
+In 1993, Dyson observed: "Scientific revolutions are more often driven by new tools than concepts." We're entering a tool-driven revolution in artificial intelligence. Bill Gates [declared](https://www.wsj.com/articles/bill-gates-says-artificial-intelligence-is-the-most-revolutionary-technology-in-decades-75fb8562) AI "the most revolutionary technology in decades," comparing it to "the microprocessor, the personal computer, the Internet, and the mobile phone."
 
 ### Audio
 
@@ -151,11 +151,11 @@ This card deck accompanies *Fair Play*, a book helping couples divide household 
 
 ## Further Reading
 
-1. Grove, Andy. *High Output Management*
-2. Scott, Kim. *Radical Candor*
-3. Mochary, Matt. *The Great CEO Within*
-4. Meyer, Faith. Job Responsibilities Rubric
-5. Kline, Dave. Expectations Template
-6. Batista, Ed. Group Dynamics: A Leader's Toolkit
-7. Dethmer, Jim; Chapman, Diana; Klemp, Kaley. *The 15 Commitments of Conscious Leadership*
-8. Evanish, Jason. 150+ One on One Meeting Questions Great Managers Ask
+1. Grove, Andy. [*High Output Management*](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884)
+2. Scott, Kim. [*Radical Candor*](https://www.radicalcandor.com/)
+3. Mochary, Matt. [*The Great CEO Within*](https://www.amazon.com/Great-CEO-Within-Tactical-Building-ebook/dp/B07ZLGQZYC)
+4. Meyer, Faith. [Job Responsibilities Rubric](https://docs.google.com/document/d/1dMxcNgm3pQe_dR9_UjwucbxtSG1k7Wj8RFdQag5FQ-U/edit)
+5. Kline, Dave. [Expectations Template](https://docs.google.com/spreadsheets/d/16JX80AJ79_efuXEOFgnCva5BVZodawEgaZUkq_r2Jc8/copy)
+6. Batista, Ed. [Group Dynamics: A Leader's Toolkit](https://www.edbatista.com/2022/09/group-dynamics-the-leaders-toolkit.html)
+7. Dethmer, Jim; Chapman, Diana; Klemp, Kaley. [*The 15 Commitments of Conscious Leadership*](https://www.amazon.com/15-Commitments-Conscious-Leadership-Sustainable-ebook/dp/B00R3MHWUE)
+8. Evanish, Jason. [150+ One on One Meeting Questions Great Managers Ask](https://getlighthouse.com/blog/one-on-one-meeting-questions-great-managers-ask/)
