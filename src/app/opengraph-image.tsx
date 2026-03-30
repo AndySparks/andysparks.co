@@ -1,4 +1,6 @@
 import { ImageResponse } from "next/og";
+import { readFile } from "node:fs/promises";
+import { join } from "node:path";
 
 export const alt = "Andy Sparks - Executive coach to startup founders and CEOs";
 export const size = {
@@ -7,7 +9,12 @@ export const size = {
 };
 export const contentType = "image/png";
 
-export default function Image() {
+export default async function Image() {
+  const photoData = await readFile(
+    join(process.cwd(), "public/images/headshot.jpg")
+  );
+  const photoSrc = `data:image/jpeg;base64,${photoData.toString("base64")}`;
+
   return new ImageResponse(
     (
       <div
@@ -16,10 +23,11 @@ export default function Image() {
           width: "100%",
           height: "100%",
           display: "flex",
-          flexDirection: "column",
+          flexDirection: "row",
           alignItems: "center",
           justifyContent: "center",
           padding: "64px",
+          gap: "64px",
         }}
       >
         {/* Decorative top border */}
@@ -48,32 +56,31 @@ export default function Image() {
           }}
         />
 
-        {/* Main content */}
+        {/* Photo */}
+        <img
+          src={photoSrc}
+          width={360}
+          height={360}
+          style={{
+            borderRadius: "50%",
+            objectFit: "cover",
+            border: "4px solid #3d4f2f",
+          }}
+        />
+
+        {/* Text content */}
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "center",
-            justifyContent: "center",
-            gap: "24px",
+            gap: "16px",
+            maxWidth: "560px",
           }}
         >
-          {/* Decorative flourish */}
-          <div
-            style={{
-              fontSize: "32px",
-              color: "#8b6914",
-              letterSpacing: "16px",
-              display: "flex",
-            }}
-          >
-            * * *
-          </div>
-
           {/* Name */}
           <div
             style={{
-              fontSize: "72px",
+              fontSize: "64px",
               fontWeight: 700,
               color: "#2b3a24",
               letterSpacing: "-1px",
@@ -86,7 +93,7 @@ export default function Image() {
           {/* Divider */}
           <div
             style={{
-              width: "120px",
+              width: "80px",
               height: "2px",
               background: "#8b6914",
               display: "flex",
@@ -96,10 +103,8 @@ export default function Image() {
           {/* Description */}
           <div
             style={{
-              fontSize: "28px",
+              fontSize: "26px",
               color: "#3d4f2f",
-              textAlign: "center",
-              maxWidth: "800px",
               lineHeight: 1.5,
               display: "flex",
             }}
@@ -109,30 +114,27 @@ export default function Image() {
 
           <div
             style={{
-              fontSize: "24px",
+              fontSize: "22px",
               color: "#6b7c5e",
-              textAlign: "center",
-              maxWidth: "800px",
               lineHeight: 1.5,
               display: "flex",
             }}
           >
             Writing about craft, psychology, and human flourishing.
           </div>
-        </div>
 
-        {/* URL */}
-        <div
-          style={{
-            position: "absolute",
-            bottom: "52px",
-            fontSize: "18px",
-            color: "#8b6914",
-            letterSpacing: "3px",
-            display: "flex",
-          }}
-        >
-          andysparks.co
+          {/* URL */}
+          <div
+            style={{
+              fontSize: "16px",
+              color: "#8b6914",
+              letterSpacing: "3px",
+              marginTop: "8px",
+              display: "flex",
+            }}
+          >
+            andysparks.co
+          </div>
         </div>
       </div>
     ),
