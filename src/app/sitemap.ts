@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/essays`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/contact`, changeFrequency: "yearly", priority: 0.5 },
     { url: `${baseUrl}/media`, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${baseUrl}/legal`, changeFrequency: "yearly", priority: 0.3 },
   ];
 
   const essaysDir = path.join(process.cwd(), "content/essays");

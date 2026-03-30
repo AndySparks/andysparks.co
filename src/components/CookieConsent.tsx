@@ -64,7 +64,7 @@ export function CookieConsent() {
         <div className="cookie-banner" role="dialog" aria-label="Cookie consent">
           <p className="cookie-banner-text">
             This site uses cookies for analytics.{" "}
-            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">
+            <a href="/legal">
               Learn more
             </a>
           </p>

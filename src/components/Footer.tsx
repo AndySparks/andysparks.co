@@ -11,6 +11,7 @@ const FOOTER_LINKS = [
   { href: "/essays", label: "Essays" },
   { href: "/contact", label: "Contact" },
   { href: "/media", label: "Media" },
+  { href: "/legal", label: "Legal" },
 ];
 
 const SOCIAL_LINKS = [
