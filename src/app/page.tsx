@@ -24,9 +24,7 @@ export default function Home() {
             </p>
 
             <p className="home-body">
-              Previously, I co-founded Mattermark and Holloway. After 13 years in
-              San Francisco, I recently relocated to Columbus, OH with my wife,
-              Kate.
+              Previously, I co-founded Mattermark and Holloway.
             </p>
 
             <p className="home-body">

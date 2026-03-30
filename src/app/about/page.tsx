@@ -7,7 +7,7 @@ import "../../styles/static-page.css";
 export const metadata = {
   title: "About",
   description:
-    "Executive coach to startup founders and CEOs. Previously co-founded Mattermark and Holloway.",
+    "Executive coach to startup founders and CEOs. Previously co-founded Mattermark, Holloway, and LaunchGram.",
 };
 
 export default function AboutPage() {

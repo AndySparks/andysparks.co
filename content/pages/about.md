@@ -2,50 +2,52 @@
 title: "About Me"
 ---
 
-## The short version
+## Hey, I'm Andy
 
-I live in Columbus, OH with my wife, Kate. I have cartoon tattoos, strong opinions about science fiction, and I believe it's up to people to give meaning to their lives.
+I've spent my whole career starting things, screwing things up, and figuring out how to do them better. These days I coach startup founders and CEOs, and I'm building [Management Craft](https://managementcraft.co/) to write down everything I've learned along the way.
 
-I'm an executive coach to startup founders and CEOs, and I'm building [Management Craft](https://managementcraft.co/), a platform that teaches founders how to become great managers. If you're here to learn about my coaching, [that's over here](/coaching).
+If you're here to learn about coaching, [that's over here](/coaching).
 
 ## How I got here
 
-I started my career the way a lot of founders do: no idea what I was doing.
+I've been an entrepreneur for about a decade across three companies. Between them, I raised over $20 million in venture capital, which sounds impressive until you learn that raising money is the easy part. What you do with it is what counts. I've spent my whole career outside traditional career paths, preferring to start things with people I respect and admire rather than work for someone else.
 
-My first real company was Mattermark, where I was COO. It was one of the most fun and stressful periods of my life. We discovered we could sell investors insights into which startups had momentum using publicly available data and machine learning. We went from $0 to $5M in ARR in three and a half years and built a newsletter with over 100,000 subscribers. But we mistook what First Round Capital would now call "developing" product-market fit for the real thing, over-invested in a sales motion we couldn't afford, and ultimately sold the company. Harvard Business School teaches [a case study about Mattermark](https://www.hbs.edu/faculty/Pages/item.aspx?num=50356).
+My first company, LaunchGram, failed fast. I started it with two friends in Ohio after a startup weekend. We got a $50,000 grant from an accelerator, I sold everything that didn't fit in my Ford Focus, and we drove to California for 500 Startups. By the end of the program we realized we'd started the company for the wrong reasons, so we shut it down. I think of it as my starter startup, like a starter home. Before LaunchGram, I'd never really failed at anything. I'd coasted through most things and had a good time. Starting a company and watching it not work was the first time I made real contact with reality, and honestly, it was the best thing that could've happened to me. It made me get serious. It made me grow up.
 
-Before Mattermark, I was in college at Ohio State when I talked my way into an internship at a three-person web dev shop. The CEO showed me a bit about how companies get built. When I told him I wanted to fly to San Francisco for a YC interview, he fired me. My friends and I didn't get into YC, but we got into 500 Startups with LaunchGram, a sort of proto-ProductHunt. I still miss it, but we were in over our heads and ran out of money fast.
+After LaunchGram failed, I decided I wanted to find someone who'd already been successful and apprentice myself to them. That's what I did at Mattermark with my co-founder Danielle Morrill, who'd been the first employee at Twilio. Mattermark was a blast. We helped investors figure out which startups had momentum before anyone else could see it. Think Moneyball for startups. I sold half of the first million in revenue, and we built a daily newsletter with almost 150,000 subscribers. Harvard Business School teaches [a case study about Mattermark](https://www.hbs.edu/faculty/Pages/item.aspx?num=50356). It was the most fun and the most stressful thing I'd ever done, and it taught me almost everything I know about building teams.
 
-After Mattermark, I co-founded Holloway, a digital book publishing company. We started with one question: what if you could ask a book a question? With custom GPTs, that's now entirely possible. We were early, but unfocused, and we couldn't figure out who our customer was. I'm proud of our work there, but this one taught me a lot.
+After Mattermark, I co-founded Holloway. We started with a question I'm still obsessed with: how do you help voracious self-learners teach themselves better? We built interactive digital books and I wrote [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about). The company didn't become what we hoped, but I learned a lot about writing there. Three companies in ten years. Each one taught me something different about building, leading, and knowing when to let go.
 
-Then the pandemic hit, and I realized I'd rather help founders think clearly than be the one making the calls. I became a coach in 2020 and haven't looked back.
+## Why coaching
 
-I also wrote [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about).
+After ten years and three companies, a friend told me I'd be a good coach. The idea stuck because I knew what it felt like to not have one. When I was running companies, I desperately needed someone I could sit down with every couple of weeks and be really honest about what wasn't working. Not just the technical stuff, like how to hire or how to sell, but the inner stuff: the ego, the anxiety, the anger, all the stuff that was making me a worse leader than I could've been. I'm convinced I would've made a lot better decisions if I'd had that earlier.
 
-## The rest
+So now I do that for other people. I work with 15 to 20 startup CEOs at any given time, sometimes CTOs, sometimes the whole founding team. Half of what I do is teaching: the best practices of hiring, performance management, sales, team building. I'm a former operator, so I've been through a lot of this before: the hiring, the feedback conversations, the sales models, the compensation plans. When I was a founder in my twenties, I didn't know any of that stuff, and I wish someone had just shown me a pretty safe way to do it so I could practice. The other half is more like being an unlicensed therapist. You can know all the right things about hiring, but if your ego won't let you hire people smarter than you, that's going to keep being a problem until you figure out what's underneath it. I bring a lot of support, but I also bring a lot of challenge. If you're saying the same thing every two weeks and not doing anything about it, I'm going to call that out. A lot of coaches are all warmth. I'm here to help people become effective leaders, not just sit here and dissect emotions. That's great work, and a therapist can help you with it. Whatever you bring to a session, I'm working to make sure you leave it more effective than you came in.
 
-I was born in Denver and moved to the suburbs of Philadelphia when I was eleven. I loved to draw, hated math, and spent a lot of time helping my dad with projects he refused to hire a contractor for.
+I coach because I'm trying to be the person I needed and didn't have, so that someone else's version doesn't have to be as hard as mine was.
 
-I ended up at Ohio State because my high school girlfriend picked an art school in Columbus. It took a year or two to warm up to it, but I loved my time there and still call many of the people I met there my best friends.
+## Management Craft
 
-Kate is the Founder & CEO of [Keystone Bio](https://www.keystonebio.co), a startup on a mission to make accelerate how fast great science turns into stuff we take for granted. She's rad.
+The teaching half of coaching led me to a question: what if I could write down everything I teach and make it available to people I'll never meet? [Management Craft](https://managementcraft.co/) is my answer. It's a library of mental models and frameworks for management: the formal skills, the processes, and the mindset and inner game of being a founder and leader.
 
-I'm a humanist. That means I believe it's up to people to give meaning to their lives, and we don't need to invent a god to do that for us.
+But if I'm being honest, Management Craft also exists because I missed making things. As a coach, I love the work, but I missed the part of entrepreneurship where you're designing, building, shipping. Writing and design are the two things I've always loved most, and Management Craft is where I get to do both. It's my creative outlet and my way of taking everything I've learned and putting it somewhere it can reach more people than I can coach one-on-one.
 
-Friendship is huge for me. Everyone knows "it takes a village," and I believe a village full of friendships with real depth is the real stuff of life.
+## Over beers
 
-I love reading. My office is surrounded by books. When it comes to fiction, epic science fiction and fantasy are my thing: The Expanse, Stormlight Archive, and I'm still waiting on Patrick Rothfuss's third book. Latest favorite: Callahan's Crosstime Saloon.
+If you sat down with me for a couple hours, we'd probably talk more about philosophy and ideas than about startups.
 
-I love video games, mostly RPGs and strategy. I can't wait for Crimson Desert.
+I love startups, but not for the reasons you might assume. I think they're one of the most amazing creative endeavors a person can take on. Not the spreadsheets and the revenue and the fundraising, though those matter. Startups are also one of the best places for curious, self-motivated people to come in and do real work. If you want to learn, there's no better container for it. What I love is that so many people starting companies are optimistic, kind of naive, but in a really endearing way. They're incredibly earnest. I want those people out there making companies and products for the world, because I think the world is better when they do. And I want to make sure the process doesn't kick their ass so completely that they end up cynical and angry and cruel.
 
-I have two cartoon tattoos: Calvin and Hobbes, and Merlin from The Sword in the Stone. Both are reminders not to take myself too seriously.
+Part of what keeps people from going cynical is who they build with. The people you hire, the people you start with, the people you survive the hard years alongside can become your best friends for the rest of your life. There's something about making stuff with people that's hard to explain to anyone who hasn't done it. In college at Ohio State, I helped start a group called the Business Builders Club. We joked it was a drinking club with a business problem. We still text every day.
 
-If any of that sounds like someone you'd want to grab a beer with, [get in touch](/contact).
+My wife Kate is the Founder and CEO of [Keystone Bio](https://www.keystonebio.co), so this stuff runs through our whole life, not just mine. But sit down with me in person and I'd rather talk about what makes a good life, what we owe each other, and why making stuff with people is basically the whole point of being alive.
+
+I'm a humanist. I read a lot of science fiction. I play too many video games. [Get in touch](/contact).
 
 ## Interviews & Media
 
 You can find past interviews and media appearances [here](/media). If you'd like me on your podcast or at your event, [reach out](/contact).
 
-### Media bio:
+### Media bio
 
-Andy Sparks is an executive coach to startup founders and CEOs. Previously, he was Co-founder and CEO at Holloway, a digital book publishing company, and Co-founder and COO at Mattermark, a business data and analytics company. He's the author of [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about) and is building [Management Craft](https://managementcraft.co/), a platform that teaches founders how to become great managers. Andy designed his own degree and graduated from The Ohio State University. He lives in Columbus, OH with his wife, Kate.
+Andy Sparks is an executive coach who works with 15 to 20 startup CEOs at any given time. He spent a decade as a founder, co-founding Mattermark (a B2B analytics company that grew to $5M ARR and 150,000 newsletter subscribers) and Holloway (a digital book publishing company). He raised over $20 million in venture capital, wrote [The Holloway Guide to Raising Venture Capital](https://www.holloway.com/g/venture-capital/about), and is building [Management Craft](https://managementcraft.co/), a library of mental models and frameworks for management.
