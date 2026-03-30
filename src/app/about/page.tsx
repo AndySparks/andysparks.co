@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { getPageContent } from "@/lib/pages";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import Image from "next/image";
@@ -30,6 +31,12 @@ export default function AboutPage() {
 
   return (
     <section className="static-page">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://andysparks.co" },
+          { name: "About", url: "https://andysparks.co/about" },
+        ]}
+      />
       <Container wide>
         <h1>{page.title}</h1>
         <div className="about-intro">

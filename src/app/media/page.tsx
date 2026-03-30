@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { getPageContent } from "@/lib/pages";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import "../../styles/static-page.css";
@@ -34,6 +35,12 @@ export default function MediaPage() {
 
   return (
     <section className="static-page">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://andysparks.co" },
+          { name: "Media", url: "https://andysparks.co/media" },
+        ]}
+      />
       <Container>
         <h1>{page.title}</h1>
         <div className="static-page-content">

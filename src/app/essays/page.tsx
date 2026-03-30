@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { getAllEssays } from "@/lib/essays";
 import Link from "next/link";
 import Image from "next/image";
@@ -19,6 +20,12 @@ export default function EssaysPage() {
 
   return (
     <section className="essays-page">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://andysparks.co" },
+          { name: "Essays", url: "https://andysparks.co/essays" },
+        ]}
+      />
       <Container wide>
         <h1>Essays</h1>
 
