@@ -119,11 +119,24 @@
 @media (max-width: 640px) {
   .about-intro {
     flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .about-photo-figure {
+    order: -1;
+  }
+
+  .about-intro-text {
+    flex: 0 1 auto;
   }
 
   .about-photo {
     width: 100%;
     height: auto;
     max-width: 256px;
+  }
+
+  .about-intro-text h2:first-child {
+    margin-top: 0;
   }
 }
