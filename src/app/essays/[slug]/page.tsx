@@ -42,7 +42,7 @@ export default async function EssayPage({ params }: Props) {
 
   return (
     <section className="essay-page">
-      <Container>
+      <Container prose>
         <Link href="/essays" className="essay-back">
           &larr; Essays
         </Link>
@@ -60,8 +60,8 @@ export default async function EssayPage({ params }: Props) {
               <Image
                 src={essay.image}
                 alt={essay.imageAlt || essay.title}
-                width={640}
-                height={400}
+                width={720}
+                height={450}
                 style={{ width: "100%", height: "auto" }}
                 priority
               />
