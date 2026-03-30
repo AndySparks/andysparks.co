@@ -34,20 +34,3 @@ The answer is rarely the bottleneck. Your capacity to use the answer is the bott
 
 I'm not going to relieve a symptom and move on. When you bring me a problem, I'm going to help you fix it _and_ understand why it happened, so we're not fixing the same thing six months from now.
 
-## What clients say
-
-> "Andy has changed my life as a founder, husband, and general human being. He's helped me navigate the toughest career challenges."
->
-> -- CEO, client since 2020
-
-> "Before meeting Andy I was a solo Founder with one speed; doing my best to clear the road in front of me."
->
-> -- CEO, client since 2021
-
-> "Andy has been invaluable because he combines his real-world executive experience with expert coaching skills, offering advice that is both practical and insightful."
->
-> -- CEO, client since 2021
-
-> "Andy has helped me navigate restructuring a company, my cofounder split, and many subjects you simply won't find textbooks for."
->
-> -- CEO, client since 2023
