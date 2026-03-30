@@ -46,11 +46,11 @@ export default function Home() {
       <JsonLd data={personSchema} />
       <JsonLd data={websiteSchema} />
       <Container wide>
+        <h1 className="home-heading">
+          Executive coach for startup founders &amp; CEOs
+        </h1>
         <div className="home-intro">
           <div className="home-intro-text">
-            <h1 className="home-heading">
-              Executive coach for startup founders &amp; CEOs
-            </h1>
             <p className="home-body">
               Hey, I&apos;m Andy. I&apos;m an executive coach to startup founders
               and CEOs. I&apos;m also building{" "}

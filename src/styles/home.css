@@ -36,7 +36,8 @@
   font-weight: 700;
   line-height: var(--leading-tight);
   color: var(--color-evergreen);
-  margin-bottom: var(--space-sm);
+  margin-bottom: var(--space-md);
+  max-width: 768px;
 }
 
 .home-body {
