@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 
 export const metadata: Metadata = {
   title: "Contact Andy Sparks — Executive Coach for Startup Founders",
@@ -14,5 +15,15 @@ export default function ContactLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <>{children}</>;
+  return (
+    <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://andysparks.co" },
+          { name: "Contact", url: "https://andysparks.co/contact" },
+        ]}
+      />
+      {children}
+    </>
+  );
 }

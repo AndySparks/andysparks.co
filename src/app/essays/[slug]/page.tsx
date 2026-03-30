@@ -1,5 +1,6 @@
 import { Container } from "@/components/Container";
 import { JsonLd } from "@/components/JsonLd";
+import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
 import { getEssayBySlug, getAllEssaySlugs, getRelatedEssays } from "@/lib/essays";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -69,6 +70,13 @@ export default async function EssayPage({ params }: Props) {
 
   return (
     <section className="essay-page">
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://andysparks.co" },
+          { name: "Essays", url: "https://andysparks.co/essays" },
+          { name: essay.title, url: `https://andysparks.co/essays/${slug}` },
+        ]}
+      />
       <JsonLd data={articleSchema} />
       <Container prose>
         <Link href="/essays" className="essay-back">
