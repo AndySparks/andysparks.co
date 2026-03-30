@@ -5,6 +5,7 @@ description: "What do you find so interesting that it out-competes Netflix for y
 image: "/images/essays/obsession-tree.png"
 imageAlt: "The obsession tree"
 oldPath: "/hoo-boy/issue-9-every-obsession-has-a-legacy"
+tags: ["career"]
 ---
 
 # The Roots of Your Obsession

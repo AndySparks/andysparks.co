@@ -5,6 +5,7 @@ description: "There's no shortage of stories about who you should be. Some are h
 image: "/images/essays/this-is-the-work.png"
 imageAlt: "This is the Work"
 oldPath: "/p/this-is-the-work"
+tags: ["career"]
 ---
 
 _There's no shortage of stories about who you should be. Some are handed to you with love, others not so much. A few you carve for yourself, only to wonder later if they were ever really yours._

@@ -5,6 +5,7 @@ description: "Using the Blake-Mouton Managerial Grid to explore why we don't hav
 image: "/images/essays/mouton-blake-managerial-grid.png"
 imageAlt: "Mouton-Blake Managerial Grid"
 oldPath: "/hoo-boy/issue-6-whats-better-than-bureaucracy"
+tags: ["management"]
 ---
 
 # We Don't Have a Word for a Great Business Culture

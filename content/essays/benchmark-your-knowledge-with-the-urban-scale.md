@@ -3,6 +3,7 @@ title: "Benchmark Your Knowledge With the Urban Scale"
 date: "2019-11-10"
 description: "Have you ever noticed that learning to swim feels a lot like drowning? At least at first. How can we tell when all that flailing around is actually"
 oldPath: "/post/benchmark-your-knowledge-with-the-urban-scale"
+tags: ["coaching"]
 ---
 
 Have you ever noticed that learning to swim feels a lot like drowning? At least at first. How can we tell when all that flailing around is actually exactly what we're supposed to do on our way to mastery? Founders have to start from scratch a lot. When you're hiring someone new to lead a function, for instance, you have to master enough of the material to assess someone else's ability to actually take action in that domain. Design, marketing, or engineering--how do you know when you've learned enough?

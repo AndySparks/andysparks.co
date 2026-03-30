@@ -5,6 +5,7 @@ description: "There's an unexpected upside to my bad habit of buying too many bo
 image: "/images/essays/21-essays-by-andy.png"
 imageAlt: "21 essays by Andy"
 oldPath: "/p/the-compound-interest-of-books"
+tags: ["career"]
 ---
 
 There's an unexpected upside to my bad habit of buying too many books: when they all sit unread together, they create a kind of natural selection environment where the truly compelling ones emerge over time. What seems like overconsumption actually enables better choices - as the books compete for attention, one will suddenly *jump out* as obviously superior to all the others I thought worth buying.

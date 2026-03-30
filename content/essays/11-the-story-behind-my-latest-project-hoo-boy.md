@@ -5,6 +5,7 @@ description: "The star of this issue is my latest project: Hoo Boy. It's a newsl
 image: "/images/essays/captains-log-oct-2022.png"
 imageAlt: "Captain's Log October 2022"
 oldPath: "/post/11-the-story-behind-my-latest-project-hoo-boy"
+tags: ["career"]
 ---
 
 Welcome to Issue #11!

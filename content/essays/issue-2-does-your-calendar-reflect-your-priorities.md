@@ -5,6 +5,7 @@ description: "Years ago, Keith Rabois shared a principle that stuck with Sparks:
 image: "/images/essays/time-blocking-calendar.png"
 imageAlt: "Time blocking calendar example"
 oldPath: "/hoo-boy/issue-2-does-your-calendar-reflect-your-priorities"
+tags: ["founder-leadership"]
 ---
 
 # Does Your Calendar Reflect Your Priorities?

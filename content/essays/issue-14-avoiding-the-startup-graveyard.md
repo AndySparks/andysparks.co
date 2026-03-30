@@ -5,6 +5,7 @@ description: "Two problematic ingredients, low pricing combined with high-touch 
 image: "/images/essays/startup-graveyard-small.png"
 imageAlt: "The startup graveyard"
 oldPath: "/hoo-boy/issue-14-avoiding-the-startup-graveyard"
+tags: ["startup-strategy"]
 ---
 
 # Avoiding the Startup Graveyard

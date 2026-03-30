@@ -1,9 +1,12 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact Andy Sparks — Executive Coach for Startup Founders",
   description:
-    "Get in touch with Andy Sparks. Reach out about coaching, startups, or just to say hello.",
+    "Get in touch with Andy Sparks. Reach out about executive coaching for startup founders, or just to say hello.",
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 export default function ContactLayout({

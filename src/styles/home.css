@@ -31,6 +31,14 @@
   flex: 0 1 480px;
 }
 
+.home-heading {
+  font-size: var(--type-h2);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  color: var(--color-evergreen);
+  margin-bottom: var(--space-sm);
+}
+
 .home-body {
   font-size: var(--type-body);
   line-height: var(--leading-body);

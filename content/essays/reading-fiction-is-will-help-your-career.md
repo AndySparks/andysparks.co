@@ -3,6 +3,7 @@ title: "Reading Fiction Will Help Your Career"
 date: "2019-06-15"
 description: "It's hard to make the case that studying someone who mastered a craft by reading their biography would be a waste of time."
 oldPath: "/post/reading-fiction-is-will-help-your-career"
+tags: ["career"]
 ---
 
 > "A book is proof that humans are capable of working magic."

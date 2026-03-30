@@ -3,6 +3,7 @@ title: "Failure is a Process"
 date: "2019-12-22"
 description: "A few weeks ago, a Good Work reader asked if I'd write about recovering from failure. I was grateful to have been given the opportunity to think about this one."
 oldPath: "/post/failure-is-a-process"
+tags: ["coaching"]
 ---
 
 > "The longer you live, the more you fail. Failure is the mark of a life well lived."

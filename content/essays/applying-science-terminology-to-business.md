@@ -3,6 +3,7 @@ title: "Applying Science Terminology to Business"
 date: "2019-11-17"
 description: "At Mattermark, the company I helped start before Holloway, we were in the business of collecting data on private companies so investors could"
 oldPath: "/post/applying-science-terminology-to-business"
+tags: ["startup-strategy"]
 ---
 
 At Mattermark, the company I helped start before Holloway, we were in the business of collecting data on private companies so investors could determine which ones might make good investment targets. To measure this and convey it to our customers, we began thinking about companies in terms of physics equations. For example, we built a "momentum score" (momentum = mass * velocity) that took into account how big the company was and how fast it was either growing or shrinking.

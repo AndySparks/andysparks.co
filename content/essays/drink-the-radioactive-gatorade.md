@@ -5,6 +5,7 @@ description: "My best description of the current moment is that a small subset o
 image: "/images/essays/drink-radioactive-gatorade.png"
 imageAlt: "Drink the Radioactive Gatorade"
 oldPath: "/p/drink-the-radioactive-gatorade"
+tags: ["founder-leadership"]
 ---
 
 I posted something on [Twitter](https://x.com/SparksZilla) last week:

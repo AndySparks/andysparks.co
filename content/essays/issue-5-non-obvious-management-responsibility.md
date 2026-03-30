@@ -5,6 +5,7 @@ description: "Dee Hock, Visa's founder, challenged conventional management wisdo
 image: "/images/essays/self-awareness-emotional-management.png"
 imageAlt: "Self-awareness and emotional management diagram"
 oldPath: "/hoo-boy/issue-5-non-obvious-management-responsibility"
+tags: ["founder-leadership","management"]
 ---
 
 # Great Managers Manage Themselves First

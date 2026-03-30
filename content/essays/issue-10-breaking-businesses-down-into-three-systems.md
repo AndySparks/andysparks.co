@@ -5,6 +5,7 @@ description: "Andrew Ure argued factories needed three harmonious systems: the m
 image: "/images/essays/hoo-boy-10.png"
 imageAlt: "Hoo Boy Issue 10"
 oldPath: "/hoo-boy/issue-10-breaking-businesses-down-into-three-systems"
+tags: ["startup-strategy"]
 ---
 
 # 1800's Wisdom: Three Components of a Business

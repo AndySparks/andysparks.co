@@ -3,6 +3,7 @@ title: "Polishing Hinges"
 date: "2019-10-06"
 description: "In my century-old house, the hinges on every door are covered in layers of paint. For a hundred years, the people painting this house refused to find a screwdriver"
 oldPath: "/post/polishing-hinges"
+tags: ["management"]
 ---
 
 In my century-old house, the hinges on every door are covered in layers of paint. For a hundred years, the people painting this house refused to find a screwdriver or to tape around the hinges, dooming me to stare at this mess. On Holloway's Work-From-Home Wednesday this week, around 5 o'clock PM, some part of me snapped. I had to go nuclear on those suckers, strip them down to the brass I knew lay below the strata of practical beiges, "Careful Whisper" blues, and a hundred other bad decisions and attempts to mask them.

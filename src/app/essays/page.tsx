@@ -5,9 +5,12 @@ import Image from "next/image";
 import "../../styles/essays.css";
 
 export const metadata = {
-  title: "Essays",
+  title: "Essays on Startups, Coaching & Leadership",
   description:
-    "Writing on startups, coaching, craft, and human flourishing by Andy Sparks.",
+    "Essays on startup leadership, executive coaching, management, and human flourishing by Andy Sparks. Practical insights from coaching founders and building companies.",
+  alternates: {
+    canonical: "/essays",
+  },
 };
 
 export default function EssaysPage() {

@@ -3,6 +3,7 @@ title: "You Exist Outside of Work"
 date: "2019-05-25"
 description: "There's this perverted idea that taking time to rest is an indulgence, like catching our breath over the weekend is the equivalent of eating a swimming pool"
 oldPath: "/post/you-exist-outside-of-work"
+tags: ["career"]
 ---
 
 > "Weekends don't count unless you spend them doing something completely pointless." -- [Bill Watterson](https://twitter.com/calvinn_hobbes/status/1053347230696976384)

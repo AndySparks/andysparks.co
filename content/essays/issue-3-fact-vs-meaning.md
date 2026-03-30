@@ -5,6 +5,7 @@ description: "Andy Sparks explores how we construct narratives around observed e
 image: "/images/essays/constructing-meaning.png"
 imageAlt: "Constructing meaning diagram"
 oldPath: "/hoo-boy/issue-3-fact-vs-meaning"
+tags: ["founder-leadership"]
 ---
 
 # The Stories in Our Heads (Fact vs. Meaning)

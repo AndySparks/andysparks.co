@@ -5,6 +5,7 @@ description: "My camera setup, desk accessories, and tips for using a Sony Alpha
 image: "/images/essays/dslr-webcam-setup.jpeg"
 imageAlt: "Andy Sparks' DSLR webcam setup"
 oldPath: "/post/using-a-dslr-as-a-webcam-for-zoom-calls"
+tags: ["career"]
 ---
 
 ## My Camera

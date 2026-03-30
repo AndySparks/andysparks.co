@@ -3,6 +3,7 @@ title: "Ten Year Careers"
 date: "2019-02-16"
 description: "My favorite people are irrationally passionate. They're the ones who get to work getting things done and forego the temptation to stick to talk."
 oldPath: "/post/ten-year-careers"
+tags: ["coaching","career"]
 ---
 
 > "I love people who harness themselves, an ox to a heavy cart, who pull like water buffalo, with massive patience, who strain in the mud and the muck to move things forward, who do what has to be done, again and again."

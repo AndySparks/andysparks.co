@@ -5,6 +5,7 @@ description: "1:1 meetings, when done well, are to a great working relationship 
 image: "/images/essays/one-on-one-small.png"
 imageAlt: "One-on-one meetings"
 oldPath: "/hoo-boy/issue-17-teach-your-teamt-run-great-one-on-one-meetings"
+tags: ["management"]
 ---
 
 # Running Great One-on-Ones

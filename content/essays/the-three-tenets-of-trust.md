@@ -3,6 +3,7 @@ title: "The Three Tenets of Trust"
 date: "2019-09-29"
 description: "Trust is made up of three things: sincerity, reliability, and competence. And trust crumbles at anything less than having all three."
 oldPath: "/post/the-three-tenets-of-trust"
+tags: ["management"]
 ---
 
 > "Watching Tom manage, it seemed to me that he applied a simple three-step algorithm to every problem: 1. Who owns the problem? 2. Do I trust them? 3. How do I find an owner I trust? If you can't find an owner, that's the problem right there. Skip to step 3."

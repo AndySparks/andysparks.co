@@ -5,6 +5,7 @@ description: "Based on Jeff Bussgang's framework, Andy Sparks explores three dis
 image: "/images/essays/jungle-dirtroad-highway.png"
 imageAlt: "Startup phases: Jungle, Dirt Road, Highway"
 oldPath: "/hoo-boy/issue-11-startup-phases-jungle-dirt-road-highway"
+tags: ["startup-strategy"]
 ---
 
 # Startup States: Jungle, Dirt Road, Highway

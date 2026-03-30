@@ -3,6 +3,7 @@ title: "On Confidence"
 date: "2019-01-02"
 description: "I doubt myself a lot. Everyone is totally just winging it, all the time is one of my favorite articles ever. It makes me feel far less alone with my fears."
 oldPath: "/post/confidence"
+tags: ["founder-leadership"]
 ---
 
 I doubt myself a lot. "[Everyone is totally just winging it, all the time](https://www.theguardian.com/news/oliver-burkeman-s-blog/2014/may/21/everyone-is-totally-just-winging-it)" is one of my favorite articles ever. It makes me feel far less alone with my fears. Will my company be successful? Am I nuts? Are all my friends avoiding the trouble of telling me I'm working on bullshit? What if we're wrong about everything and this thing fails? Am I smart enough, good-looking enough, good whatever enough to find the kind of person I think I want to share my life with? Is it okay to end sentences with prepositions?

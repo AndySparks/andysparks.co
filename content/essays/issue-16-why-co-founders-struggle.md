@@ -5,6 +5,7 @@ description: "What makes business partnerships so much more likely to overwhelm 
 image: "/images/essays/fight-small.png"
 imageAlt: "Co-founders struggling"
 oldPath: "/hoo-boy/issue-16-why-co-founders-struggle"
+tags: ["management"]
 ---
 
 # Why We're Unprepared for Co-Founder Relationships

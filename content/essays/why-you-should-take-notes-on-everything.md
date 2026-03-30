@@ -3,6 +3,7 @@ title: "Why You Should Take Notes on Everything"
 date: "2019-04-13"
 description: "In Where Good Ideas Come From, Steven Johnson writes about what he calls 'the slow hunch.' Charles Darwin didn't wake up one day with the entire theory of natural"
 oldPath: "/post/why-you-should-take-notes-on-everything"
+tags: ["founder-leadership"]
 ---
 
 > "...the secret of hunch cultivation is simple: write everything down."

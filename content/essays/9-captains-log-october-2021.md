@@ -5,6 +5,7 @@ description: "You might be confused. Doesn't this email usually come from MailCh
 image: "/images/essays/captains-log-oct-2021.JPG"
 imageAlt: "Captain's Log October 2021"
 oldPath: "/post/9-captains-log-october-2021"
+tags: ["career"]
 ---
 
 > "One of the most reliable signs that you need a holiday is the conviction that you cannot spare the time to make one." -- Bryan Magee

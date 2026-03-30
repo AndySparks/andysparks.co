@@ -5,6 +5,7 @@ description: "This week, I handed Holloway's CEO reins over to my co-founder, Jo
 image: "/images/essays/wanderer.png"
 imageAlt: "Wanderer above the Sea of Fog by Caspar David Friedrich"
 oldPath: "/post/the-next-chapter-of-my-career"
+tags: ["career"]
 ---
 
 > "There are neither beginnings nor endings to the turning of the Wheel of Time. But it was a beginning."

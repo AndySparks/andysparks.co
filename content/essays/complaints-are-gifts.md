@@ -3,6 +3,7 @@ title: "Complaints Are Gifts"
 date: "2019-09-21"
 description: "In the first few years I was managing people it felt like everyone had something to complain about. The grievances poured into a sad swimming pool"
 oldPath: "/post/complaints-are-gifts"
+tags: ["management"]
 ---
 
 In the first few years I was managing people it felt like everyone had something to complain about. The grievances poured into a sad swimming pool of injustice. I did my best to address the issues, but it doesn't take many complaints at once to overwhelm even the most well-intentioned managers. I quickly came to dread complaints, becoming fast friends with phrases like, "Here we go again."

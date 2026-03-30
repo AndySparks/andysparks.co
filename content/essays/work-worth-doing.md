@@ -3,6 +3,7 @@ title: "Work Worth Doing"
 date: "2019-09-07"
 description: "When work is a choice, why the hell do some people choose to do it? Why would someone with $2M, $50M, or $800M in the bank choose to do the kinds of daily tasks"
 oldPath: "/post/work-worth-doing"
+tags: ["career"]
 ---
 
 > "Good work finds the way between pride and despair. / It graces with health. It heals with grace. It preserves the given so that it remains a gift. / By it, we lose loneliness: / we clasp the hands of those who go before us, and the hands of those who come after us; / we enter the little circle of each other's arms, / and the larger circle of all creatures, passing in and out of life, who move also in a dance, to a music so subtle and vast that no ear hears it except in fragments."

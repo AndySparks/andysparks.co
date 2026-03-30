@@ -3,6 +3,7 @@ title: "Failure, Depression, and Yoda"
 date: "2016-09-20"
 description: "Isaac Asimov wrote a book called The End of Eternity. It's a great science fiction novel about a world where time travel is constantly used to change history."
 oldPath: "/post/failure-depression-and-yoda"
+tags: ["coaching"]
 ---
 
 Isaac Asimov wrote a book called *The End of Eternity*. It's a great science fiction novel about a world where time travel is constantly used to change history in order to eliminate catastrophes.

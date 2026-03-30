@@ -3,6 +3,7 @@ title: "Hilarious Mistakes"
 date: "2019-12-08"
 description: "I loved video games in middle school. So when the Xbox came out, I made an appeal to my parents to purchase this glorious machine."
 oldPath: "/post/hilarious-mistakes"
+tags: ["management"]
 ---
 
 > "Out of danger and restless insecurity comes the force that pushes mankind to newer and loftier conquests."

@@ -5,6 +5,7 @@ description: "In my work as an executive coach, I too often see leaders get frus
 image: "/images/essays/letter-to-garcia.png"
 imageAlt: "A Message to Garcia"
 oldPath: "/p/if-you-want-people-to-remember-tell-a-story-message-to-garcia"
+tags: ["management"]
 ---
 
 In my work as an executive coach to startup CEOs, founders, and executives, I too often see leaders get frustrated and disappointed when their team fails to understand or embody a core value. But when you're at the top, you have to take responsibility. If your team isn't living the values, it's on you. You need to take a different approach. While docs and slides with values are a great starting point, I've found one way to increase the odds that people will "get" your core values is to attach them to stories. So instead of me _telling_ you why a good story is valuable, let me show you.

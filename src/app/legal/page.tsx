@@ -7,6 +7,9 @@ export const metadata = {
   title: "Legal",
   description:
     "Terms of use, privacy policy, and copyright information for andysparks.co.",
+  alternates: {
+    canonical: "/legal",
+  },
 };
 
 export default function LegalPage() {
