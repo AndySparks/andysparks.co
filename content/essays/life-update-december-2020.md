@@ -51,7 +51,7 @@ As I sat down to write, wiggling my fingers to loosen 'em up, I realized the las
 
 ![Screenshot of morning pages](/images/essays/life-update-dec-2020-screenshot.png)
 
-- **Upgrading My Camera Setup**: As a coach, I'm now spending a lot of time on Zoom calls. Each session is deeply personal, but I felt like my camera left a lot to be desired in terms of creating an experience closer to sitting in a room together. Each session is "the product," and I wanted to make sure clients got the best experience possible. So I invested in a new DSLR camera, and it makes a big difference. I created a post with my equipment [here.](https://www.andysparks.co/post/using-a-dslr-as-a-webcam-for-zoom-calls)
+- **Upgrading My Camera Setup**: As a coach, I'm now spending a lot of time on Zoom calls. Each session is deeply personal, but I felt like my camera left a lot to be desired in terms of creating an experience closer to sitting in a room together. Each session is "the product," and I wanted to make sure clients got the best experience possible. So I invested in a new DSLR camera, and it makes a big difference. I created a post with my equipment [here.](/essays/using-a-dslr-as-a-webcam-for-zoom-calls)
 
 ## Ask Jerry
 

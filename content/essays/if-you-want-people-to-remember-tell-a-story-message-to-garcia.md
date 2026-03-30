@@ -3,7 +3,7 @@ title: "If You Want People to Remember, Tell a Story"
 date: "2024-08-27"
 description: "In my work as an executive coach, I too often see leaders get frustrated when their team fails to understand a core value. A good story changes that."
 image: "/images/essays/letter-to-garcia.png"
-imageAlt: "[A Message to Garcia](https://www.andysparks.co/exhibits/a-message-to-garcia)"
+imageAlt: "A Message to Garcia"
 oldPath: "/p/if-you-want-people-to-remember-tell-a-story-message-to-garcia"
 ---
 
@@ -57,7 +57,7 @@ So whether it's a wedding, a funeral, a launch party, a celebration for hitting 
 
 ## From the Archives
 
-[Why We're Unprepared for Co-Founder Relationships](https://www.andysparks.co/hoo-boy/issue-16-why-co-founders-struggle)
+[Why We're Unprepared for Co-Founder Relationships](/essays/issue-16-why-co-founders-struggle)
 
 As an executive coach to startup CEOs, founders, and executives, I see more than my fair share of co-founder conflict. At some point last year, I decided to sit down and write some thoughts on why so many co-founders end up at each other's throats. In this piece, I contrast how we get into relationships with co-founders with how we go about dating and eventually getting married to our life partners. Given that Kate and I just got married, I figured this was an apt time to bring this one out of the archives.
 

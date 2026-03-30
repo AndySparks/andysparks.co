@@ -23,7 +23,7 @@ In 2020, I left Holloway to become a coach. Whenever I asked colleagues what my 
 
 Together, my experience as an entrepreneur *and* a coach allows me to both coach and advise. My goal as a coach is to help you become more self-aware and use your agency to contribute to the world in a way that aligns with your values. I believe that if you do that, you have a pretty damn good shot at being a successful entrepreneur.
 
-If this and my answers below leave you feeling interested in working together, you can contact me [here](https://www.andysparks.co/coaching).
+If this and my answers below leave you feeling interested in working together, you can contact me [here](/coaching).
 
 ## Who is your ideal client?
 

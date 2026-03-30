@@ -31,7 +31,7 @@ So I guess my message for today is that you deserve to feel big, and I hope one 
 
 **[Attack on Titan](https://en.wikipedia.org/wiki/Attack_on_Titan)**: I've never really gotten into Anime. To be honest, I held a silly immature view for a long time that it was for "those kids." And then I met Kate, who is more into anime than anyone I've ever met. So, we've been watching a lot of it. And I've been loving it. But Attack on Titan (S1 on Netflix, the rest on Hulu) was absolutely awesome. I mean it was so good. Like, I'm not even going to tell you what it's about or anything else. Just watch it. And know that it's weird, but it's so original and I was completely hooked.
 
-**How my Coaching Works**: I've been meaning to post an FAQ of sorts explaining how my coaching works for a long time, and I finally got around to it this week. If you're curious, you can read about it [here](https://www.andysparks.co/post/how-my-coaching-works).
+**How my Coaching Works**: I've been meaning to post an FAQ of sorts explaining how my coaching works for a long time, and I finally got around to it this week. If you're curious, you can read about it [here](/essays/how-my-coaching-works).
 
 ## How You Can Help
 
