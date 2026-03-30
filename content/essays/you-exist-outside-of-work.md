@@ -5,7 +5,7 @@ description: "There's this perverted idea that taking time to rest is an indulge
 oldPath: "/post/you-exist-outside-of-work"
 ---
 
-> "Weekends don't count unless you spend them doing something completely pointless." -- Bill Watterson
+> "Weekends don't count unless you spend them doing something completely pointless." -- [Bill Watterson](https://twitter.com/calvinn_hobbes/status/1053347230696976384)
 
 There's this perverted idea that taking time to rest is an indulgence, like catching our breath over the weekend is the equivalent of eating a swimming pool of Ben & Jerry's Cherry Garcia. For many of us, our work takes on the personality of a jealous and territorial lover. One day you wake up, hungover from a fight with work the night before, power cords flung around the room, fingers stained with the dregs of coffee we sucked through the filters in the trash, realizing you've missed any depth of life outside your codependent relationship with work. I say all of this as someone who loves their work. Each Friday, I head out to meet my best friend in the world for a few too many beers and talk about... what else? My relationship. Work.
 

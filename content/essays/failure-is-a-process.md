@@ -7,7 +7,7 @@ oldPath: "/post/failure-is-a-process"
 
 > "The longer you live, the more you fail. Failure is the mark of a life well lived."
 >
-> Brandon Sanderson, *Oathbringer*, p. 789
+> Brandon Sanderson, [*Oathbringer*](https://www.amazon.com/Oathbringer-Book-Three-Stormlight-Archive/dp/076532637X), p. 789
 
 A few weeks ago, a Good Work reader asked if I'd write about recovering from failure. At Holloway, we have a policy of keeping Good Work to four paragraphs and a set of links. But I felt like this subject was worth making an exception for. I was grateful to have been given the opportunity to think about this one.
 
@@ -33,7 +33,7 @@ Meanwhile, Mattermark was on its way down. We'd started a business. Despite bein
 
 It was a more spectacular failure than my first business, but this one didn't hit me like the first one did. Partially because I left before we hit the bottom, not jumping ship out of fear but because I saw what this company was doing to me. In many ways, Danielle saved me. But as I clawed my way up from the bottom while the company grew, I regained my agency and ultimately I saw that, in order to get back to the top, I needed to build my own path, not someone else's. So I left. We sold the company, the story was not favorable, and I often wonder if it was my fault for failing to stay to try and right the ship's course.
 
-In the weeks after my last day at Mattermark, even though the thing itself was a failure, I felt like I had finally crawled out of the crater I'd descended into from 22 to 27. But two years later, I was still struggling for confidence. Only now, in the last three months or so, do I feel like I've traveled far beyond my origin of failure, into new territory.
+In the weeks after my last day at Mattermark, even though the thing itself was a failure, I felt like I had finally crawled out of the crater I'd descended into from 22 to 27. But two years later, I was [still struggling](https://www.andysparks.co/post/confidence) for confidence. Only now, in the last three months or so, do I feel like I've traveled far beyond my origin of failure, into new territory.
 
 Recovering from failure took me seven years. And I'm sure there's some shadow lurking around a corner that will make me laugh at that sentence in a few years. Maybe we're always in recovery. If we want to stay vigilant, we should think of it that way.
 

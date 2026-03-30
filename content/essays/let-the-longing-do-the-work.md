@@ -13,7 +13,7 @@ oldPath: "/post/let-the-longing-do-the-work"
 
 Six weeks ago, I wrapped up my last week as CEO of Holloway to pursue a vague new career made up of a mixture of research, writing, and coaching.
 
-I used Rise Sleep to optimize my day for my energy cycles. I made sure not to book meetings before 11am to use my mornings to wake up, meditate, and study. I'd take a meeting or two between 11-12, take my time with lunch in the noon hour, and then a few more meetings before three as my energy dipped. From 3-5, I'd work on a creative project, and I had big plans for creative projects.
+I used [Rise Sleep](https://www.risescience.com/) to optimize my day for my energy cycles. I made sure not to book meetings before 11am to use my mornings to wake up, meditate, and study. I'd take a meeting or two between 11-12, take my time with lunch in the noon hour, and then a few more meetings before three as my energy dipped. From 3-5, I'd work on a creative project, and I had big plans for creative projects.
 
 Thrilled by the excitement of starting a new chapter, I bit off more than I could chew. I realized I was cramming a book, a newsletter, a podcast, coaching, setting up the back office for the business, and learning how to do all of the above in two hours a few days a week.
 

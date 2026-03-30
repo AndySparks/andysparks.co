@@ -3,17 +3,17 @@ title: "If You Want People to Remember, Tell a Story"
 date: "2024-08-27"
 description: "In my work as an executive coach, I too often see leaders get frustrated when their team fails to understand a core value. A good story changes that."
 image: "/images/essays/letter-to-garcia.png"
-imageAlt: "A Message to Garcia"
+imageAlt: "[A Message to Garcia](https://www.andysparks.co/exhibits/a-message-to-garcia)"
 oldPath: "/p/if-you-want-people-to-remember-tell-a-story-message-to-garcia"
 ---
 
 In my work as an executive coach to startup CEOs, founders, and executives, I too often see leaders get frustrated and disappointed when their team fails to understand or embody a core value. But when you're at the top, you have to take responsibility. If your team isn't living the values, it's on you. You need to take a different approach. While docs and slides with values are a great starting point, I've found one way to increase the odds that people will "get" your core values is to attach them to stories. So instead of me _telling_ you why a good story is valuable, let me show you.
 
-## A Message to Garcia
+## [A Message to Garcia](https://en.wikipedia.org/wiki/A_Message_to_Garcia)
 
 The year is 1898. Edison is the time's Elon and "startups" build on electricity instead of internet. The telegraph is only a half century old, the lightbulb freshly twenty, and the telephone barely a teenager. It is the installation phase of the third industrial revolution, the "age of steel, electricity, and heavy engineering."
 
-The day is April the ninth. President William McKinley will declare war in twelve days, marking the start of the Spanish-American War. In Elbert Hubbard's, A Message to Garcia, the President needs to get a message to General Calixto Garcia, the leader of the Cuban rebels. Someone recommends First Lieutenant Andrew Rowan, "[He] will find Garcia for you, if anyone can."
+The day is April the ninth. President William McKinley will declare war in twelve days, marking the start of the Spanish-American War. In [Elbert Hubbard](https://en.wikipedia.org/wiki/Elbert_Hubbard)'s, A Message to Garcia, the President needs to get a message to General Calixto Garcia, the leader of the Cuban rebels. Someone recommends First Lieutenant Andrew Rowan, "[He] will find Garcia for you, if anyone can."
 
 Hubbard paints a heroic portrait of Lt. Rowan. First, and perhaps almost as important as his eventual delivery of the letter, when asked to deliver the letter, Rowan does not ask, "Where is Garcia?" Or any other "idiotic" questions. Instead, the Lieutenant takes the letter and forever the good soldier embarks on his mission. He arrives in Cuba via dinghy, traverses the Cuban jungle, and risks hostile territory full of armed combatants.
 
@@ -45,7 +45,7 @@ After all, the message you're responsible for getting to Garcia is building a te
 
 ![Kate and Andy at their wedding](/images/essays/married-ratatat.png)
 
-Kate and I celebrate as we walk to the head table to the tune of Ratatat's Loud Pipes.
+Kate and I celebrate as we walk to the head table to the tune of Ratatat's [Loud Pipes](https://open.spotify.com/track/3qkFIjYRInFasy2jeDZPgm?si=c22777bb349143e7).
 
 On June 12th, I married my wife, Kate on the island of Crete in Greece. Eighty of our favorite people, family and friends, joined us to celebrate. Kate and I almost went the low-key city-hall route, but decided to go big instead. And we're so glad we did.
 

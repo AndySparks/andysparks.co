@@ -43,6 +43,9 @@ export default async function EssayPage({ params }: Props) {
   return (
     <section className="essay-page">
       <Container>
+        <Link href="/essays" className="essay-back">
+          &larr; Essays
+        </Link>
         <header className="essay-header">
           <h1 className="essay-title">{essay.title}</h1>
           <div className="essay-date">
@@ -70,9 +73,6 @@ export default async function EssayPage({ params }: Props) {
           <MDXRemote source={essay.content} />
         </div>
 
-        <Link href="/essays" className="essay-back">
-          &larr; All essays
-        </Link>
       </Container>
     </section>
   );

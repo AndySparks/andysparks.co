@@ -7,9 +7,9 @@ oldPath: "/post/why-you-should-take-notes-on-everything"
 
 > "...the secret of hunch cultivation is simple: write everything down."
 >
-> -- Steven Johnson, *Where Good Ideas Come From*, p. 83
+> -- Steven Johnson, [*Where Good Ideas Come From*](https://www.amazon.com/Where-Good-Ideas-Come-Innovation/dp/1594485380), p. 83
 
-In *Where Good Ideas Come From*, Steven Johnson writes about what he calls "the slow hunch." Charles Darwin didn't wake up one day with the entire theory of natural selection worked out, for instance. It took him *months* to work out what his findings in the Galapagos meant, but first he had to write them down.
+In [*Where Good Ideas Come From*](https://www.amazon.com/Where-Good-Ideas-Come-Innovation/dp/1594485380), Steven Johnson writes about what he calls "the slow hunch." Charles Darwin didn't wake up one day with the entire theory of natural selection worked out, for instance. It took him *months* to work out what his findings in the Galapagos meant, but first he had to write them down.
 
 The American sociologist [C. Wright Mills](https://en.wikipedia.org/wiki/C._Wright_Mills) wrote an appendix to his 1959 book on society and the self, [*The Sociological Imagination*](https://en.wikipedia.org/wiki/The_Sociological_Imagination), entitled "On Intellectual Craftsmanship" (scanned portion available [here](https://archivingthecity.files.wordpress.com/2011/01/mills_on_intellctual_craftmanship.pdf)). So perfectly does Mills describes the value of keeping a "file" of one's thoughts, ideas, and other intellectual ephemera, that I feel the only justice I can give it is to tell you to just read the damned thing and share two of my favorite highlights:
 

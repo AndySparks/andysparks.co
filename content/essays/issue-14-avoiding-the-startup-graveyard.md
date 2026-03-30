@@ -44,7 +44,7 @@ This decision determines which of three sales models to implement:
 **2. Transactional Sales**
 - Sales completed in 30 minutes to two meetings
 - Straightforward, scriptable processes with minimal training
-- Viable if sales yield exceeds 2 (fully loaded cost per rep divided by revenue generated)
+- Viable if sales yield exceeds 2 ([fully loaded cost per rep](https://www.marketsource.com/blog/real-cost-b2b-salesperson/) divided by revenue generated)
 
 **3. Self-Service**
 - Required when price point becomes too low to support a sales team
@@ -89,7 +89,7 @@ Avoid the graveyard by:
 
 Mark Leslie's complementary framework examining the relationship between sales intensity and marketing intensity, with practical questions for evaluating product-market fit and go-to-market strategy.
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 
 **It's a CEO or Co-Founder Job to Find PMF**
 
@@ -97,7 +97,7 @@ Gokul Rajaram observed that Series B and C companies sometimes hire Chief Produc
 
 ### Audio
 
-**Acquired S12E1: The NFL**
+**[Acquired S12E1: The NFL](https://www.acquired.fm/episodes/the-nfl)**
 
 This episode explores pricing and value capture through the NFL's history. The hosts conclude the NFL may be among the few organizations that captures all, or exceeds, the value it creates.
 
@@ -107,10 +107,10 @@ This episode explores pricing and value capture through the NFL's history. The h
 
 **Don't Call it That**
 
-Eli Altman's workbook guides naming processes for new ventures and products. Altman's firm, A Hundred Monkeys, has created names including Dolby Atmos and Standard Deviant Brewing.
+Eli Altman's workbook guides naming processes for new ventures and products. Altman's firm, [A Hundred Monkeys](https://www.ahundredmonkeys.com/), has created names including Dolby Atmos and Standard Deviant Brewing.
 
 ### Dice Roll
 
-**MacroFactor**
+**[MacroFactor](https://macrofactorapp.com/)**
 
 A health-focused recommendation: This macronutrient tracking app offers intuitive design and helpful feedback for managing dietary goals and overall wellness.

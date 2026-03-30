@@ -42,7 +42,7 @@ Years ago, Keith Rabois shared a principle that stuck with Sparks: **your calend
 - Seth Godin discusses finding your "smallest viable audience" when launching a business
 
 **Books**
-- *On Being Nice* from The School of Life explores balancing kindness with candor, offering: "A fundamental path to remaining calm and kind around people...is distinguishing between what someone does and what they meant to do"
+- [*On Being Nice*](https://www.theschooloflife.com/shop/tsol-press-on-being-nice/) from The School of Life explores balancing kindness with candor, offering: "A fundamental path to remaining calm and kind around people...is distinguishing between what someone does and what they meant to do"
 
 **Research**
 - Ethan Mollick's research shows meetings starting late are less productive and creative

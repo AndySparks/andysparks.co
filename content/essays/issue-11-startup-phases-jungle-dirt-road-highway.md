@@ -15,7 +15,7 @@ Andy Sparks opens by distinguishing between genuine hard work and overwork. He c
 
 ## Three Startup Phases
 
-Based on Jeff Bussgang's framework from *Mastering the VC Game*, Sparks explores three distinct phases of startup maturity:
+Based on Jeff Bussgang's framework from [*Mastering the VC Game*](https://www.amazon.com/Mastering-VC-Game-Venture-Start-up/dp/1591844444), Sparks explores three distinct phases of startup maturity:
 
 ### The Jungle
 - Uncertain direction; no product-market fit yet
@@ -51,9 +51,9 @@ Patrick Collison, Stripe CEO: "people's disposition with regard to the company i
 ## Reads & Resources
 
 ### Articles
-- "The 3 Financial Plans You Need for The Year" - Jason Lemkin discusses C-90, C-60, and C-10 confidence intervals for planning
+- "[The 3 Financial Plans You Need for The Year](https://www.saastr.com/the-3-financial-plans-you-need-for-next-year-c-90-c-60-and-c-10/)" - Jason Lemkin discusses C-90, C-60, and C-10 confidence intervals for planning
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 - Michael Girdley's thread on customer profitability analysis warns against investing heavily in low-revenue customers
 
 ### Audio
@@ -62,7 +62,7 @@ Patrick Collison, Stripe CEO: "people's disposition with regard to the company i
 ### Books
 ![The Tools by Phil Stutz](/images/essays/the-tools-phil-stutz.png)
 
-- *The Tools* by Phil Stutz - addresses self-expression, confidence, and emotional regulation
+- [*The Tools*](https://www.amazon.com/Tools-Courage-Creativity-Willpower-Inspire/dp/0812983041) by Phil Stutz - addresses self-expression, confidence, and emotional regulation
 
 ### Resources
 - Faith Meyer's Job Responsibilities Rubric - practical performance management templates

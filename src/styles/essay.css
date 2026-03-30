@@ -59,23 +59,80 @@
   margin-bottom: var(--space-sm);
 }
 
+/* --- Lists: shared foundation --- */
 .essay-content ul,
 .essay-content ol {
   margin-bottom: var(--space-sm);
-  padding-left: var(--space-md);
+  padding-left: 0;
+  list-style: none;
 }
 
 .essay-content li {
+  position: relative;
+  padding-left: 1.5em;
   margin-bottom: var(--space-xs);
+  line-height: var(--leading-body);
 }
 
-.essay-content blockquote {
-  border-left: 3px solid var(--color-brass);
-  padding-left: var(--space-sm);
-  margin-left: 0;
-  margin-bottom: var(--space-sm);
+.essay-content li > p:first-child {
+  margin-top: 0;
+}
+
+/* --- Unordered: hanging bullet --- */
+.essay-content ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0.25em;
+  top: 0;
+  color: var(--color-olive);
+  font-size: 0.9em;
+  line-height: var(--leading-body);
+}
+
+/* --- Ordered: hanging numbers in mono --- */
+.essay-content ol {
+  counter-reset: essay-ol;
+}
+
+.essay-content ol li {
+  counter-increment: essay-ol;
+}
+
+.essay-content ol li::before {
+  content: counter(essay-ol) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: var(--font-mono);
+  font-size: var(--type-xs);
   color: var(--color-ink-light);
+  line-height: var(--leading-body);
+  letter-spacing: -0.02em;
+}
+
+/* --- Blockquotes: Bringhurst-style pull quotes --- */
+.essay-content blockquote {
+  border-left: 2px solid var(--color-brass);
+  padding-left: var(--space-md);
+  margin-left: 0;
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-md);
+  color: var(--color-ink);
   font-style: italic;
+}
+
+.essay-content blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* Attribution inside blockquote: last <p> without quotes is typically
+   "Title p. xxx" or "— Author, Title" */
+.essay-content blockquote p:last-child:not(:only-child) {
+  font-family: var(--font-mono);
+  font-size: var(--type-xs);
+  font-style: normal;
+  color: var(--color-ink-light);
+  margin-top: var(--space-xs);
 }
 
 .essay-content strong {
@@ -95,9 +152,17 @@
 
 .essay-back {
   display: inline-block;
-  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
   font-family: var(--font-mono);
-  font-size: var(--type-sm);
+  font-size: var(--type-xs);
+  color: var(--color-ink-light);
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: color 0.15s ease;
+}
+
+.essay-back:hover {
+  color: var(--color-forest);
 }
 
 @media (max-width: 640px) {

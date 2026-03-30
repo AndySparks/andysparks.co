@@ -9,7 +9,7 @@ oldPath: "/hoo-boy/issue-6-whats-better-than-bureaucracy"
 
 # We Don't Have a Word for a Great Business Culture
 
-The wonderful citizens of the Internet decided to name The Feynman Technique after [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman), one of my heroes. While endless bloggers all seem to know the technique, it's not clear he ever described it as we now know it. The gist is that if you can't explain something to a child, you don't understand it. The child's age in question ranges from six to a freshman in college.
+The wonderful citizens of the Internet decided to name The Feynman Technique after [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman), one of my heroes. While endless bloggers all seem to know the technique, it's not clear he ever described it as we now know it. The gist is that if you can't explain something to a child, you don't understand it. The child's age in question ranges from six to a [freshman in college](https://www.notion.so/6253f46ff28c45b69b298e50d387d79f).
 
 Wherever it came from, it's a helpful exercise to make sure I'm not on Mount Stupid when I think I'm sun-tanning on the Plateau of Actually-Knowing-What-You're-Talking About (see: [Dunning-Kruger Effect](https://commons.wikimedia.org/wiki/File:Dunning%E2%80%93Kruger_Effect_01.svg)).
 
@@ -75,7 +75,7 @@ Regardless of whether you believe a team can embody 9,9 management, I'm confiden
 
 An old gem from the archives of Marc Andreessen's blog, this is the most concise and helpful piece on how to hire great people I've ever found. Marc splits the article into criteria and process. His criteria? Threefold: drive, curiosity, and ethics. Driven people are self-motivated, curious people who love their field and have informed opinions on the choices you'll need them to make. My favorite quote? "Priests, rabbis, and ministers should give people a second chance on ethics, not hiring managers at startups."
 
-### From Twitter
+### From [Twitter](https://x.com/SparksZilla)
 
 [Jaleh Rezaei on Establishing an Operating Rhythm for Remote](https://twitter.com/jalehr/status/1574738177985695745?s=20&t=2ijQPrekpcGYYrdrrFRcVg)
 
