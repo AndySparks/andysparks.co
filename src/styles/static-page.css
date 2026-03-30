@@ -56,7 +56,7 @@
 }
 
 .about-body {
-  max-width: 640px;
+  max-width: var(--width-content);
 }
 
 .about-intro {

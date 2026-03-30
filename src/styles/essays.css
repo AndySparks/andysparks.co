@@ -16,8 +16,14 @@
   margin-bottom: var(--space-lg);
 }
 
-.essay-featured:hover .essay-featured-title {
-  color: var(--color-forest);
+@media (hover: hover) and (pointer: fine) {
+  .essay-featured:hover .essay-featured-title {
+    color: var(--color-forest);
+  }
+
+  .essay-featured:hover .essay-featured-image img {
+    transform: scale(1.02);
+  }
 }
 
 .essay-featured-image {
@@ -30,6 +36,7 @@
 
 .essay-featured-image img {
   object-fit: cover;
+  transition: transform var(--duration-motion) var(--ease-out);
 }
 
 .essay-featured-date {
@@ -45,7 +52,7 @@
   line-height: var(--leading-snug);
   color: var(--color-evergreen);
   margin-bottom: var(--space-xs);
-  transition: color 0.15s ease;
+  transition: color var(--duration-fast) var(--ease-default);
 }
 
 .essay-featured-description {
@@ -73,8 +80,14 @@
   display: block;
 }
 
-.essay-card-link:hover .essay-card-title {
-  color: var(--color-forest);
+@media (hover: hover) and (pointer: fine) {
+  .essay-card-link:hover .essay-card-title {
+    color: var(--color-forest);
+  }
+
+  .essay-card-link:hover .essay-card-image img {
+    transform: scale(1.02);
+  }
 }
 
 .essay-card-image {
@@ -87,6 +100,7 @@
 
 .essay-card-image img {
   object-fit: cover;
+  transition: transform var(--duration-motion) var(--ease-out);
 }
 
 .essay-card-body {
@@ -106,7 +120,7 @@
   line-height: var(--leading-snug);
   color: var(--color-evergreen);
   margin-bottom: var(--space-xs);
-  transition: color 0.15s ease;
+  transition: color var(--duration-fast) var(--ease-default);
 }
 
 .essay-card-description {

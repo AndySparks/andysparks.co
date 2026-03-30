@@ -88,7 +88,7 @@ export default function ContactPage() {
         src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
         onReady={renderTurnstile}
       />
-      <Container>
+      <Container wide>
         <h1>Contact</h1>
         <div className="static-page-content contact-body">
           <p>

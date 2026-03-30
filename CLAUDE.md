@@ -19,12 +19,14 @@ Personal website for Andy Sparks. Built with Next.js, deployed on Vercel.
 
 ## Design Rules
 
-1. All values reference design tokens (CSS variables in globals.css). No magic numbers.
-2. Base 8 spacing exclusively (8, 16, 32, 48, 64, 96, 128px).
-3. Content width: 640px for prose, 940px for wide elements.
-4. Fraunces for all text. IBM Plex Mono for meta, dates, code, labels.
-5. Color palette: earth tones (greens, golds, oranges) on parchment. Never cold or sterile.
-6. Warmth is non-negotiable. The site should feel handmade and alive.
+1. **Spacing tokens: base 8.** Margins, padding, gaps use `--space-*` tokens (8, 16, 32, 48, 64, 96, 128px). These create the macro rhythm of the page.
+2. **Type scale: ratio-based, use what reads right.** The scale (13, 14, 20, 22, 26, 32, 42px) follows typographic logic, not the spacing grid. Don't force type sizes onto base 8.
+3. **Detail values: use what looks right.** Border-radius (4px), border-width (1px, 2px), input padding (10px, 12px), icon sizing — these serve the element, not the grid.
+4. Content width: 640px for prose, 940px for wide elements.
+5. Fraunces for all text. IBM Plex Mono for meta, dates, code, labels, form inputs.
+6. Color palette: earth tones (greens, golds, oranges) on parchment. Never cold or sterile.
+7. Warmth is non-negotiable. The site should feel handmade and alive.
+8. Full design system reference: `.interface-design/system.md`.
 
 ## Setup
 

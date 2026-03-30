@@ -158,11 +158,13 @@
   color: var(--color-ink-light);
   text-decoration: none;
   letter-spacing: 0.01em;
-  transition: color 0.15s ease;
+  transition: color var(--duration-fast) var(--ease-default);
 }
 
-.essay-back:hover {
-  color: var(--color-forest);
+@media (hover: hover) and (pointer: fine) {
+  .essay-back:hover {
+    color: var(--color-forest);
+  }
 }
 
 @media (max-width: 640px) {
