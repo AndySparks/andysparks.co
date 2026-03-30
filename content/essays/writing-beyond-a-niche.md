@@ -5,6 +5,7 @@ description: "Season One of Hoo Boy was the Season of the Hedgehog. Season Two w
 image: "/images/essays/fox-at-desk.png"
 imageAlt: "A fox at a desk"
 oldPath: "/p/writing-beyond-a-niche"
+tags: ["career"]
 ---
 
 Season One of Hoo Boy was the Season of the Hedgehog. Season Two, I'm excited to announce, will be the Season of the Fox.

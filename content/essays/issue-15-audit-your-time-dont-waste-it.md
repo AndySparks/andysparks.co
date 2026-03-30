@@ -5,6 +5,7 @@ description: "Dee Hock believed great managers should allocate 50% of time manag
 image: "/images/essays/time-audit-small.png"
 imageAlt: "Time audit"
 oldPath: "/hoo-boy/issue-15-audit-your-time-dont-waste-it"
+tags: ["founder-leadership"]
 ---
 
 # Conducting a Time Audit

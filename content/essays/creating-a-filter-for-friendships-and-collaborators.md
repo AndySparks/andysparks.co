@@ -3,6 +3,7 @@ title: "Creating a Filter for Friendships and Collaborators"
 date: "2019-03-30"
 description: "A few weeks back, a friend of mine asked me a question over text. 'Now that you are where you are in your career, fairly established, how do you"
 oldPath: "/post/creating-a-filter-for-friendships-and-collaborators"
+tags: ["career"]
 ---
 
 > "I feel and think much as you do, care about many of the things you care about, although most people don't care about them. You are not alone."

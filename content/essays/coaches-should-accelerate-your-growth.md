@@ -1,8 +1,9 @@
 ---
-title: "Coaches Should Accelerate Your [Growth](https://fs.blog/2015/03/carol-dweck-mindset/)"
+title: "Coaches Should Accelerate Your Growth"
 date: "2019-03-24"
-description: "[Tyler Lyman](https://twitter.com/tblyman), a new Good Work subscriber, wrote us on Monday asking if we had plans any time soon to explore the relationship between startup founder"
+description: "How coaches help founders develop a growth mindset and accelerate personal development through deliberate practice and feedback."
 oldPath: "/post/coaches-should-accelerate-your-growth"
+tags: ["coaching"]
 ---
 
 Tyler Lyman, a new Good Work subscriber, wrote us on Monday asking if we had plans any time soon to explore the relationship between startup founder and executive coach. I hadn't decided what to write about for this week's Good Work yet and thought tackling the subject would be a breeze--my co-founder, Josh, and I happened to be headed in to see our coach the next day.

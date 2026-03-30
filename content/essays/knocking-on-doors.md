@@ -3,6 +3,7 @@ title: "Knocking on Doors"
 date: "2019-12-15"
 description: "Over the last year, I've spent a lot of time thinking about how we get the word out about Holloway. I've read more than I ever thought I would about marketing."
 oldPath: "/post/knocking-on-doors"
+tags: ["startup-strategy"]
 ---
 
 > "The best journeys answer questions that, in the beginning, you didn't even think to ask."

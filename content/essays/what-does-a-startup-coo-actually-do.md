@@ -3,6 +3,7 @@ title: "What Does a Startup COO Actually Do?"
 date: "2015-07-15"
 description: "I believe the job of a founding COO is to do the most important things the company hasn't hired for yet, hire or delegate to someone in your place, and move on."
 oldPath: "/post/what-does-a-startup-coo-actually-do"
+tags: ["startup-strategy","management"]
 ---
 
 Titles shouldn't matter, but unfortunately everyone has to have one -- including me. Today, I am the COO at [Mattermark](https://medium.com/u/40233f4ee393?source=post_page-----bbeb0f8648ee----------------------). The only consensus on what a COO does is that there is no consensus, especially at startups (see articles at the bottom). The role varies from company to company, some don't have the role, and the jury is out on whether startups need one.

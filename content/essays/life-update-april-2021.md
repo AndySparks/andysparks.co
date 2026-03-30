@@ -5,6 +5,7 @@ description: "Last week, we announced that paperback and hardcover copies of my 
 image: "/images/essays/life-update-april-2021.jpeg"
 imageAlt: "Life update April 2021"
 oldPath: "/post/life-update-april-2021"
+tags: ["career"]
 ---
 
 > "The muse may have more than one job for us over our lifetime."

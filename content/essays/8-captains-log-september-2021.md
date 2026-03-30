@@ -5,6 +5,7 @@ description: "A lot has happened since I sent Edition 7 of letters in April. Mos
 image: "/images/essays/captains-log-sep-2021.jpeg"
 imageAlt: "Captain's Log September 2021"
 oldPath: "/post/8-captains-log-september-2021"
+tags: ["career"]
 ---
 
 > "Sometimes it takes darkness and the sweet confinement of your aloneness to learn anything or anyone that does not bring you alive is too small for you." -- From "Sweet Darkness," in Essentials by David Whyte (2020)

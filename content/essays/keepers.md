@@ -3,6 +3,7 @@ title: "Keepers"
 date: "2019-11-24"
 description: "Work, as we often think about it, is a place to get things done, to put food on the table, to make that bread. But for me, work has also been the place I've met my closest friends."
 oldPath: "/post/keepers"
+tags: ["career"]
 ---
 
 > "Rockefeller loved Flagler's dictum that a friendship founded on business was superior to a business founded on friendship, and for several decades they worked together in an almost seamless fashion."

@@ -3,6 +3,7 @@ title: "Procrastination is a Useful Signal"
 date: "2019-10-20"
 description: "Yoda said, 'Do or do not,' but do I did not. This week's Good Work is one week late and about procrastination."
 oldPath: "/post/procrastination-is-a-useful-signal"
+tags: ["founder-leadership"]
 ---
 
 > "And indeed, that IS the question: whether to float with the tide, or to swim for a goal. It is a choice we must all make consciously or unconsciously at one time in our lives. So few people understand this!"

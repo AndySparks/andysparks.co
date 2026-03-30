@@ -3,6 +3,7 @@ title: "Books: The Perfect Career Companions"
 date: "2019-06-08"
 description: "When I was nineteen, a friend and I started brewing beer. I headed to Barnes & Noble and asked the gentleman at the counter if there were any books"
 oldPath: "/post/books-are-the-perfect-career-companions"
+tags: ["career"]
 ---
 
 > "Reading is the work of the alert mind, is demanding, and under ideal conditions produces finally a sort of ecstasy." -- E.B. White

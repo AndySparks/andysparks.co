@@ -3,6 +3,7 @@ title: "It's Your Ship to Steer"
 date: "2019-05-04"
 description: "There's this Jim Beam commercial I love. It's called Bold Choices. It's the best commercial I've ever seen."
 oldPath: "/post/its-your-ship-to-steer"
+tags: ["career"]
 ---
 
 > "Journey before destination. There are always several ways to achieve a goal. Failure is preferable to winning through unjust means."

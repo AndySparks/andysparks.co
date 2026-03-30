@@ -5,6 +5,7 @@ description: "The Sales Learning Curve from Mark Leslie and Charles Holloway's 2
 image: "/images/essays/hoo-boy-13.png"
 imageAlt: "Hoo Boy Issue 13"
 oldPath: "/hoo-boy/issue-13-the-entirely-avoidable-super-duper-expensive-sales-mistake"
+tags: ["startup-strategy"]
 ---
 
 # Why Every Startup Hires the Wrong Sales Leader First

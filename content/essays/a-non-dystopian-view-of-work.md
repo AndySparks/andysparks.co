@@ -1,7 +1,8 @@
 ---
 title: "A Non-Dystopian View of Work"
 date: "2019-03-02"
-description: "Last week, we wrote about the [importance of looking within](https://www.holloway.com/s/good-work-edition-004) to answer the question, 'What are you optimizing for?' In a delightful turn"
+description: "A hopeful vision for the future of work that centers meaning, purpose, and human connection over productivity and optimization."
+tags: ["career"]
 oldPath: "/post/a-non-dystopian-view-of-work"
 ---
 

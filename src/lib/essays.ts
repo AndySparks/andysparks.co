@@ -12,6 +12,7 @@ export type Essay = {
   oldPath?: string;
   image?: string;
   imageAlt?: string;
+  tags?: string[];
   content: string;
 };
 
@@ -35,6 +36,7 @@ export function getAllEssays(): EssayMeta[] {
         oldPath: data.oldPath,
         image: data.image,
         imageAlt: data.imageAlt,
+        tags: data.tags,
       };
     });
 
@@ -58,6 +60,7 @@ export function getEssayBySlug(slug: string): Essay | null {
     oldPath: data.oldPath,
     image: data.image,
     imageAlt: data.imageAlt,
+    tags: data.tags,
     content,
   };
 }
@@ -67,6 +70,22 @@ export function getAllEssaySlugs(): string[] {
   return fileNames
     .filter((name) => name.endsWith(".md"))
     .map((name) => name.replace(/\.md$/, ""));
+}
+
+export function getRelatedEssays(slug: string, limit = 3): EssayMeta[] {
+  const all = getAllEssays();
+  const current = all.find((e) => e.slug === slug);
+  if (!current?.tags?.length) return all.filter((e) => e.slug !== slug).slice(0, limit);
+
+  const scored = all
+    .filter((e) => e.slug !== slug)
+    .map((e) => {
+      const shared = (e.tags || []).filter((t) => current.tags!.includes(t)).length;
+      return { essay: e, score: shared };
+    })
+    .sort((a, b) => b.score - a.score || new Date(b.essay.date).getTime() - new Date(a.essay.date).getTime());
+
+  return scored.slice(0, limit).map((s) => s.essay);
 }
 
 export function getRedirectMap(): Record<string, string> {

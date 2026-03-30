@@ -5,6 +5,7 @@ description: "Your inner jerk telling you what you should have done. Should is a
 image: "/images/essays/hoo-boy-12.png"
 imageAlt: "Hoo Boy Issue 12"
 oldPath: "/hoo-boy/issue-12-the-should-factory"
+tags: ["founder-leadership"]
 ---
 
 # The Should Factory

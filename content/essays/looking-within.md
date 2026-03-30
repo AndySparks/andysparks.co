@@ -3,6 +3,7 @@ title: "Looking Within"
 date: "2019-02-24"
 description: "Answers to what we're optimizing for can be troublesome. They're often not even the real answers."
 oldPath: "/post/looking-within"
+tags: ["founder-leadership"]
 ---
 
 > "True self-awareness remains in short supply. When I mentor on career, the first question I ask is what are you optimizing for?"

@@ -3,6 +3,7 @@ title: "Renovate Your Inner Self Through Journaling"
 date: "2019-03-09"
 description: "Journaling is my favorite tool for self-discovery. Journaling has helped me realize I need to get out of a toxic relationship and recognize the negative impact"
 oldPath: "/post/renovate-your-inner-self-through-journaling"
+tags: ["founder-leadership"]
 ---
 
 > "Become who you are by learning who you are." -- Pindar

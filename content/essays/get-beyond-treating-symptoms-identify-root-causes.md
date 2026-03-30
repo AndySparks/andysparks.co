@@ -5,6 +5,7 @@ description: "As an executive coach, I help people get unstuck. After three year
 image: "/images/essays/root-cause-analysis.png"
 imageAlt: "Root cause analysis"
 oldPath: "/p/get-beyond-treating-symptoms-identify-root-causes"
+tags: ["coaching"]
 ---
 
 As an executive coach, I help people get _unstuck_. And after three years and 1,400+ hours with clients, I wanted to take a minute to share a bit about how I do that. With this post, I hope to equip some people to solve their problems. On top of that, I'm also hoping to provide a way of thinking that will help you work more effectively with any caregiver (e.g., couples therapists, physical therapists, executive coaches, etc.).

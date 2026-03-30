@@ -5,6 +5,7 @@ description: "Exceptional managers cultivate relationships with talented profess
 image: "/images/essays/bench-building.png"
 imageAlt: "Building a bench for hiring"
 oldPath: "/hoo-boy/issue-8-want-to-hire-great-people-learn-to-build-a-bench"
+tags: ["management"]
 ---
 
 # If Someone Quits, Who Will Replace Them?

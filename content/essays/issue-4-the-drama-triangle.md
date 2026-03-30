@@ -5,6 +5,7 @@ description: "Andy Sparks explores the Drama Triangle, a psychological framework
 image: "/images/essays/drama-triangle.png"
 imageAlt: "The Drama Triangle diagram"
 oldPath: "/hoo-boy/issue-4-the-drama-triangle"
+tags: ["management"]
 ---
 
 # A Model for Cutting Down on Gossip and Drama at Work

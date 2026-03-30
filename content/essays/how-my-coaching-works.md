@@ -5,6 +5,7 @@ description: "The field of coaching has a ton of variability. So when I meet som
 image: "/images/essays/coaching-screenshot.png"
 imageAlt: "How my coaching works"
 oldPath: "/post/how-my-coaching-works"
+tags: ["coaching"]
 ---
 
 > "Life seemed to be an educator's practical joke in which you spend the first half learning and the second half learning that everything you learned in the first half was wrong."

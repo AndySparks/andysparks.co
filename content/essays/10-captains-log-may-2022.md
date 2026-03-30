@@ -5,6 +5,7 @@ description: "My last letter was in October of 2021. Since then, I've written an
 image: "/images/essays/captains-log-may-2022.png"
 imageAlt: "Captain's Log May 2022"
 oldPath: "/post/10-captains-log-may-2022"
+tags: ["career"]
 ---
 
 My last letter was in October of 2021. Since then, I've written and re-written this letter at least three times. Maybe I should just send the damn thing when I do that. But I don't want this newsletter to be a content factory. With all the weekly, daily, and monthly newsletters, I like that this is a place I can push send "when it feels right."

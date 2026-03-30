@@ -5,6 +5,7 @@ description: "Andy Sparks announces the launch of Hoo Boy, a new newsletter focu
 image: "/images/essays/cycle-of-renewal.png"
 imageAlt: "The Cycle of Renewal diagram"
 oldPath: "/hoo-boy/issue-1-cycle-of-renewal"
+tags: ["coaching"]
 ---
 
 # On New Chapters (and My New Chapter)

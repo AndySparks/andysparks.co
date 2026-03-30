@@ -5,6 +5,7 @@ description: "Six weeks ago, I wrapped up my last week as CEO of Holloway to pur
 image: "/images/essays/dolores-in-the-morn.jpg"
 imageAlt: "Morning at Dolores Park"
 oldPath: "/post/let-the-longing-do-the-work"
+tags: ["career"]
 ---
 
 > "Let the longing do the work"

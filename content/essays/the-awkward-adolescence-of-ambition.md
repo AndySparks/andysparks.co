@@ -5,6 +5,7 @@ description: "Ambition is not willpower, hunger, or hustle. It is awareness, a n
 image: "/images/essays/awkwardness-of-adolescence.png"
 imageAlt: "The Awkward Adolescence of Ambition"
 oldPath: "/p/the-awkward-adolescence-of-ambition"
+tags: ["coaching","career"]
 ---
 
 _Ambition is not willpower, hunger, or hustle. It is awareness, a noticing of something inside us longing to be heard and expressed, and a devotion to shaping it into something the world might, one day, be better off for having._

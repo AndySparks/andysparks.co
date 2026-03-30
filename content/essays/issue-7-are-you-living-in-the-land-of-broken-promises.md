@@ -5,6 +5,7 @@ description: "Managers often operate in what the author calls the land of broken
 image: "/images/essays/broken-promises.png"
 imageAlt: "The land of broken promises"
 oldPath: "/hoo-boy/issue-7-are-you-living-in-the-land-of-broken-promises"
+tags: ["management"]
 ---
 
 # The False Cultural Promises of a CEO

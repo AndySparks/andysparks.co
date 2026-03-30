@@ -7,6 +7,9 @@ export const metadata = {
   title: "Media",
   description:
     "Podcast appearances, interviews, and media features with Andy Sparks.",
+  alternates: {
+    canonical: "/media",
+  },
 };
 
 const appearances = [

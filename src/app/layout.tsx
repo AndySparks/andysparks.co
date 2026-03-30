@@ -19,12 +19,15 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Andy Sparks",
+    default: "Andy Sparks — Executive Coach for Startup Founders & CEOs",
     template: "%s / Andy Sparks",
   },
   description:
-    "Executive coach to startup founders and CEOs. Writing about craft, psychology, and human flourishing.",
+    "Andy Sparks is an executive coach for startup founders and CEOs. Previously co-founded Mattermark and Holloway. Writing about leadership, craft, and human flourishing.",
   metadataBase: new URL("https://andysparks.co"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

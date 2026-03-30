@@ -5,6 +5,7 @@ description: "Are exceptional people rare flukes we're lucky to stumble across, 
 image: "/images/essays/exceptional-people.png"
 imageAlt: "Exceptional people"
 oldPath: "/p/more-exceptional-people-please"
+tags: ["career"]
 ---
 
 Every day I'm grateful for the opportunity to work with, to coach, advise, teach, exceptional people. They are ambitious, bright, hard-working, creative, inspiring, and they love to learn. So here's a question that's chased me like Tom on Jerry: are exceptional people rare flukes we're lucky to stumble across, or are there a lot more of 'em out there, just waiting for a bit of sun? And boy, wouldn't that be something? So indulge me: exceptional people are wonderful, and we'll be better off with more of them.

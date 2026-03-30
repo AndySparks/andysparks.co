@@ -1,5 +1,6 @@
 ---
-title: "Captain's Log: December [2020](https://github.com/AndySparks/captains-log/blob/master/commonplace/2020.md)"
+title: "Captain's Log: December 2020"
+tags: ["career"]
 date: "2020-12-28"
 description: "Each of us needs our own village of people, and 2020 has made that particularly hard. Even before COVID, I would often cite a quote from Kurt Vonnegut."
 image: "/images/essays/letters-6-header.png"

@@ -5,9 +5,12 @@ import Image from "next/image";
 import "../../styles/static-page.css";
 
 export const metadata = {
-  title: "About",
+  title: "About Andy Sparks — Executive Coach, Writer & Former Startup CEO",
   description:
-    "Executive coach to startup founders and CEOs. Previously co-founded Mattermark, Holloway, and LaunchGram.",
+    "Andy Sparks is an executive coach for startup founders and CEOs. Previously co-founded Mattermark and Holloway. Harvard Business School case study subject.",
+  alternates: {
+    canonical: "/about",
+  },
 };
 
 export default function AboutPage() {

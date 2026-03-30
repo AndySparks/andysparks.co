@@ -3,6 +3,7 @@ title: "Putting People in Play"
 date: "2019-06-01"
 description: "Julian Weisser introduced me to a phrase I fell in love with this week: 'putting people in play.'"
 oldPath: "/post/putting-people-in-play"
+tags: ["startup-strategy"]
 ---
 
 > "For small creatures such as we the vastness is bearable only through love."
