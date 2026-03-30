@@ -1,4 +1,5 @@
 import { Container } from "@/components/Container";
+import { Testimonials } from "@/components/Testimonials";
 import { getPageContent } from "@/lib/pages";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import "../../styles/static-page.css";
@@ -20,6 +21,7 @@ export default function CoachingPage() {
         <div className="static-page-content about-body">
           <MDXRemote source={page.content} />
         </div>
+        <Testimonials />
       </Container>
     </section>
   );
