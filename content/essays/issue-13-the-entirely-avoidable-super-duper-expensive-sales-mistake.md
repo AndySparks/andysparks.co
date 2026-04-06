@@ -69,7 +69,7 @@ Founders frequently hire execution-phase reps for initiation-phase roles, partic
 ### Articles
 **"[Merciful Exits (On Under-Performing Executives)](https://www.edbatista.com/2021/03/merciful-exits-on-under-performing-executives.html)"** by Ed Batista explores the decision-making process for removing underperforming executives, clarifying what founders owe departing leaders versus what they don't.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 Martin Casado emphasizes founder-led selling as foundational; a cautionary note warns against situations where only founders can successfully sell the product, creating non-scalable revenue.
 
 ### Audio

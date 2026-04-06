@@ -30,13 +30,34 @@ function buildRedirects() {
 
   // Static redirects
   redirects.push({
-    source: "/newsletter",
+    source: "/hoo-boy",
     destination: "/essays",
     permanent: true,
   });
 
   redirects.push({
-    source: "/hoo-boy",
+    source: "/blog",
+    destination: "/essays",
+    permanent: true,
+  });
+
+  // Old Tumblr numeric-ID URLs that match existing essays
+  redirects.push({
+    source: "/post/119618212704/failure-depression-and-yoda",
+    destination: "/essays/failure-depression-and-yoda",
+    permanent: true,
+  });
+
+  // Catch-all for remaining old Tumblr numeric-ID URLs with no matching essay
+  redirects.push({
+    source: "/post/:id(\\d+)/:slug",
+    destination: "/essays",
+    permanent: true,
+  });
+
+  // Case-insensitive root-level old paths
+  redirects.push({
+    source: "/Losing-a-Battle-and-Focusing-on-Winning-the-War",
     destination: "/essays",
     permanent: true,
   });

@@ -90,7 +90,7 @@ Avoid the graveyard by:
 
 Mark Leslie's complementary framework examining the relationship between sales intensity and marketing intensity, with practical questions for evaluating product-market fit and go-to-market strategy.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **It's a CEO or Co-Founder Job to Find PMF**
 

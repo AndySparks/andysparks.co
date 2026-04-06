@@ -1,0 +1,73 @@
+.newsletter-body {
+  max-width: var(--width-content);
+}
+
+.newsletter-form {
+  display: flex;
+  gap: var(--space-xs);
+  max-width: 420px;
+  margin-top: var(--space-md);
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: var(--space-xs) 12px;
+  font-family: var(--font-mono);
+  font-size: var(--type-sm);
+  background: var(--color-warm-paper);
+  border: 1px solid var(--color-divider);
+  border-radius: 4px;
+  color: var(--color-ink);
+  transition: border-color var(--duration-fast) var(--ease-default);
+}
+
+.newsletter-input::placeholder {
+  color: var(--color-muted);
+}
+
+.newsletter-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.newsletter-button {
+  padding: var(--space-xs) var(--space-sm);
+  font-family: var(--font-mono);
+  font-size: var(--type-sm);
+  font-weight: 600;
+  background: var(--color-forest);
+  color: var(--color-parchment);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background var(--duration-fast) var(--ease-default),
+              transform var(--duration-press) var(--ease-out);
+}
+
+.newsletter-button:active {
+  transform: scale(var(--scale-press));
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .newsletter-button:hover {
+    background: var(--color-evergreen);
+  }
+}
+
+.newsletter-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.newsletter-success {
+  margin-top: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: var(--type-sm);
+  color: var(--color-forest);
+}
+
+.newsletter-error {
+  font-size: var(--type-sm);
+  color: var(--color-ember);
+  margin-top: var(--space-xs);
+}

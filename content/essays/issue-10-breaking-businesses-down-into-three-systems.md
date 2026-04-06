@@ -62,7 +62,7 @@ In [a 2017 piece](https://feld.com/archives/2017/01/the-three-machines/), Brad F
 
 Irritation, frustration, anger, anxiety, and fear are universal experiences. This piece explores _Shenpa_, a Tibetan concept describing the mental state triggered by unpleasant feelings that tempts us toward amplifying actions, like scratching a mosquito bite applied to life. The article provides practical tools for avoiding such patterns.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **[Regina Gerbeaux on Engineering Structures That Help Startups Move Insanely Fast](https://twitter.com/_rpgbx/status/1594750681675870208?s=20&t=s6f0CcdtNYt9JdzHPxAC-w)**
 

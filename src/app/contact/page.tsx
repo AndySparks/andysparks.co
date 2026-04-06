@@ -102,11 +102,11 @@ export default function ContactPage() {
             You can also find me on Twitter:
             <br />
             <a
-              href="https://x.com/SparksZilla"
+              href="https://x.com/andysparks"
               target="_blank"
               rel="noopener noreferrer"
             >
-              @SparksZilla
+              @andysparks
             </a>
           </p>
 

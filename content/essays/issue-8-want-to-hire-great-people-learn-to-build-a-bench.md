@@ -52,7 +52,7 @@ Planning and anticipation constitute core managerial responsibilities. Managers 
 
 **Elad Gil's "[Hiring Executives](https://growth.eladgil.com/book/chapter-4-building-the-executive-team/hiring-executives/)"** from [*The High Growth Handbook*](https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100) recommends defining roles before identifying candidates, essentially advocating bench-building methodology.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **[Simon Sinek](https://twitter.com/simonsinek) on Experience Premium:** Sinek explains why experienced hires command higher compensation: "I pay them more for a skillset I hope we never have to use."
 

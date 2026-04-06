@@ -15,7 +15,7 @@ const FOOTER_LINKS = [
 ];
 
 const SOCIAL_LINKS = [
-  { href: "https://x.com/SparksZilla", label: "X" },
+  { href: "https://x.com/andysparks", label: "X" },
   { href: "https://www.linkedin.com/in/andyjsparks/", label: "LinkedIn" },
   {
     href: "https://www.goodreads.com/author/show/20464942.Andy_Sparks",

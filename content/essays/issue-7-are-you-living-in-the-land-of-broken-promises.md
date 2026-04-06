@@ -66,7 +66,7 @@ Startups particularly struggle with this gap, promising fast-paced, people-frien
 
 This piece addresses internal criticism that blocks writing productivity by distinguishing roles in the creative process.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **[What do 500 people in tech want to see from their employer?](https://twitter.com/briannekimmel/status/1580303623073910785?s=20&t=eDe3-CGY6c4--hVVmXF2mQ)**
 

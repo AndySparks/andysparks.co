@@ -54,7 +54,7 @@ Patrick Collison, Stripe CEO: "people's disposition with regard to the company i
 ### Articles
 - "[The 3 Financial Plans You Need for The Year](https://www.saastr.com/the-3-financial-plans-you-need-for-next-year-c-90-c-60-and-c-10/)" - Jason Lemkin discusses C-90, C-60, and C-10 confidence intervals for planning
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 - Michael Girdley's thread on customer profitability analysis warns against investing heavily in low-revenue customers
 
 ### Audio

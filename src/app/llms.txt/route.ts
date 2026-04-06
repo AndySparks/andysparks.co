@@ -27,7 +27,7 @@ Sessions happen over Zoom or phone, usually every two weeks, and cover whatever 
 - Media: https://andysparks.co/media
 - Management Craft: https://managementcraft.co
 - LinkedIn: https://www.linkedin.com/in/andyjsparks/
-- X/Twitter: https://x.com/SparksZilla
+- X/Twitter: https://x.com/andysparks
 - Full content: https://andysparks.co/llms-full.txt
 `;
 

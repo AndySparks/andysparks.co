@@ -74,7 +74,7 @@ A CEO using her time even 10% more effectively can cascade that efficiency throu
 
 Andreas Klinger applies David Allen's "Getting Things Done" methodology to email management, offering practical systems for processing inbox overload.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **The Best of Lenny's Newsletter in 2022**
 

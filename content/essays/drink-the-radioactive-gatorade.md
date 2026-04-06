@@ -8,7 +8,7 @@ oldPath: "/p/drink-the-radioactive-gatorade"
 tags: ["founder-leadership"]
 ---
 
-I posted something on [Twitter](https://x.com/SparksZilla) last week:
+I posted something on [Twitter](https://x.com/andysparks) last week:
 
 "My best description of the current moment is that a small subset of the population just realized they can drink radioactive Gatorade and get superpowers, and everybody else is pretending it's 2019."
 
