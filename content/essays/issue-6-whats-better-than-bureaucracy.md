@@ -76,7 +76,7 @@ Regardless of whether you believe a team can embody 9,9 management, I'm confiden
 
 An old gem from the archives of Marc Andreessen's blog, this is the most concise and helpful piece on how to hire great people I've ever found. Marc splits the article into criteria and process. His criteria? Threefold: drive, curiosity, and ethics. Driven people are self-motivated, curious people who love their field and have informed opinions on the choices you'll need them to make. My favorite quote? "Priests, rabbis, and ministers should give people a second chance on ethics, not hiring managers at startups."
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 [Jaleh Rezaei on Establishing an Operating Rhythm for Remote](https://twitter.com/jalehr/status/1574738177985695745?s=20&t=2ijQPrekpcGYYrdrrFRcVg)
 

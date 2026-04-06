@@ -291,7 +291,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@SparksZilla",
+    site: "@andysparks",
   },
 };
 
@@ -647,7 +647,7 @@ const FOOTER_LINKS = [
 ];
 
 const SOCIAL_LINKS = [
-  { href: "https://x.com/SparksZilla", label: "X" },
+  { href: "https://x.com/andysparks", label: "X" },
   { href: "https://www.linkedin.com/in/andyjsparks/", label: "LinkedIn" },
   { href: "https://www.goodreads.com/author/show/19221938.Andy_Sparks", label: "GoodReads" },
 ];

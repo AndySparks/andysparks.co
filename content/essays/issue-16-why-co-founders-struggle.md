@@ -117,7 +117,7 @@ Hoo boy, indeed.
 
 If you plan on fundraising in the next 12 months, you need to read this piece by [Elad Gil](https://twitter.com/eladgil). The piece is a good overview of "how we got to now" regarding the recent public market tech stock price collapses and the current private market fundraising environment. Elad also argues that "No matter, the valuation reset coming for private tech is so stark (50X to 100X ARR in 2021 to 10X) that a recession or drop in spend will only matter on the margin." Given this bleak picture, he offers practical advice that, while it may feel like an icy splash of water, founders are likely getting used to that.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **[Dr. Emily Anhalt on Relationships](https://twitter.com/dremilyanhalt/status/1595085337864597505?s=20)**
 

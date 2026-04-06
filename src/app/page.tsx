@@ -20,7 +20,7 @@ const personSchema = {
   description:
     "Executive coach to startup founders and CEOs. Previously co-founded Mattermark and Holloway.",
   sameAs: [
-    "https://x.com/SparksZilla",
+    "https://x.com/andysparks",
     "https://www.linkedin.com/in/andyjsparks/",
     "https://www.goodreads.com/author/show/20464942.Andy_Sparks",
   ],

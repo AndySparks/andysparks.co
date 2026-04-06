@@ -40,7 +40,7 @@ If the only thing you take away from this week's issue is to pay more attention 
 
 Tip no. 3 in this piece by James Clear, author of *Atomic Habits*, is "Reduce scope, stick to the schedule." And that's exactly what I did this week. I spent hours writing two different essays than the one you read above. I wanted to throw in the towel, spend next week honing the essays I drafted, and play the UNO "skip card," but instead, I reduced this week's scope, and stuck to the schedule, thereby making sure to keep the habit.
 
-### From [Twitter](https://x.com/SparksZilla)
+### From [Twitter](https://x.com/andysparks)
 
 **[Measuring an Engineering Organization](https://twitter.com/Lethain/status/1609924238886203397?s=20&t=UmsyatjtCF8DSJVZxwdmNQ)**
 

@@ -64,7 +64,7 @@ export function GET() {
 - Contact: https://andysparks.co/contact
 - Management Craft: https://managementcraft.co
 - LinkedIn: https://www.linkedin.com/in/andyjsparks/
-- X/Twitter: https://x.com/SparksZilla`);
+- X/Twitter: https://x.com/andysparks`);
 
   const body = sections.join("\n\n");
 
