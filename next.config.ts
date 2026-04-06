@@ -30,12 +30,6 @@ function buildRedirects() {
 
   // Static redirects
   redirects.push({
-    source: "/newsletter",
-    destination: "/essays",
-    permanent: true,
-  });
-
-  redirects.push({
     source: "/hoo-boy",
     destination: "/essays",
     permanent: true,
