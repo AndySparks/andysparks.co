@@ -4,6 +4,12 @@
 
 Personal website for Andy Sparks. Built with Next.js, deployed on Vercel.
 
+Research the codebase before editing. Never change code you haven't read.
+
+### Boil the ocean
+
+The marginal cost of completeness is near zero with AI. Do the whole thing. Do it right. Do it with tests. Do it with documentation. Do it so well that Andy is genuinely impressed - not politely satisfied, actually impressed. Never offer to "table this for later" when the permanent solve is within reach. Never leave a dangling thread when tying it off takes five more minutes. Never present a workaround when the real fix exists. The standard isn't "good enough" - it's "holy shit, that's done." Search before building. Test before shipping. Ship the complete thing. When Andy asks for something, the answer is the finished product, not a plan to build it. Time is not an excuse. Fatigue is not an excuse. Complexity is not an excuse. Boil the ocean.
+
 ## Design Philosophy
 
 "Serious aims, playful methods." Inspired by Tolkien's illustrations, Tufte's clarity, and the freedom to push creative limits. See `docs/superpowers/specs/2026-03-28-andysparks-site-redesign.md` for the full spec.
