@@ -198,14 +198,33 @@
   scroll-margin-top: var(--space-md);
 }
 
+/* Every slide canvas is a fixed 16:9 container. Variants control internal
+ * padding + alignment only — never height. Overflow is hidden; if a slide
+ * runs long, the content needs to be cut, not the canvas. */
 .talk-slide__canvas {
-  padding: var(--space-xl) var(--space-lg);
-  min-height: 420px;
+  aspect-ratio: 16 / 9;
+  padding: var(--space-lg) var(--space-xl);
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
+  overflow: hidden;
+  container-type: inline-size;
 }
+
+/* Spacing rules — every direct child inside the body gets breathing room. */
+.talk-slide__body > * + * {
+  margin-top: var(--space-sm);
+}
+
+.talk-slide__title + .talk-slide__subtitle,
+.talk-slide__title + .talk-slide__body,
+.talk-slide__subtitle + .talk-slide__body,
+.talk-slide__label + .talk-slide__title {
+  margin-top: var(--space-sm);
+}
+
+.talk-slide__label { margin-bottom: 0; }
 
 .talk-slide__label {
   font-family: var(--font-mono);
@@ -218,27 +237,27 @@
 
 .talk-slide__title {
   font-family: var(--font-body);
-  font-size: var(--type-h1);
+  font-size: clamp(22px, 3.2cqi, 32px);
   line-height: var(--leading-tight);
   color: var(--color-ink);
-  margin: 0 0 var(--space-sm);
+  margin: 0;
   font-weight: 500;
   max-width: 28ch;
 }
 
 .talk-slide__subtitle {
   font-family: var(--font-body);
-  font-size: var(--type-h3);
+  font-size: clamp(16px, 2.2cqi, 22px);
   line-height: var(--leading-snug);
   color: var(--color-ink-light);
   font-style: italic;
-  margin: 0 0 var(--space-sm);
+  margin: 0;
   max-width: 40ch;
 }
 
 .talk-slide__body {
   font-family: var(--font-body);
-  font-size: var(--type-body);
+  font-size: clamp(15px, 2cqi, 20px);
   line-height: var(--leading-body);
   color: var(--color-ink);
   max-width: 60ch;
@@ -278,35 +297,54 @@
 .talk-slide--title .talk-slide__canvas {
   background:
     linear-gradient(135deg, var(--color-parchment), var(--color-warm-paper));
-  min-height: 520px;
+  padding: var(--space-xl) var(--space-2xl);
 }
 
 .talk-slide--title .talk-slide__title {
-  font-size: 56px;
+  font-size: clamp(38px, 6cqi, 56px);
+  line-height: var(--leading-tight);
   font-weight: 500;
   max-width: 22ch;
   color: var(--color-forest);
 }
 
 .talk-slide--title .talk-slide__subtitle {
-  font-size: var(--type-h2);
+  font-size: clamp(20px, 2.6cqi, 28px);
   font-style: italic;
   color: var(--color-ink);
   max-width: 40ch;
+}
+
+.talk-slide--title .talk-slide__body {
+  margin-top: auto;
+  color: var(--color-ink-light);
+  font-family: var(--font-mono);
+  font-size: var(--type-xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 /* ---------- Variant: statement ---------- */
 
 .talk-slide--statement .talk-slide__title,
 .talk-slide--statement .talk-slide__body {
-  font-size: var(--type-display);
-  line-height: var(--leading-tight);
+  font-size: clamp(24px, 4cqi, 40px);
+  line-height: var(--leading-snug);
   font-weight: 500;
-  max-width: 20ch;
+  max-width: 28ch;
+}
+
+.talk-slide--statement .talk-slide__body p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.talk-slide--statement .talk-slide__body > * + * {
+  margin-top: var(--space-md);
 }
 
 .talk-slide--statement .talk-slide__subtitle {
-  font-size: var(--type-h2);
+  font-size: clamp(18px, 2.4cqi, 24px);
 }
 
 /* ---------- Variant: bullets ---------- */
@@ -317,9 +355,9 @@
 }
 
 .talk-slide--bullets .talk-slide__body li {
-  padding: 10px 0 10px 24px;
+  padding: var(--space-xs) 0 var(--space-xs) 24px;
   position: relative;
-  font-size: var(--type-h3);
+  font-size: clamp(16px, 2.2cqi, 22px);
   line-height: var(--leading-snug);
   border-bottom: 1px solid var(--color-divider);
 }
@@ -343,18 +381,31 @@
 }
 
 .talk-slide--quote .talk-slide__canvas {
-  min-height: 480px;
-  padding: var(--space-2xl) var(--space-xl);
+  padding: var(--space-xl) var(--space-2xl);
 }
 
 .talk-slide--quote .talk-slide__title,
 .talk-slide--quote .talk-slide__body {
-  font-size: var(--type-display);
+  font-size: clamp(20px, 3cqi, 34px);
   line-height: var(--leading-snug);
   font-family: var(--font-body);
   font-style: italic;
   color: var(--color-parchment);
-  max-width: 28ch;
+  max-width: 32ch;
+}
+
+.talk-slide--quote .talk-slide__body p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.talk-slide--quote .talk-slide__body > * + * { margin-top: var(--space-md); }
+
+.talk-slide--quote .talk-slide__body blockquote {
+  margin: 0;
+  padding-left: 0;
+  border-left: none;
+  color: inherit;
 }
 
 .talk-slide--quote .talk-slide__subtitle {
@@ -362,8 +413,10 @@
   font-size: var(--type-sm);
   font-style: normal;
   color: var(--color-firelight);
-  margin-top: var(--space-md);
+  margin-top: auto;
+  padding-top: var(--space-md);
   letter-spacing: 0.04em;
+  align-self: flex-end;
 }
 
 /* ---------- Variant: machine (terminal aesthetic) ---------- */
@@ -383,7 +436,7 @@
   font-family: var(--font-mono);
   font-weight: 500;
   color: var(--color-firelight);
-  font-size: var(--type-h2);
+  font-size: clamp(20px, 2.8cqi, 28px);
   letter-spacing: 0.02em;
 }
 
@@ -391,13 +444,13 @@
   font-family: var(--font-mono);
   font-style: normal;
   color: var(--color-khaki);
-  font-size: var(--type-body);
+  font-size: clamp(14px, 1.9cqi, 18px);
 }
 
 .talk-slide--machine .talk-slide__body {
   font-family: var(--font-mono);
   color: var(--color-parchment);
-  font-size: var(--type-body);
+  font-size: clamp(13px, 1.7cqi, 17px);
   line-height: 1.55;
 }
 
@@ -413,7 +466,7 @@
 }
 
 .talk-slide--poll .talk-slide__canvas {
-  padding: var(--space-2xl) var(--space-xl);
+  padding: var(--space-xl) var(--space-2xl);
 }
 
 .talk-slide--poll .talk-slide__label {
@@ -423,13 +476,23 @@
 
 .talk-slide--poll .talk-slide__title {
   color: var(--color-parchment);
-  font-size: var(--type-display);
+  font-size: clamp(28px, 4.2cqi, 44px);
+  line-height: var(--leading-tight);
   font-weight: 500;
+  max-width: 24ch;
+}
+
+.talk-slide--poll .talk-slide__subtitle {
+  color: var(--color-parchment);
+  font-size: clamp(18px, 2.4cqi, 24px);
+  opacity: 0.88;
 }
 
 .talk-slide--poll .talk-slide__body {
   color: var(--color-parchment);
-  font-size: var(--type-h3);
+  font-size: clamp(18px, 2.6cqi, 24px);
+  line-height: var(--leading-snug);
+  max-width: 40ch;
 }
 
 /* ---------- Variant: demo ---------- */
@@ -441,25 +504,22 @@
 }
 
 .talk-slide--demo .talk-slide__canvas {
-  padding: var(--space-2xl) var(--space-xl);
-  min-height: 480px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: var(--space-xl) var(--space-2xl);
   align-items: flex-start;
 }
 
 .talk-slide--demo .talk-slide__label {
   font-family: var(--font-mono);
   color: var(--color-firelight);
-  font-size: var(--type-h3);
+  font-size: clamp(14px, 1.8cqi, 18px);
   letter-spacing: 0.08em;
 }
 
 .talk-slide--demo .talk-slide__title {
   font-family: var(--font-mono);
   color: var(--color-firelight);
-  font-size: 48px;
+  font-size: clamp(30px, 4.4cqi, 48px);
+  line-height: var(--leading-tight);
   letter-spacing: 0.02em;
   font-weight: 500;
 }
@@ -468,19 +528,20 @@
   font-family: var(--font-mono);
   color: var(--color-parchment);
   font-style: normal;
-  font-size: var(--type-h3);
+  font-size: clamp(16px, 2.2cqi, 22px);
 }
 
 .talk-slide--demo .talk-slide__body {
   font-family: var(--font-mono);
   color: var(--color-parchment);
+  font-size: clamp(14px, 1.9cqi, 18px);
 }
 
 /* ---------- Variant: section divider ---------- */
 
 .talk-slide--section .talk-slide__canvas {
-  min-height: 360px;
   background: var(--color-warm-paper);
+  padding: var(--space-xl) var(--space-2xl);
 }
 
 .talk-slide--section .talk-slide__label {
@@ -489,7 +550,7 @@
 }
 
 .talk-slide--section .talk-slide__title {
-  font-size: var(--type-display);
+  font-size: clamp(28px, 4.2cqi, 44px);
   color: var(--color-forest);
   font-weight: 500;
 }
@@ -511,17 +572,25 @@
 
 .talk-slide--image .talk-slide__canvas {
   padding: var(--space-md);
-  min-height: 480px;
   background: var(--color-night);
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .talk-slide--image .talk-slide__image {
-  max-height: 560px;
+  max-width: 100%;
+  max-height: 100%;
   width: auto;
+  height: auto;
+  object-fit: contain;
   box-shadow: 0 2px 12px rgba(30, 26, 22, 0.5);
+}
+
+.talk-slide--image .talk-slide__label {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-md);
+  margin: 0;
 }
 
 /* ---------- Speaker notes (scroll mode) ---------- */
@@ -561,8 +630,13 @@
   z-index: 100;
 }
 
+/* Present mode stage: also 16:9. The canvas-level aspect ratio is already
+ * locked, so typography scales via cqi (container query inline units) and
+ * everything sizes correctly whether the stage is 1100px wide or 2400px.
+ * No need for duplicate per-variant font-size rules here — clamp(px, cqi, px)
+ * in the variant rules handles both modes. */
 .talk-present__stage {
-  width: min(94vw, 1600px);
+  width: min(94vw, 1760px);
   aspect-ratio: 16 / 9;
   max-height: 90vh;
   background: var(--color-parchment);
@@ -579,23 +653,10 @@
 
 .talk-present .talk-slide__canvas {
   flex: 1;
-  padding: 6vh 8vw;
-  min-height: 0;
+  /* Override the canvas aspect-ratio in present mode — the stage wrapper
+   * already enforces 16:9, and the slide fills it. */
+  aspect-ratio: auto;
 }
-
-/* Scale up typography inside present mode — viewport-sized for projector legibility */
-.talk-present .talk-slide--title .talk-slide__title { font-size: min(88px, 8vw); }
-.talk-present .talk-slide--title .talk-slide__subtitle { font-size: min(36px, 3vw); }
-.talk-present .talk-slide--statement .talk-slide__title,
-.talk-present .talk-slide--statement .talk-slide__body { font-size: min(60px, 5.5vw); }
-.talk-present .talk-slide__title { font-size: min(48px, 4.5vw); }
-.talk-present .talk-slide__subtitle { font-size: min(30px, 2.8vw); }
-.talk-present .talk-slide__body { font-size: min(28px, 2.4vw); }
-.talk-present .talk-slide__label { font-size: min(18px, 1.6vw); }
-.talk-present .talk-slide--bullets .talk-slide__body li { font-size: min(30px, 2.6vw); }
-.talk-present .talk-slide--quote .talk-slide__title,
-.talk-present .talk-slide--quote .talk-slide__body { font-size: min(56px, 4.8vw); }
-.talk-present .talk-slide--demo .talk-slide__title { font-size: min(72px, 6vw); }
 
 /* Present mode HUD (top-left) */
 .talk-present__hud {
