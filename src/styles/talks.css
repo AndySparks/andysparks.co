@@ -346,22 +346,41 @@
   border-color: var(--color-chocolate);
 }
 
+/* Quote title is a context label (e.g. "How I found out"), not a hero. */
 .talk-slide--quote .talk-slide__title {
-  font-size: var(--talk-prominent);
+  font-size: var(--talk-caption);
   color: var(--talk-dark-accent);
   font-family: var(--font-mono);
   font-weight: 500;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   margin-bottom: var(--space-md);
+  max-width: none;
 }
 
+/* Quote body is the quote itself. Sized to fit comfortably in 16:9 canvas —
+ * long passages (4-6 lines) must not overflow. Targets ~30px at 940px width. */
 .talk-slide--quote .talk-slide__body {
-  font-size: var(--talk-hero);
-  line-height: var(--leading-snug);
+  font-size: clamp(20px, 2.8cqi, 30px);
+  line-height: 1.35;
   font-family: var(--font-body);
   font-style: italic;
   color: var(--talk-dark-ink);
-  max-width: 28ch;
+  max-width: 38ch;
+}
+
+/* Inside a quote body, em/strong must have real contrast on night bg.
+ * Default rules use --talk-accent (forest) which disappears on dark.
+ * Override: strong → firelight (brightest); em → parchment italic only. */
+.talk-slide--quote .talk-slide__body strong {
+  color: var(--talk-dark-accent);
+  font-weight: 600;
+}
+
+.talk-slide--quote .talk-slide__body em {
+  color: var(--talk-dark-ink);
+  font-style: italic;
+  opacity: 0.88;
 }
 
 .talk-slide--quote .talk-slide__subtitle {
@@ -373,6 +392,14 @@
   padding-top: var(--space-md);
   letter-spacing: 0.04em;
   align-self: flex-end;
+}
+
+/* Matrix-scene style dialogue (slide 15) has `<strong>Neo:</strong>` markup
+ * for character names. The same strong-on-dark rule above handles it, but
+ * clarify that strong on a quote can also land mid-paragraph without looking
+ * like emphasis shouting — use weight, not color, when strong is inline. */
+.talk-slide--quote .talk-slide__body p strong:first-child {
+  color: var(--talk-dark-accent);
 }
 
 /* --- Climax modifier: single-word shout, radioactive accent on dark --- */
