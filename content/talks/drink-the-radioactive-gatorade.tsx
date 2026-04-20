@@ -103,7 +103,8 @@ const talk: Talk = {
     {
       id: "origin-story",
       segment: 2,
-      variant: "quote",
+      variant: "statement",
+      className: "talk-slide--quote",
       title: "How I found out",
       body: (
         <blockquote>
@@ -114,9 +115,22 @@ const talk: Talk = {
       notes: <p>Read this verbatim. Pause on &ldquo;Markdown like humans like Michelins&rdquo; — let the room hear it. This is the moment the metaphor lands.</p>,
     },
     {
+      id: "radioactive",
+      segment: 2,
+      variant: "statement",
+      className: "talk-slide--climax",
+      body: (
+        <p className="talk-slide__climax-word">RADIOACTIVE</p>
+      ),
+      notes: (
+        <p>Beat slide, held for 3–5 seconds. Say nothing. The single word on a bleed carries the transition from &ldquo;I was trying to edit an essay&rdquo; to what happened next. Paula Scher&rsquo;s shout.</p>
+      ),
+    },
+    {
       id: "superpowers",
       segment: 2,
-      variant: "quote",
+      variant: "statement",
+      className: "talk-slide--quote",
       body: (
         <blockquote>
           <p>I converted the PDF to markdown and tried again. The next time I consulted Claude on writing, it felt like I had drunk a can of <strong>radioactive gatorade</strong>.</p>
@@ -180,7 +194,8 @@ const talk: Talk = {
     {
       id: "cold-demo",
       segment: 3,
-      variant: "demo",
+      variant: "terminal",
+      className: "talk-slide--demo",
       label: "> LIVE DEMO",
       title: "Cold Claude",
       subtitle: "A fresh chat. No project. No skill. No context.",
@@ -229,7 +244,8 @@ const talk: Talk = {
     {
       id: "matrix-scene",
       segment: 4,
-      variant: "quote",
+      variant: "statement",
+      className: "talk-slide--quote",
       title: "Trinity and the pilot program",
       body: (
         <>
@@ -258,7 +274,8 @@ const talk: Talk = {
     {
       id: "loaded-demo",
       segment: 4,
-      variant: "demo",
+      variant: "terminal",
+      className: "talk-slide--demo",
       label: "> LIVE DEMO",
       title: "Loaded Claude",
       subtitle: "Same pricing question. Skill + CLAUDE.md loaded.",
@@ -341,7 +358,8 @@ const talk: Talk = {
     {
       id: "tweet-screenshots",
       segment: 5,
-      variant: "machine",
+      variant: "terminal",
+      className: "talk-slide--machine",
       label: "// three tweets, three lessons",
       title: "Here's what stealing looks like",
       body: (
@@ -420,7 +438,8 @@ const talk: Talk = {
     {
       id: "live-build-demo",
       segment: 6,
-      variant: "demo",
+      variant: "terminal",
+      className: "talk-slide--demo",
       label: "> LIVE DEMO — LIVING BRAND DOC",
       title: "Ship it",
       subtitle: "Audience picks the company. Claude builds.",
@@ -471,7 +490,8 @@ const talk: Talk = {
     {
       id: "meta-reveal",
       segment: 8,
-      variant: "machine",
+      variant: "terminal",
+      className: "talk-slide--machine",
       label: "// meta reveal",
       title: "One last thing",
       body: (
@@ -486,7 +506,8 @@ const talk: Talk = {
     {
       id: "brainstorm-1",
       segment: 8,
-      variant: "image",
+      variant: "terminal",
+      className: "talk-slide--image",
       label: "// brainstorm 1: shape revision",
       // TODO: replace with screenshot from assets/screenshots/ after capture
       notes: <p>45 sec. <em>&ldquo;This is where the shape of the talk revised. I said one thing, Claude pushed back, and the whole structure shifted. That&rsquo;s loaded Claude working.&rdquo;</em></p>,
@@ -494,14 +515,16 @@ const talk: Talk = {
     {
       id: "brainstorm-2",
       segment: 8,
-      variant: "image",
+      variant: "terminal",
+      className: "talk-slide--image",
       label: "// brainstorm 2: workspace tree",
       notes: <p>45 sec. <em>&ldquo;This is the directory I&rsquo;m working from now. Four books on teaching, a research doc, a metaphors library, a deck styles file. The talk exists inside a system that can produce more talks.&rdquo;</em></p>,
     },
     {
       id: "brainstorm-3",
       segment: 8,
-      variant: "image",
+      variant: "terminal",
+      className: "talk-slide--image",
       label: "// brainstorm 3: 7 research agents",
       notes: <p>45 sec. <em>&ldquo;These are seven research agents I dispatched in parallel. One looked at how other people teach this. One read four books on teaching craft. One profiled your school. They ran in four minutes. That&rsquo;s what I mean when I say the bottleneck moved.&rdquo;</em></p>,
     },
@@ -631,7 +654,8 @@ const talk: Talk = {
     {
       id: "appendix-fluency-contested",
       segment: 8,
-      variant: "quote",
+      variant: "statement",
+      className: "talk-slide--quote talk-slide--appendix",
       title: "Honest answer: it's contested",
       body: (
         <blockquote>
@@ -639,7 +663,6 @@ const talk: Talk = {
         </blockquote>
       ),
       subtitle: "— Ethan Mollick (Wharton)",
-      className: "talk-slide--appendix",
       notes: <p>Q&amp;A reserve if someone challenges the fluency ladder. The ladder is <em>useful, not correct</em>. Use to find your next rung and drop it.</p>,
     },
     {

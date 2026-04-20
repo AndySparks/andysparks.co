@@ -1,18 +1,47 @@
 /* ===========================================================================
  * Talks — deck styling for /talks/* routes
  *
- * Inherits site design tokens from globals.css. Adds slide-specific variants:
- * title / statement / bullets / quote / machine / poll / demo / diagram / image /
- * section. Two display modes: scroll (long-form, public) and present (full-
- * viewport, keyboard-driven, private).
+ * Design system after Jedi Council review 2026-04-20.
  *
- * Color logic:
- *   Default slides use parchment + chocolate + forest + brass — the site's
- *   native earth-tone palette.
- *   `.talk-slide--machine` flips to a warm-dark palette (night ground, firelight
- *   accent, IBM Plex Mono) for demo pauses and screenshot slides.
- *   `.talk-slide--poll` uses the ember accent full-bleed for audience breaks.
+ * Five variants (was ten): title, statement, bullets, terminal, poll.
+ * Former quote/machine/demo/image/section/diagram are absorbed via className
+ * modifiers: .talk-slide--quote, .talk-slide--machine, .talk-slide--demo,
+ * .talk-slide--image, .talk-slide--climax, .talk-slide--appendix.
+ *
+ * Four talks colors (was sixteen): --talk-bg, --talk-ink, --talk-accent,
+ * --talk-emphasis. Plus the dark register borrows --color-night and
+ * --color-firelight from the site palette unchanged.
+ *
+ * One type scale (was per-variant): --talk-display / hero / prominent /
+ * body / caption. All variants pull from these five steps.
+ *
+ * Ornament stripped: no bullet glyphs, no bullet borders, no title gradient,
+ * no decorative dots. Vertical rhythm carries structure.
  * ========================================================================= */
+
+:root {
+  /* ----- Talks design tokens ----- */
+  --talk-bg: var(--color-parchment);
+  --talk-ink: var(--color-chocolate);
+  --talk-accent: var(--color-forest);
+  --talk-emphasis: var(--color-ember);
+
+  /* Dark register borrowed from site palette unchanged */
+  --talk-dark-bg: var(--color-night);
+  --talk-dark-ink: var(--color-parchment);
+  --talk-dark-accent: var(--color-firelight);
+  --talk-dark-muted: var(--color-khaki);
+
+  /* Climax radioactive tint — single use, on dark */
+  --talk-radioactive: #b8d436;
+
+  /* ----- One type scale (container-relative) ----- */
+  --talk-display:   clamp(48px, 8cqi, 112px);
+  --talk-hero:      clamp(32px, 5cqi, 64px);
+  --talk-prominent: clamp(22px, 3.2cqi, 34px);
+  --talk-body:      clamp(16px, 2.2cqi, 22px);
+  --talk-caption:   clamp(12px, 1.5cqi, 14px);
+}
 
 /* ---------- Index page ---------- */
 
@@ -46,9 +75,7 @@
   transition: border-color var(--duration-fast) var(--ease-default);
 }
 
-.talks-index li a:hover {
-  border-color: var(--color-accent);
-}
+.talks-index li a:hover { border-color: var(--talk-accent); }
 
 .talks-index li div {
   font-family: var(--font-mono);
@@ -104,31 +131,25 @@
   margin: 0 0 var(--space-md);
 }
 
-.talk-deck__controls {
-  display: flex;
-  gap: var(--space-sm);
-  margin-top: var(--space-md);
-}
+.talk-deck__controls { display: flex; gap: var(--space-sm); margin-top: var(--space-md); }
 
 .talk-deck__present-link {
   font-family: var(--font-mono);
   font-size: var(--type-sm);
-  color: var(--color-forest);
+  color: var(--talk-accent);
   text-decoration: none;
   padding: 10px 16px;
-  border: 1px solid var(--color-forest);
+  border: 1px solid var(--talk-accent);
   border-radius: 4px;
   transition: background-color var(--duration-fast) var(--ease-default), color var(--duration-fast) var(--ease-default);
 }
 
 .talk-deck__present-link:hover {
-  background-color: var(--color-forest);
-  color: var(--color-parchment);
+  background-color: var(--talk-accent);
+  color: var(--talk-bg);
 }
 
-.talk-deck__segments {
-  margin: var(--space-lg) 0 var(--space-2xl);
-}
+.talk-deck__segments { margin: var(--space-lg) 0 var(--space-2xl); }
 
 .talk-deck__segments ol {
   list-style: none;
@@ -153,54 +174,32 @@
 }
 
 .talk-deck__segments li a:hover {
-  border-color: var(--color-accent);
+  border-color: var(--talk-accent);
   background-color: var(--color-warm-paper);
 }
 
-.talk-deck__segment-number {
-  font-family: var(--font-mono);
-  font-size: var(--type-sm);
-  color: var(--color-accent);
-  min-width: 16px;
-}
+.talk-deck__segment-number { font-family: var(--font-mono); font-size: var(--type-sm); color: var(--talk-accent); min-width: 16px; }
+.talk-deck__segment-name   { font-family: var(--font-body); font-size: var(--type-body); color: var(--color-ink); }
+.talk-deck__segment-time   { font-family: var(--font-mono); font-size: var(--type-xs); color: var(--color-ink-light); }
 
-.talk-deck__segment-name {
-  font-family: var(--font-body);
-  font-size: var(--type-body);
-  color: var(--color-ink);
-}
+.talk-deck__slides { display: flex; flex-direction: column; gap: var(--space-xl); }
 
-.talk-deck__segment-time {
-  font-family: var(--font-mono);
-  font-size: var(--type-xs);
-  color: var(--color-ink-light);
-}
-
-.talk-deck__slides {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xl);
-}
-
-/* ---------- Slide base ---------- */
+/* ===========================================================================
+ * Slide base — every slide canvas is a strict 16:9 container.
+ * Variants add internal alignment + color; never override height.
+ * ========================================================================= */
 
 .talk-slide {
   position: relative;
-  background: var(--color-parchment);
-  color: var(--color-ink);
+  background: var(--talk-bg);
+  color: var(--talk-ink);
   border: 1px solid var(--color-divider);
   border-radius: 4px;
   overflow: hidden;
 }
 
-.talk-slide--scroll {
-  padding: 0;
-  scroll-margin-top: var(--space-md);
-}
+.talk-slide--scroll { scroll-margin-top: var(--space-md); }
 
-/* Every slide canvas is a fixed 16:9 container. Variants control internal
- * padding + alignment only — never height. Overflow is hidden; if a slide
- * runs long, the content needs to be cut, not the canvas. */
 .talk-slide__canvas {
   aspect-ratio: 16 / 9;
   padding: var(--space-lg) var(--space-xl);
@@ -212,34 +211,31 @@
   container-type: inline-size;
 }
 
-/* Spacing rules — every direct child inside the body gets breathing room. */
-.talk-slide__body > * + * {
-  margin-top: var(--space-sm);
-}
-
+/* Vertical rhythm — every adjacent sibling inside body gets spacing based on
+ * content type. Paragraph-to-paragraph: tighter (1em). Group-to-group (body
+ * → subtitle, title → body): looser (--space-md). */
+.talk-slide__body > * + * { margin-top: 1em; }
 .talk-slide__title + .talk-slide__subtitle,
 .talk-slide__title + .talk-slide__body,
 .talk-slide__subtitle + .talk-slide__body,
-.talk-slide__label + .talk-slide__title {
-  margin-top: var(--space-sm);
-}
+.talk-slide__label + .talk-slide__title { margin-top: var(--space-md); }
 
-.talk-slide__label { margin-bottom: 0; }
+/* ----- Default type assignments (statement variant is the baseline) ----- */
 
 .talk-slide__label {
   font-family: var(--font-mono);
-  font-size: var(--type-xs);
-  color: var(--color-ember);
+  font-size: var(--talk-caption);
+  color: var(--talk-emphasis);
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  margin-bottom: var(--space-sm);
+  margin: 0;
 }
 
 .talk-slide__title {
   font-family: var(--font-body);
-  font-size: clamp(22px, 3.2cqi, 32px);
+  font-size: var(--talk-prominent);
   line-height: var(--leading-tight);
-  color: var(--color-ink);
+  color: var(--talk-ink);
   margin: 0;
   font-weight: 500;
   max-width: 28ch;
@@ -247,344 +243,269 @@
 
 .talk-slide__subtitle {
   font-family: var(--font-body);
-  font-size: clamp(16px, 2.2cqi, 22px);
+  font-size: var(--talk-body);
   line-height: var(--leading-snug);
   color: var(--color-ink-light);
   font-style: italic;
   margin: 0;
-  max-width: 40ch;
+  max-width: 44ch;
 }
 
 .talk-slide__body {
   font-family: var(--font-body);
-  font-size: clamp(15px, 2cqi, 20px);
+  font-size: var(--talk-body);
   line-height: var(--leading-body);
-  color: var(--color-ink);
-  max-width: 60ch;
+  color: var(--talk-ink);
+  max-width: 55ch;
 }
 
-.talk-slide__body p { margin: 0 0 var(--space-sm); }
-.talk-slide__body p:last-child { margin-bottom: 0; }
-
-.talk-slide__body ul,
-.talk-slide__body ol {
-  margin: 0 0 var(--space-sm);
-  padding-left: var(--space-sm);
-}
-
-.talk-slide__body li { margin-bottom: 8px; }
-
-.talk-slide__body em { font-style: italic; color: var(--color-forest); }
-.talk-slide__body strong { font-weight: 600; color: var(--color-ink); }
+.talk-slide__body p { margin: 0; }
+.talk-slide__body em { font-style: italic; color: var(--talk-accent); }
+.talk-slide__body strong { font-weight: 600; color: var(--talk-ink); }
 
 .talk-slide__body blockquote {
-  margin: var(--space-sm) 0;
-  padding-left: var(--space-md);
-  border-left: 2px solid var(--color-accent);
+  margin: 0;
+  padding: 0;
+  border: none;
   font-style: italic;
-  color: var(--color-ink);
+  color: inherit;
 }
 
 .talk-slide__image {
   display: block;
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
+  object-fit: contain;
   border-radius: 4px;
 }
 
-/* ---------- Variant: title ---------- */
+/* ===========================================================================
+ * Variant: title
+ * ========================================================================= */
 
 .talk-slide--title .talk-slide__canvas {
-  background:
-    linear-gradient(135deg, var(--color-parchment), var(--color-warm-paper));
   padding: var(--space-xl) var(--space-2xl);
+  background: var(--talk-bg);
 }
 
 .talk-slide--title .talk-slide__title {
-  font-size: clamp(38px, 6cqi, 56px);
+  font-size: var(--talk-display);
   line-height: var(--leading-tight);
   font-weight: 500;
   max-width: 22ch;
-  color: var(--color-forest);
+  color: var(--talk-accent);
 }
 
 .talk-slide--title .talk-slide__subtitle {
-  font-size: clamp(20px, 2.6cqi, 28px);
+  font-size: var(--talk-prominent);
   font-style: italic;
-  color: var(--color-ink);
+  color: var(--talk-ink);
   max-width: 40ch;
 }
 
+/* Footer signature pinned to bottom via margin-top: auto */
 .talk-slide--title .talk-slide__body {
   margin-top: auto;
   color: var(--color-ink-light);
   font-family: var(--font-mono);
-  font-size: var(--type-xs);
+  font-size: var(--talk-caption);
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  max-width: none;
+}
+.talk-slide--title .talk-slide__body p { font-family: inherit; font-size: inherit; color: inherit; }
+
+/* ===========================================================================
+ * Variant: statement (baseline — inherits defaults)
+ *
+ * Modifiers:
+ *   .talk-slide--quote     → italic serif on dark register
+ *   .talk-slide--climax    → single-word shout on dark register with accent
+ *   .talk-slide--appendix  → reserve Q&A slide (no visual change; hook only)
+ * ========================================================================= */
+
+.talk-slide--statement .talk-slide__title {
+  font-size: var(--talk-hero);
+  max-width: 26ch;
 }
 
-/* ---------- Variant: statement ---------- */
-
-.talk-slide--statement .talk-slide__title,
 .talk-slide--statement .talk-slide__body {
-  font-size: clamp(24px, 4cqi, 40px);
+  font-size: var(--talk-prominent);
+  max-width: 40ch;
   line-height: var(--leading-snug);
-  font-weight: 500;
-  max-width: 28ch;
 }
 
-.talk-slide--statement .talk-slide__body p {
-  font-size: inherit;
-  line-height: inherit;
-}
+.talk-slide--statement .talk-slide__body p + p,
+.talk-slide--statement .talk-slide__body > * + * { margin-top: var(--space-md); }
 
-.talk-slide--statement .talk-slide__body > * + * {
-  margin-top: var(--space-md);
-}
-
-.talk-slide--statement .talk-slide__subtitle {
-  font-size: clamp(18px, 2.4cqi, 24px);
-}
-
-/* ---------- Variant: bullets ---------- */
-
-.talk-slide--bullets .talk-slide__body ul {
-  list-style: none;
-  padding: 0;
-}
-
-.talk-slide--bullets .talk-slide__body li {
-  padding: var(--space-xs) 0 var(--space-xs) 24px;
-  position: relative;
-  font-size: clamp(16px, 2.2cqi, 22px);
-  line-height: var(--leading-snug);
-  border-bottom: 1px solid var(--color-divider);
-}
-
-.talk-slide--bullets .talk-slide__body li:last-child { border-bottom: none; }
-
-.talk-slide--bullets .talk-slide__body li::before {
-  content: "›";
-  position: absolute;
-  left: 0;
-  color: var(--color-accent);
-  font-family: var(--font-body);
-}
-
-/* ---------- Variant: quote ---------- */
+/* --- Quote modifier: italic serif, dark register --- */
 
 .talk-slide--quote {
-  background: var(--color-night);
-  color: var(--color-parchment);
+  background: var(--talk-dark-bg);
+  color: var(--talk-dark-ink);
   border-color: var(--color-chocolate);
 }
 
-.talk-slide--quote .talk-slide__canvas {
-  padding: var(--space-xl) var(--space-2xl);
+.talk-slide--quote .talk-slide__title {
+  font-size: var(--talk-prominent);
+  color: var(--talk-dark-accent);
+  font-family: var(--font-mono);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-bottom: var(--space-md);
 }
 
-.talk-slide--quote .talk-slide__title,
 .talk-slide--quote .talk-slide__body {
-  font-size: clamp(20px, 3cqi, 34px);
+  font-size: var(--talk-hero);
   line-height: var(--leading-snug);
   font-family: var(--font-body);
   font-style: italic;
-  color: var(--color-parchment);
-  max-width: 32ch;
-}
-
-.talk-slide--quote .talk-slide__body p {
-  font-size: inherit;
-  line-height: inherit;
-}
-
-.talk-slide--quote .talk-slide__body > * + * { margin-top: var(--space-md); }
-
-.talk-slide--quote .talk-slide__body blockquote {
-  margin: 0;
-  padding-left: 0;
-  border-left: none;
-  color: inherit;
+  color: var(--talk-dark-ink);
+  max-width: 28ch;
 }
 
 .talk-slide--quote .talk-slide__subtitle {
   font-family: var(--font-mono);
-  font-size: var(--type-sm);
+  font-size: var(--talk-caption);
   font-style: normal;
-  color: var(--color-firelight);
+  color: var(--talk-dark-accent);
   margin-top: auto;
   padding-top: var(--space-md);
   letter-spacing: 0.04em;
   align-self: flex-end;
 }
 
-/* ---------- Variant: machine (terminal aesthetic) ---------- */
+/* --- Climax modifier: single-word shout, radioactive accent on dark --- */
 
-.talk-slide--machine {
-  background: var(--color-night);
-  color: var(--color-khaki);
+.talk-slide--climax {
+  background: var(--talk-dark-bg);
+  color: var(--talk-radioactive);
   border-color: var(--color-chocolate);
-  font-family: var(--font-mono);
 }
 
-.talk-slide--machine .talk-slide__label {
-  color: var(--color-firelight);
+.talk-slide--climax .talk-slide__canvas {
+  align-items: center;
+  padding: var(--space-xl) var(--space-2xl);
 }
 
-.talk-slide--machine .talk-slide__title {
+.talk-slide--climax .talk-slide__body {
+  max-width: none;
+  color: inherit;
+}
+
+.talk-slide--climax .talk-slide__climax-word {
+  font-family: var(--font-body);
+  font-size: var(--talk-display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  text-align: center;
+  color: var(--talk-radioactive);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* ===========================================================================
+ * Variant: bullets
+ *
+ * Stripped of ornament (no ›, no border-bottom). Vertical rhythm via
+ * margin between items. Hanging indent keeps wrapped lines aligned.
+ * ========================================================================= */
+
+.talk-slide--bullets .talk-slide__body {
+  max-width: 50ch;
+  font-size: var(--talk-prominent);
+  line-height: var(--leading-snug);
+}
+
+.talk-slide--bullets .talk-slide__body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.talk-slide--bullets .talk-slide__body li {
+  padding: 0;
+  margin: 0;
+  /* Hanging indent without a marker — the text itself provides structure */
+  padding-left: 0;
+  border: none;
+}
+
+.talk-slide--bullets .talk-slide__body p {
+  font-size: var(--talk-prominent);
+  line-height: var(--leading-snug);
+}
+
+.talk-slide--bullets .talk-slide__body p + p { margin-top: var(--space-md); }
+
+/* ===========================================================================
+ * Variant: terminal (absorbs former machine, demo, image)
+ *
+ * Dark register. Mono typography. Used for:
+ *   .talk-slide--machine  — screenshot/code stills (default mono)
+ *   .talk-slide--demo     — LIVE DEMO pause (larger mono)
+ *   .talk-slide--image    — full-canvas image (no padding override)
+ * ========================================================================= */
+
+.talk-slide--terminal {
+  background: var(--talk-dark-bg);
+  color: var(--talk-dark-ink);
+  border-color: var(--color-chocolate);
+}
+
+.talk-slide--terminal .talk-slide__label { color: var(--talk-dark-accent); }
+
+.talk-slide--terminal .talk-slide__title {
   font-family: var(--font-mono);
-  font-weight: 500;
-  color: var(--color-firelight);
-  font-size: clamp(20px, 2.8cqi, 28px);
+  color: var(--talk-dark-accent);
+  font-size: var(--talk-prominent);
   letter-spacing: 0.02em;
 }
 
-.talk-slide--machine .talk-slide__subtitle {
+.talk-slide--terminal .talk-slide__subtitle {
   font-family: var(--font-mono);
+  color: var(--talk-dark-ink);
   font-style: normal;
-  color: var(--color-khaki);
-  font-size: clamp(14px, 1.9cqi, 18px);
+  font-size: var(--talk-body);
 }
 
-.talk-slide--machine .talk-slide__body {
+.talk-slide--terminal .talk-slide__body {
   font-family: var(--font-mono);
-  color: var(--color-parchment);
-  font-size: clamp(13px, 1.7cqi, 17px);
+  color: var(--talk-dark-ink);
+  font-size: var(--talk-body);
   line-height: 1.55;
 }
 
-.talk-slide--machine .talk-slide__body strong { color: var(--color-firelight); }
-.talk-slide--machine .talk-slide__body em { color: var(--color-smoke); }
+.talk-slide--terminal .talk-slide__body strong { color: var(--talk-dark-accent); }
+.talk-slide--terminal .talk-slide__body em { color: var(--talk-dark-muted); font-style: italic; }
 
-/* ---------- Variant: poll (audience break) ---------- */
+/* --- Demo modifier: louder, left-aligned, big call-to-attention --- */
 
-.talk-slide--poll {
-  background: var(--color-ember);
-  color: var(--color-parchment);
-  border-color: var(--color-ember);
-}
-
-.talk-slide--poll .talk-slide__canvas {
-  padding: var(--space-xl) var(--space-2xl);
-}
-
-.talk-slide--poll .talk-slide__label {
-  color: var(--color-parchment);
-  opacity: 0.8;
-}
-
-.talk-slide--poll .talk-slide__title {
-  color: var(--color-parchment);
-  font-size: clamp(28px, 4.2cqi, 44px);
-  line-height: var(--leading-tight);
-  font-weight: 500;
-  max-width: 24ch;
-}
-
-.talk-slide--poll .talk-slide__subtitle {
-  color: var(--color-parchment);
-  font-size: clamp(18px, 2.4cqi, 24px);
-  opacity: 0.88;
-}
-
-.talk-slide--poll .talk-slide__body {
-  color: var(--color-parchment);
-  font-size: clamp(18px, 2.6cqi, 24px);
-  line-height: var(--leading-snug);
-  max-width: 40ch;
-}
-
-/* ---------- Variant: demo ---------- */
-
-.talk-slide--demo {
-  background: var(--color-night);
-  color: var(--color-parchment);
-  border-color: var(--color-chocolate);
-}
-
-.talk-slide--demo .talk-slide__canvas {
-  padding: var(--space-xl) var(--space-2xl);
-  align-items: flex-start;
-}
+.talk-slide--demo .talk-slide__canvas { align-items: flex-start; }
 
 .talk-slide--demo .talk-slide__label {
-  font-family: var(--font-mono);
-  color: var(--color-firelight);
-  font-size: clamp(14px, 1.8cqi, 18px);
+  font-size: var(--talk-body);
   letter-spacing: 0.08em;
 }
 
 .talk-slide--demo .talk-slide__title {
-  font-family: var(--font-mono);
-  color: var(--color-firelight);
-  font-size: clamp(30px, 4.4cqi, 48px);
+  font-size: var(--talk-hero);
   line-height: var(--leading-tight);
-  letter-spacing: 0.02em;
-  font-weight: 500;
 }
 
-.talk-slide--demo .talk-slide__subtitle {
-  font-family: var(--font-mono);
-  color: var(--color-parchment);
-  font-style: normal;
-  font-size: clamp(16px, 2.2cqi, 22px);
-}
-
-.talk-slide--demo .talk-slide__body {
-  font-family: var(--font-mono);
-  color: var(--color-parchment);
-  font-size: clamp(14px, 1.9cqi, 18px);
-}
-
-/* ---------- Variant: section divider ---------- */
-
-.talk-slide--section .talk-slide__canvas {
-  background: var(--color-warm-paper);
-  padding: var(--space-xl) var(--space-2xl);
-}
-
-.talk-slide--section .talk-slide__label {
-  color: var(--color-forest);
-  font-size: var(--type-sm);
-}
-
-.talk-slide--section .talk-slide__title {
-  font-size: clamp(28px, 4.2cqi, 44px);
-  color: var(--color-forest);
-  font-weight: 500;
-}
-
-/* ---------- Variant: diagram ---------- */
-
-.talk-slide--diagram .talk-slide__canvas {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-lg);
-  align-items: center;
-}
-
-.talk-slide--diagram .talk-slide__image {
-  grid-column: 2;
-}
-
-/* ---------- Variant: image ---------- */
+/* --- Image modifier: canvas becomes a dark frame around the image --- */
 
 .talk-slide--image .talk-slide__canvas {
   padding: var(--space-md);
-  background: var(--color-night);
   align-items: center;
   justify-content: center;
 }
 
-.talk-slide--image .talk-slide__image {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-  box-shadow: 0 2px 12px rgba(30, 26, 22, 0.5);
-}
+.talk-slide--image .talk-slide__image { box-shadow: 0 2px 12px rgba(30, 26, 22, 0.5); }
 
 .talk-slide--image .talk-slide__label {
   position: absolute;
@@ -593,7 +514,44 @@
   margin: 0;
 }
 
-/* ---------- Speaker notes (scroll mode) ---------- */
+/* ===========================================================================
+ * Variant: poll — full-bleed ember, audience break
+ * ========================================================================= */
+
+.talk-slide--poll {
+  background: var(--talk-emphasis);
+  color: var(--talk-bg);
+  border-color: var(--talk-emphasis);
+}
+
+.talk-slide--poll .talk-slide__canvas { padding: var(--space-xl) var(--space-2xl); }
+
+.talk-slide--poll .talk-slide__label { color: var(--talk-bg); opacity: 0.82; }
+
+.talk-slide--poll .talk-slide__title {
+  color: var(--talk-bg);
+  font-size: var(--talk-hero);
+  line-height: var(--leading-tight);
+  font-weight: 500;
+  max-width: 24ch;
+}
+
+.talk-slide--poll .talk-slide__subtitle {
+  color: var(--talk-bg);
+  font-size: var(--talk-prominent);
+  opacity: 0.88;
+}
+
+.talk-slide--poll .talk-slide__body {
+  color: var(--talk-bg);
+  font-size: var(--talk-prominent);
+  line-height: var(--leading-snug);
+  max-width: 40ch;
+}
+
+/* ===========================================================================
+ * Speaker notes (scroll mode only)
+ * ========================================================================= */
 
 .talk-slide__notes {
   background: var(--color-warm-paper);
@@ -608,7 +566,7 @@
 .talk-slide__notes-label {
   font-family: var(--font-mono);
   font-size: var(--type-xs);
-  color: var(--color-ember);
+  color: var(--talk-emphasis);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: var(--space-sm);
@@ -617,12 +575,18 @@
 .talk-slide__notes-body p { margin: 0 0 var(--space-sm); }
 .talk-slide__notes-body p:last-child { margin-bottom: 0; }
 
-/* ---------- Present mode ---------- */
+/* ===========================================================================
+ * Present mode
+ *
+ * Stage enforces 16:9 at viewport scale. The canvas-level aspect-ratio is
+ * cleared since the stage already provides the ratio. Typography scales
+ * via cqi automatically — no per-mode font-size overrides needed.
+ * ========================================================================= */
 
 .talk-present {
   position: fixed;
   inset: 0;
-  background: var(--color-night);
+  background: var(--talk-dark-bg);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -630,16 +594,11 @@
   z-index: 100;
 }
 
-/* Present mode stage: also 16:9. The canvas-level aspect ratio is already
- * locked, so typography scales via cqi (container query inline units) and
- * everything sizes correctly whether the stage is 1100px wide or 2400px.
- * No need for duplicate per-variant font-size rules here — clamp(px, cqi, px)
- * in the variant rules handles both modes. */
 .talk-present__stage {
   width: min(94vw, 1760px);
   aspect-ratio: 16 / 9;
   max-height: 90vh;
-  background: var(--color-parchment);
+  background: var(--talk-bg);
   display: flex;
 }
 
@@ -653,12 +612,10 @@
 
 .talk-present .talk-slide__canvas {
   flex: 1;
-  /* Override the canvas aspect-ratio in present mode — the stage wrapper
-   * already enforces 16:9, and the slide fills it. */
   aspect-ratio: auto;
 }
 
-/* Present mode HUD (top-left) */
+/* Present-mode HUD — top-left, minimal */
 .talk-present__hud {
   position: fixed;
   top: 12px;
@@ -667,18 +624,14 @@
   gap: 16px;
   padding: 8px 12px;
   background: rgba(30, 26, 22, 0.85);
-  color: var(--color-parchment);
+  color: var(--talk-dark-ink);
   font-family: var(--font-mono);
   font-size: 12px;
   border-radius: 4px;
   z-index: 200;
 }
 
-.talk-present__hud-section {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
+.talk-present__hud-section { display: flex; flex-direction: column; gap: 2px; }
 
 .talk-present__hud-label {
   text-transform: uppercase;
@@ -687,21 +640,14 @@
   font-size: 10px;
 }
 
-.talk-present__hud-value {
-  font-size: 14px;
-  color: var(--color-firelight);
-}
-
-.talk-present__hud-sub {
-  font-size: 10px;
-  opacity: 0.7;
-}
+.talk-present__hud-value { font-size: 14px; color: var(--talk-dark-accent); }
+.talk-present__hud-sub { font-size: 10px; opacity: 0.7; }
 
 .talk-present__hud-button,
 .talk-present__hud-link {
   background: transparent;
-  border: 1px solid var(--color-khaki);
-  color: var(--color-parchment);
+  border: 1px solid var(--talk-dark-muted);
+  color: var(--talk-dark-ink);
   padding: 4px 10px;
   font-family: inherit;
   font-size: 12px;
@@ -712,9 +658,9 @@
 
 .talk-present__hud-button:hover,
 .talk-present__hud-link:hover {
-  background: var(--color-firelight);
-  color: var(--color-night);
-  border-color: var(--color-firelight);
+  background: var(--talk-dark-accent);
+  color: var(--talk-dark-bg);
+  border-color: var(--talk-dark-accent);
 }
 
 /* Speaker notes drawer */
@@ -726,7 +672,7 @@
   width: min(380px, 32vw);
   padding: var(--space-md);
   background: rgba(30, 26, 22, 0.92);
-  color: var(--color-parchment);
+  color: var(--talk-dark-ink);
   border-radius: 6px;
   font-family: var(--font-body);
   font-size: 15px;
@@ -736,21 +682,25 @@
 }
 
 .talk-present__notes-slide { margin-bottom: var(--space-md); }
-.talk-present__notes-next { padding-top: var(--space-sm); border-top: 1px solid var(--color-ink-light); opacity: 0.8; }
+.talk-present__notes-next {
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--color-ink-light);
+  opacity: 0.8;
+}
 
 .talk-present__notes-label {
   font-family: var(--font-mono);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--color-firelight);
+  color: var(--talk-dark-accent);
   margin-bottom: 6px;
 }
 
 .talk-present__notes-next-preview {
   font-family: var(--font-body);
   font-style: italic;
-  color: var(--color-khaki);
+  color: var(--talk-dark-muted);
   font-size: 13px;
 }
 
@@ -762,7 +712,7 @@
   transform: translateX(-50%);
   font-family: var(--font-mono);
   font-size: 11px;
-  color: var(--color-khaki);
+  color: var(--talk-dark-muted);
   opacity: 0.5;
   z-index: 150;
   pointer-events: none;
@@ -770,45 +720,32 @@
 
 .talk-present__keymap kbd {
   background: rgba(244, 234, 212, 0.12);
-  border: 1px solid var(--color-khaki);
+  border: 1px solid var(--talk-dark-muted);
   border-radius: 2px;
   padding: 1px 6px;
   margin: 0 2px;
   font-size: 10px;
-  color: var(--color-parchment);
+  color: var(--talk-dark-ink);
 }
 
-/* ---------- Responsive ---------- */
+/* ===========================================================================
+ * Responsive — mobile falls back to scroll-only, smaller canvas
+ * ========================================================================= */
 
 @media (max-width: 720px) {
   .talk-deck--scroll { padding: var(--space-md) var(--space-sm) var(--space-xl); }
-  .talk-slide__canvas { padding: var(--space-lg) var(--space-md); min-height: 280px; }
-  .talk-slide--title .talk-slide__title { font-size: 40px; }
-  .talk-slide--statement .talk-slide__title,
-  .talk-slide--statement .talk-slide__body { font-size: 28px; }
-  .talk-slide__title { font-size: 26px; }
-  .talk-slide__subtitle { font-size: 18px; }
-  .talk-slide__body { font-size: 17px; }
-  .talk-slide--diagram .talk-slide__canvas { grid-template-columns: 1fr; }
-  .talk-slide--diagram .talk-slide__image { grid-column: 1; }
+  .talk-slide__canvas { padding: var(--space-lg) var(--space-md); }
 }
 
-/* ---------- Print — PDF export fallback ---------- */
+/* ===========================================================================
+ * Print — PDF export fallback
+ * ========================================================================= */
 
 @media print {
   .talk-deck__header,
   .talk-deck__segments,
   .talk-deck__controls { display: none; }
-
   .talk-deck__slides { gap: 0; }
-
-  .talk-slide {
-    page-break-after: always;
-    border: none;
-    border-radius: 0;
-    box-shadow: none;
-    height: 100vh;
-  }
-
+  .talk-slide { page-break-after: always; border: none; border-radius: 0; box-shadow: none; height: 100vh; }
   .talk-slide__notes { page-break-before: avoid; }
 }

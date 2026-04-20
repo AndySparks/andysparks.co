@@ -4,17 +4,24 @@ import type { ReactNode } from "react";
  * Slide variants drive visual treatment. Each variant maps to a CSS class
  * in src/styles/talks.css and, where needed, its own layout component.
  */
+/**
+ * Five variants. Kept deliberately small per Jedi Council review 2026-04-20:
+ *
+ *  - `title`     first slide only
+ *  - `statement` all prose slides on parchment (absorbs former quote, section, diagram)
+ *  - `bullets`   list content (rare, stripped of ornament)
+ *  - `terminal`  dark register — demo pauses, machine screenshots, images
+ *  - `poll`      audience breaks, full-bleed ember
+ *
+ * Former variants `quote`, `machine`, `demo`, `section`, `diagram`, `image` map
+ * to one of these five via className modifiers where needed.
+ */
 export type SlideVariant =
-  | "title"          // big display + subtitle + footer signature
-  | "statement"      // single large statement, whitespace-dominant
-  | "bullets"        // title + bullet list
-  | "quote"          // serif quote, Machine Mode
-  | "machine"        // dark terminal aesthetic — screenshots, demo pauses
-  | "poll"           // full-bleed ember, cream text — audience breaks
-  | "demo"           // LIVE DEMO pause slide
-  | "diagram"        // text + figure layout
-  | "image"          // single hero image (e.g., screenshots)
-  | "section";       // divider between acts
+  | "title"
+  | "statement"
+  | "bullets"
+  | "terminal"
+  | "poll";
 
 export type Slide = {
   id: string;                    // stable anchor — /talks/<slug>#<id> and keyboard targets
