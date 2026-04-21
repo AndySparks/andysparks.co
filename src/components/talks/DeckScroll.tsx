@@ -1,5 +1,6 @@
 import type { Talk } from "@/lib/talks";
 import { Slide } from "./Slide";
+import { StagePreviewToggle } from "./StagePreviewToggle";
 import Link from "next/link";
 
 type Props = { talk: Talk };
@@ -34,6 +35,7 @@ export function DeckScroll({ talk }: Props) {
           <Link href={`/talks/${talk.slug}/present`} className="talk-deck__present-link">
             Present mode →
           </Link>
+          <StagePreviewToggle />
         </div>
       </header>
 

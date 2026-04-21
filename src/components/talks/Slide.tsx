@@ -45,17 +45,15 @@ export function Slide({ slide, slideNumber, totalSlides, mode = "scroll" }: Prop
           />
         )}
         {slide.body && <div className="talk-slide__body">{slide.body}</div>}
+        <div className="talk-slide__progress" aria-hidden="true">
+          <span>{slideNumber} / {totalSlides}</span>
+        </div>
       </div>
       {mode === "scroll" && slide.notes && (
         <aside className="talk-slide__notes">
           <div className="talk-slide__notes-label">Speaker notes</div>
           <div className="talk-slide__notes-body">{slide.notes}</div>
         </aside>
-      )}
-      {mode === "present" && (
-        <div className="talk-slide__progress">
-          <span>{slideNumber} / {totalSlides}</span>
-        </div>
       )}
     </article>
   );

@@ -35,12 +35,17 @@
   /* Climax radioactive tint — single use, on dark */
   --talk-radioactive: #b8d436;
 
-  /* ----- One type scale (container-relative) ----- */
-  --talk-display:   clamp(48px, 8cqi, 112px);
-  --talk-hero:      clamp(32px, 5cqi, 64px);
-  --talk-prominent: clamp(22px, 3.2cqi, 34px);
-  --talk-body:      clamp(16px, 2.2cqi, 22px);
+  /* ----- Type scale: perfect fifth (1.5 ratio). Bringhurst 3.1.
+   * Steps: 14 → 21 → 32 → 48 → 72 → 112 (shout).
+   * Each step is 1.5× the previous (with rounding). Coherent reading rhythm.
+   * --talk-shout sits one step above display for RADIOACTIVE-style single-word
+   * reveals; not part of the regular prose scale. */
   --talk-caption:   clamp(12px, 1.5cqi, 14px);
+  --talk-body:      clamp(16px, 2.1cqi, 21px);
+  --talk-prominent: clamp(22px, 3.2cqi, 32px);
+  --talk-hero:      clamp(32px, 4.8cqi, 48px);
+  --talk-display:   clamp(48px, 7.2cqi, 72px);
+  --talk-shout:     clamp(72px, 11cqi, 112px);
 }
 
 /* ---------- Index page ---------- */
@@ -151,26 +156,49 @@
 
 .talk-deck__segments { margin: var(--space-lg) 0 var(--space-2xl); }
 
+/* Segment navigator — 4 equal columns so the 8 segments form two tidy rows.
+ * grid-auto-rows: 1fr locks all cards in a row to the tallest card's height,
+ * which kills the ragged-row problem when names wrap. text-wrap: balance on
+ * the name makes multi-line names break evenly instead of laddering. */
+
 .talk-deck__segments ol {
   list-style: none;
   counter-reset: seg;
   padding: 0;
+  margin: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
   gap: var(--space-sm);
 }
 
+@media (max-width: 960px) {
+  .talk-deck__segments ol { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+  .talk-deck__segments ol { grid-template-columns: 1fr; }
+}
+
+.talk-deck__segments li { margin: 0; }
+
+/* Card interior: single column, stacked. Number as eyebrow on top,
+ * name in the middle, time on the bottom. Consistent structure across
+ * all cards so column widths don't drift with title length. */
+
 .talk-deck__segments li a {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: var(--space-sm);
-  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 14px 16px;
   border: 1px solid var(--color-divider);
   border-radius: 4px;
   text-decoration: none;
   color: var(--color-ink);
-  transition: border-color var(--duration-fast) var(--ease-default), background-color var(--duration-fast) var(--ease-default);
+  min-height: 96px;
+  height: 100%;
+  transition: border-color var(--duration-fast) var(--ease-default),
+              background-color var(--duration-fast) var(--ease-default);
 }
 
 .talk-deck__segments li a:hover {
@@ -178,11 +206,51 @@
   background-color: var(--color-warm-paper);
 }
 
-.talk-deck__segment-number { font-family: var(--font-mono); font-size: var(--type-sm); color: var(--talk-accent); min-width: 16px; }
-.talk-deck__segment-name   { font-family: var(--font-body); font-size: var(--type-body); color: var(--color-ink); }
-.talk-deck__segment-time   { font-family: var(--font-mono); font-size: var(--type-xs); color: var(--color-ink-light); }
+.talk-deck__segments li a[aria-current="true"],
+.talk-deck__segments li a[data-current="true"] {
+  border-color: var(--talk-accent);
+  background-color: var(--color-warm-paper);
+}
 
-.talk-deck__slides { display: flex; flex-direction: column; gap: var(--space-xl); }
+.talk-deck__segment-number {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--talk-accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+
+.talk-deck__segment-name {
+  font-family: var(--font-body);
+  font-size: var(--type-body);
+  color: var(--color-ink);
+  line-height: 1.25;
+  text-wrap: balance;
+  margin-top: 2px;
+}
+
+.talk-deck__segment-time {
+  margin-top: auto;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--color-ink-light);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.75;
+}
+
+.talk-deck__slides { display: flex; flex-direction: column; gap: var(--space-lg); }
+
+/* Stage preview toggle — escapes the reading-width container so slides
+ * render at the same width the present-mode stage uses. Only the slides
+ * column expands; header + segment nav stay at reading width. */
+html[data-stage-preview] .talk-deck__slides {
+  width: min(94vw, 1760px);
+  max-width: none;
+  margin-inline: calc((100% - min(94vw, 1760px)) / 2);
+}
 
 /* ===========================================================================
  * Slide base — every slide canvas is a strict 16:9 container.
@@ -196,13 +264,22 @@
   border: 1px solid var(--color-divider);
   border-radius: 4px;
   overflow: hidden;
+  /* Bringhurst 6.3: always turn on kerning, ligatures, contextual alternates,
+   * and high-quality rendering. Defaults leave some of this off per-browser. */
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .talk-slide--scroll { scroll-margin-top: var(--space-md); }
 
 .talk-slide__canvas {
   aspect-ratio: 16 / 9;
-  padding: var(--space-lg) var(--space-xl);
+  /* Bringhurst-proportional page margins. 64px top/bottom = ~7% of a 990px
+   * canvas, 96px left/right = ~5.5% of a 1760px canvas. Gives content room
+   * to breathe at both present-mode and scroll-mode widths. */
+  padding: var(--space-xl) var(--space-2xl);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,6 +287,25 @@
   overflow: hidden;
   container-type: inline-size;
 }
+
+/* Page number — bottom-right of every slide canvas, quiet mono caption.
+ * Inherits the variant's ink color (dark on light, light on dark) by
+ * pulling currentColor with reduced opacity. */
+.talk-slide__progress {
+  position: absolute;
+  bottom: var(--space-sm);
+  right: var(--space-md);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: currentColor;
+  opacity: 0.45;
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.talk-slide__progress span { display: block; }
 
 /* Vertical rhythm — every adjacent sibling inside body gets spacing based on
  * content type. Paragraph-to-paragraph: tighter (1em). Group-to-group (body
@@ -227,7 +323,7 @@
   font-size: var(--talk-caption);
   color: var(--talk-emphasis);
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   margin: 0;
 }
 
@@ -254,13 +350,20 @@
 .talk-slide__body {
   font-family: var(--font-body);
   font-size: var(--talk-body);
-  line-height: var(--leading-body);
+  line-height: 1.5;
   color: var(--talk-ink);
   max-width: 55ch;
+  /* Old-style figures in running prose — numbers sit on the baseline like
+   * lowercase letters instead of disrupting the text color with lining figures.
+   * Bringhurst 3.2.1. */
+  font-variant-numeric: oldstyle-nums proportional-nums;
 }
 
 .talk-slide__body p { margin: 0; }
-.talk-slide__body em { font-style: italic; color: var(--talk-accent); }
+/* Bringhurst 3.2: italic IS the emphasis device. Color layered on italic
+ * is redundant and breaks even reading color. Italic alone carries the
+ * signal; strong keeps its accent because strong is a louder semantic step. */
+.talk-slide__body em { font-style: italic; color: inherit; }
 .talk-slide__body strong { font-weight: 600; color: var(--talk-ink); }
 
 .talk-slide__body blockquote {
@@ -284,8 +387,9 @@
  * ========================================================================= */
 
 .talk-slide--title .talk-slide__canvas {
-  padding: var(--space-xl) var(--space-2xl);
+  padding: var(--space-2xl) var(--space-2xl) var(--space-xl);
   background: var(--talk-bg);
+  justify-content: flex-start;
 }
 
 .talk-slide--title .talk-slide__title {
@@ -358,15 +462,21 @@
   max-width: none;
 }
 
-/* Quote body is the quote itself. Sized to fit comfortably in 16:9 canvas —
- * long passages (4-6 lines) must not overflow. Targets ~30px at 940px width. */
+/* Quote body is the quote itself. Sized to fit comfortably in 16:9 canvas.
+ * Measure widened to 45ch so italic serif has enough run to breathe (Bringhurst
+ * 2.1.2 — below 40ch italic serif looks anorexic).  */
 .talk-slide--quote .talk-slide__body {
   font-size: clamp(20px, 2.8cqi, 30px);
-  line-height: 1.35;
+  line-height: 1.3;
   font-family: var(--font-body);
   font-style: italic;
   color: var(--talk-dark-ink);
-  max-width: 38ch;
+  max-width: 45ch;
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  /* Hanging opening quote marks so the text body aligns with the
+   * attribution, not the glyph. Bringhurst 3.3. Safari supports this
+   * natively; Chrome/Firefox fall back gracefully (no worse than today). */
+  hanging-punctuation: first allow-end last;
 }
 
 /* Inside a quote body, em/strong must have real contrast on night bg.
@@ -383,15 +493,31 @@
   opacity: 0.88;
 }
 
+/* Quote attribution sits directly under the quote, left-aligned with it.
+ * DOM order renders subtitle before body; we flip them with flex order so the
+ * quote reads first, then the attribution underneath — like any printed page. */
+
+.talk-slide--quote .talk-slide__body {
+  order: 1;
+  align-self: flex-start;
+}
+
+/* Attribution in Fraunces real small caps (Bringhurst: quotation attribution
+ * is a classic small-caps job). Fraunces has true small caps in its variable
+ * font — separate glyph designs with correct weight + x-height. Pass the
+ * source text in its natural case (e.g. "William Gibson") so the font
+ * feature can transform it. No text-transform: uppercase hack. */
 .talk-slide--quote .talk-slide__subtitle {
-  font-family: var(--font-mono);
+  order: 2;
+  font-family: var(--font-body);
   font-size: var(--talk-caption);
   font-style: normal;
   color: var(--talk-dark-accent);
-  margin-top: auto;
-  padding-top: var(--space-md);
-  letter-spacing: 0.04em;
-  align-self: flex-end;
+  letter-spacing: 0.08em;
+  font-variant-caps: all-small-caps;
+  font-feature-settings: "smcp" 1, "c2sc" 1, "kern" 1;
+  margin-top: var(--space-md);
+  align-self: flex-start;
 }
 
 /* Matrix-scene style dialogue (slide 15) has `<strong>Neo:</strong>` markup
@@ -400,6 +526,257 @@
  * like emphasis shouting — use weight, not color, when strong is inline. */
 .talk-slide--quote .talk-slide__body p strong:first-child {
   color: var(--talk-dark-accent);
+}
+
+/* ===========================================================================
+ * Ladder modifier: Tufte-inspired fluency ladder on the dark register.
+ *
+ * Principles applied:
+ *   - No chrome. No boxes, no gradients, no decorative rules except a single
+ *     hairline divider between the level column and the description column
+ *     as a quiet reading cue.
+ *   - Direct labeling. No legend. Each rung carries its own L-number and prose.
+ *   - Type encodes hierarchy through scale and weight, not through ornament.
+ *   - The visual order (L7 at top, L0 at bottom) matches the ladder metaphor
+ *     you climb. A small arrow on the axis reinforces direction.
+ *   - Muted axis labels name the endpoints so the reader knows what's being
+ *     measured without a title fighting the data.
+ * ========================================================================= */
+
+.talk-slide--ladder .talk-slide__canvas {
+  padding: var(--space-lg) var(--space-2xl);
+}
+
+/* Single grid holds everything:
+ *   col 1 = axis (labels + rail)
+ *   col 2 = level (L7, L6, …)
+ *   col 3 = description
+ *   row 1 = heading (spans cols 2-3)
+ *   rows 2-9 = rungs (L7 at row 2, L0 at row 9 for the 8-rung variant)
+ *
+ * Axis labels are placed on the same rows as the top and bottom rungs so they
+ * vertically align with L7 and L0. The rail spans the rows between. */
+
+.fluency-ladder {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: auto repeat(8, auto);
+  column-gap: var(--space-xl);
+  row-gap: var(--space-sm);
+  height: 100%;
+  align-content: center;
+}
+
+/* Six-rung variant (slide 34 uses this, 6 rungs instead of 8). */
+.fluency-ladder--six {
+  grid-template-rows: auto repeat(6, auto);
+}
+
+.fluency-ladder__heading {
+  grid-column: 2 / -1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-md);
+}
+
+.fluency-ladder__label {
+  font-family: var(--font-mono);
+  font-size: clamp(11px, 1.3cqi, 15px);
+  color: var(--talk-dark-accent);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.fluency-ladder__title {
+  font-family: var(--font-mono);
+  font-size: clamp(10px, 1.1cqi, 13px);
+  color: var(--talk-dark-muted);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.fluency-ladder__axis-top,
+.fluency-ladder__axis-bottom {
+  grid-column: 1;
+  align-self: center;
+  font-family: var(--font-mono);
+  font-size: clamp(9px, 1cqi, 12px);
+  color: var(--talk-dark-muted);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  justify-self: end;
+}
+
+.fluency-ladder__axis-top { grid-row: 2; }
+.fluency-ladder__axis-bottom { grid-row: 9; }
+.fluency-ladder--six .fluency-ladder__axis-bottom { grid-row: 7; }
+
+.fluency-ladder__chevron {
+  font-family: var(--font-body);
+  font-size: clamp(13px, 1.5cqi, 18px);
+  opacity: 0.7;
+  letter-spacing: 0;
+}
+
+.fluency-ladder__axis-rail {
+  grid-column: 1;
+  grid-row: 3 / 9;
+  width: 1px;
+  justify-self: end;
+  margin-right: calc(50% - 0.5px); /* center under the axis labels which are justified-end */
+  background: var(--talk-dark-muted);
+  opacity: 0.3;
+}
+.fluency-ladder--six .fluency-ladder__axis-rail { grid-row: 3 / 7; }
+
+.fluency-ladder__rung {
+  display: contents;
+}
+
+.fluency-ladder__level {
+  grid-column: 2;
+  font-family: var(--font-mono);
+  font-size: clamp(14px, 1.9cqi, 22px);
+  color: var(--talk-dark-accent);
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+  align-self: baseline;
+}
+
+.fluency-ladder__desc {
+  grid-column: 3;
+  font-family: var(--font-body);
+  font-size: clamp(16px, 2.6cqi, 30px);
+  color: var(--talk-dark-ink);
+  line-height: 1.25;
+  align-self: baseline;
+}
+
+.fluency-ladder__rung {
+  display: contents;
+}
+
+.fluency-ladder__level {
+  font-family: var(--font-mono);
+  font-size: clamp(14px, 1.9cqi, 22px);
+  color: var(--talk-dark-accent);
+  letter-spacing: 0.08em;
+  font-variant-numeric: tabular-nums;
+}
+
+.fluency-ladder__desc {
+  font-family: var(--font-body);
+  font-size: clamp(16px, 2.6cqi, 30px);
+  color: var(--talk-dark-ink);
+  line-height: 1.25;
+}
+
+.fluency-ladder__axis {
+  display: flex;
+  gap: 1.2cqi;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: clamp(9px, 1cqi, 12px);
+  color: var(--talk-dark-muted);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.fluency-ladder__axis-arrow {
+  flex: 1;
+  height: 1px;
+  background: var(--talk-dark-muted);
+  position: relative;
+  text-indent: -9999px;
+  overflow: visible;
+  opacity: 0.6;
+}
+
+.fluency-ladder__axis-arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%) rotate(-45deg);
+  width: 0.7cqi;
+  height: 0.7cqi;
+  border-right: 1px solid var(--talk-dark-muted);
+  border-bottom: 1px solid var(--talk-dark-muted);
+  opacity: 0.6;
+}
+
+/* --- Shout modifier: display-scale phrase for quote reveals on dark.
+ *
+ * Used when a quote has been split by Reynolds' principle (one idea per slide)
+ * and this slide carries the key phrase alone. Paula Scher's typographic volume:
+ * the phrase is the content, not embedded inside prose.
+ * Speaker/attribution lives in `subtitle`, quiet mono. */
+
+.talk-slide--shout {
+  background: var(--talk-dark-bg);
+  color: var(--talk-dark-ink);
+  border-color: var(--color-chocolate);
+}
+
+.talk-slide--shout .talk-slide__canvas {
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) var(--space-2xl);
+  text-align: center;
+}
+
+.talk-slide--shout .talk-slide__label {
+  font-family: var(--font-mono);
+  font-size: var(--talk-caption);
+  color: var(--talk-dark-muted);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-md);
+}
+
+.talk-slide--shout .talk-slide__body {
+  font-family: var(--font-body);
+  font-size: var(--talk-shout);
+  font-weight: 500;
+  line-height: 1.05;
+  color: var(--talk-dark-accent);
+  max-width: 24ch;
+  text-align: center;
+  font-style: normal;
+  margin: 0 auto;
+}
+
+.talk-slide--shout .talk-slide__body p { margin: 0; }
+.talk-slide--shout .talk-slide__body p + p { margin-top: var(--space-md); }
+.talk-slide--shout .talk-slide__body em {
+  color: var(--talk-dark-ink);
+  font-style: italic;
+}
+.talk-slide--shout .talk-slide__body strong {
+  color: var(--talk-dark-accent);
+  font-weight: 600;
+}
+
+.talk-slide--shout .talk-slide__subtitle {
+  font-family: var(--font-mono);
+  font-size: var(--talk-caption);
+  font-style: normal;
+  color: var(--talk-dark-muted);
+  margin-top: var(--space-lg);
+  letter-spacing: 0.08em;
+  text-align: center;
 }
 
 /* --- Climax modifier: single-word shout, radioactive accent on dark --- */
@@ -422,9 +799,9 @@
 
 .talk-slide--climax .talk-slide__climax-word {
   font-family: var(--font-body);
-  font-size: var(--talk-display);
+  font-size: var(--talk-shout);
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
   line-height: 1;
   text-align: center;
   color: var(--talk-radioactive);
@@ -451,7 +828,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: var(--space-lg);
 }
 
 .talk-slide--bullets .talk-slide__body li {
@@ -491,6 +868,7 @@
   color: var(--talk-dark-accent);
   font-size: var(--talk-prominent);
   letter-spacing: 0.02em;
+  max-width: none;
 }
 
 .talk-slide--terminal .talk-slide__subtitle {
@@ -504,7 +882,17 @@
   font-family: var(--font-mono);
   color: var(--talk-dark-ink);
   font-size: var(--talk-body);
-  line-height: 1.55;
+  line-height: 1.5;
+  max-width: 60ch;
+  /* Mono needs lining + tabular figures for consistent width and baseline. */
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* Paragraph-to-paragraph rhythm: exactly one full line of blank space,
+ * so the grid stays regular. Bringhurst 2.2.2: vertical intervals must be
+ * even multiples of leading. */
+.talk-slide--terminal .talk-slide__body > * + * {
+  margin-top: 1.5em;
 }
 
 .talk-slide--terminal .talk-slide__body strong { color: var(--talk-dark-accent); }
@@ -522,6 +910,112 @@
 .talk-slide--demo .talk-slide__title {
   font-size: var(--talk-hero);
   line-height: var(--leading-tight);
+}
+
+/* --- YouTube modifier: embed a YouTube iframe at 16:9, filling the canvas.
+ *
+ * The body's default max-width: 55ch would clamp the iframe to a narrow
+ * column — reset to full canvas width. The canvas already enforces 16:9 so
+ * the iframe just fills it. Label sits absolute top-left so it doesn't
+ * fight the player for vertical space. --- */
+
+.talk-slide--youtube .talk-slide__canvas {
+  padding: var(--space-2xl) var(--space-xl);
+  align-items: stretch;
+  justify-content: stretch;
+}
+
+.talk-slide--youtube .talk-slide__label {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-md);
+  margin: 0;
+  z-index: 2;
+  background: rgba(30, 26, 22, 0.75);
+  padding: 4px 10px;
+  border-radius: 3px;
+}
+
+.talk-slide--youtube .talk-slide__body {
+  max-width: none;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.talk-slide__youtube {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 100%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px rgba(30, 26, 22, 0.5);
+}
+
+.talk-slide__youtube iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* --- Split modifier: square / portrait image on right, text on left.
+ *
+ * Use for slides where the image is not a landscape banner — cholesterol chart,
+ * screenshot of a phone app, portrait photo, etc. Layout gives the image its
+ * own half of the canvas so it can size naturally without fighting the label
+ * or caption for vertical space. --- */
+
+.talk-slide--split .talk-slide__canvas {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  grid-template-rows: auto 1fr;
+  column-gap: var(--space-xl);
+  row-gap: var(--space-md);
+  align-items: start;
+  padding: var(--space-lg) var(--space-xl);
+}
+
+.talk-slide--split .talk-slide__label {
+  position: static;
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+}
+
+.talk-slide--split .talk-slide__title {
+  grid-column: 1;
+  grid-row: 1;
+  align-self: start;
+  margin-top: var(--space-md);
+}
+
+.talk-slide--split .talk-slide__body {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+  max-width: none;
+  font-size: clamp(14px, 2cqi, 22px);
+  line-height: 1.45;
+  margin-top: var(--space-md);
+}
+
+.talk-slide--split .talk-slide__image {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  align-self: center;
+  justify-self: center;
+  box-shadow: 0 2px 12px rgba(30, 26, 22, 0.5);
 }
 
 /* --- Image modifier: canvas becomes a dark frame around the image --- */
@@ -576,6 +1070,65 @@
   max-width: 40ch;
 }
 
+/* --- Thanks modifier: closing slide, ember background, split layout.
+ * Title hero left, QR right, caption under the title. No parchment card —
+ * the QR export already has its own white background for scan contrast, so
+ * wrapping it in another card creates nested frames. Compose with real
+ * hierarchy: gratitude as the headline, scan as the concrete artifact. */
+
+.talk-slide--thanks .talk-slide__canvas {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto;
+  column-gap: var(--space-2xl);
+  align-content: center;
+  align-items: start;
+  padding: var(--space-xl) var(--space-2xl);
+}
+
+/* Let the body's children (img + caption) participate in the canvas grid
+ * directly. Without this, grid-column on the img/p is scoped to the body
+ * wrapper, not the canvas, and layout falls apart. */
+.talk-slide--thanks .talk-slide__body {
+  display: contents;
+}
+
+.talk-slide--thanks .talk-slide__title {
+  grid-column: 1;
+  grid-row: 1;
+  color: var(--talk-bg);
+  font-size: var(--talk-display);
+  font-weight: 500;
+  line-height: 1.05;
+  max-width: 14ch;
+  margin: 0 0 var(--space-md) 0;
+}
+
+.talk-slide--thanks .talk-slide__thanks-caption {
+  grid-column: 1;
+  grid-row: 2;
+  color: var(--talk-bg);
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: var(--talk-prominent);
+  opacity: 0.88;
+  max-width: 28ch;
+  margin: 0;
+}
+
+.talk-slide--thanks .talk-slide__thanks-qr {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  align-self: center;
+  justify-self: end;
+  width: clamp(220px, 30cqi, 360px);
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  padding: var(--space-sm);
+  background: var(--talk-bg);
+}
+
 /* ===========================================================================
  * Speaker notes (scroll mode only)
  * ========================================================================= */
@@ -595,7 +1148,7 @@
   font-size: var(--type-xs);
   color: var(--talk-emphasis);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   margin-bottom: var(--space-sm);
 }
 
@@ -719,7 +1272,7 @@
   font-family: var(--font-mono);
   font-size: 10px;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.08em;
   color: var(--talk-dark-accent);
   margin-bottom: 6px;
 }
