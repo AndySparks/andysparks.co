@@ -4,6 +4,8 @@
 
 Personal website for Andy Sparks. Built with Next.js, deployed on Vercel.
 
+**Spine status:** partially spined as of 2026-04-27. See `8-DECISIONS/2026-04-27-spine-adoption.md` for what travelled and what's an explicit divergence from the OS reference. Spine vocabulary (the spine, spined, spine adoption, spine-native): `~/operating-system/8-DECISIONS/2026-04-27-spine-portability.md`. Read `1-ROADMAP.md` at session start for current punch list.
+
 Research the codebase before editing. Never change code you haven't read.
 
 ### Boil the ocean
