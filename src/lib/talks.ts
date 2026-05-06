@@ -75,9 +75,11 @@ export type TalkMeta = Omit<Talk, "slides" | "segments">;
 // Imports are static so slides compile into the bundle. Add a line per talk.
 // Note: content file is .tsx because slide body content uses JSX fragments.
 import drinkTheRadioactiveGatorade from "../../content/talks/drink-the-radioactive-gatorade";
+import goToMarketSprint from "../../content/talks/go-to-market-sprint";
 
 const TALKS: Record<string, Talk> = {
   "drink-the-radioactive-gatorade": drinkTheRadioactiveGatorade,
+  "go-to-market-sprint": goToMarketSprint,
 };
 
 export function getAllTalks(): TalkMeta[] {
