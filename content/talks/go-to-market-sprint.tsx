@@ -18,7 +18,7 @@ const talk: Talk = {
   description:
     "A 60-minute working session for OSU Summer Catalyst founders. By 11:00 you will have found 5 specific people, drafted an email to each, and committed to send all 5 by Friday at 5pm.",
   segments: [
-    { number: 1, name: "Frame + 5 stakeholder types", timeBudget: "6 min" },
+    { number: 1, name: "Frame: luck + 5 stakeholder types", timeBudget: "8 min" },
     { number: 2, name: "The contract", timeBudget: "1 min" },
     { number: 3, name: "Discovery", timeBudget: "15 min" },
     { number: 4, name: "Email anatomy + drafts", timeBudget: "10 min" },
@@ -46,6 +46,87 @@ const talk: Talk = {
         <p>
           Up from 9:50. Plain, big. Don&rsquo;t speak yet. Walk to front at 10:00. Let the room settle 30 sec. No &ldquo;good morning.&rdquo; Holds through SEGMENT 1a/1b/1c (Ford Focus callback, ground game in SF, Mom Test in 4 sentences).
         </p>
+      ),
+    },
+
+    // ================================================================
+    // OPENER — Pasteur quote
+    // ================================================================
+    {
+      id: "pasteur",
+      segment: 1,
+      variant: "statement",
+      className: "talk-slide--quote",
+      body: (
+        <p>
+          <em>&ldquo;Fortune favors the prepared mind.&rdquo;</em>
+        </p>
+      ),
+      subtitle: "Louis Pasteur",
+      notes: (
+        <p>
+          30 sec. Read it slowly. Don&rsquo;t explain. Let it sit. Then into the question.
+        </p>
+      ),
+    },
+
+    // ================================================================
+    // OPENER — Luck poll
+    // ================================================================
+    {
+      id: "luck-poll",
+      segment: 1,
+      variant: "poll",
+      title: "Who's luckier?",
+      subtitle: "Someone who meets 5 people in a year — or 100 people in a year?",
+      notes: (
+        <>
+          <p>
+            60 sec. Hands. Don&rsquo;t resolve immediately. Let the room sit with it.
+          </p>
+          <p>
+            <em>&ldquo;Most of you said 100. I think you&rsquo;re right &mdash; but not for the reason you think. Luck isn&rsquo;t one thing.&rdquo;</em>
+          </p>
+        </>
+      ),
+    },
+
+    // ================================================================
+    // OPENER — Four kinds of luck (James Austin, 1978)
+    // ================================================================
+    {
+      id: "kinds-of-luck",
+      segment: 1,
+      variant: "terminal",
+      title: "Four kinds of luck",
+      body: (
+        <ol>
+          <li>
+            <strong>Blind.</strong> Impersonal. You can&rsquo;t influence it.
+          </li>
+          <li>
+            <strong>Activity.</strong> Move, meet, experiment. <em>The 100-person year.</em>
+          </li>
+          <li>
+            <strong>Prepared mind.</strong> Knowledge + recognition, ready when chance arrives. <em>(Pasteur.)</em>
+          </li>
+          <li>
+            <strong>Distinct you.</strong> Only available to one person &mdash; because of how specific they are.
+          </li>
+        </ol>
+      ),
+      notes: (
+        <>
+          <p>
+            90 sec. From James Austin&rsquo;s <em>Chase, Chance, and Creativity</em> (1978).
+          </p>
+          <p>
+            <em>&ldquo;Three of these four, you have agency over. This hour is mostly about Chance II and Chance III. The 5 people exercise is engineered Chance II &mdash; you don&rsquo;t wait for the right person, you go find them. Asking better questions when you meet them is Chance III &mdash; you&rsquo;re prepared, so you recognize what matters. And the thing that makes you weird and specific? That&rsquo;s Chance IV. Lean into all three.&rdquo;</em>
+          </p>
+          <p>
+            Pivot: <em>&ldquo;Let&rsquo;s start with the easiest to engineer. Who you talk to.&rdquo;</em>
+          </p>
+        </>
       ),
     },
 
