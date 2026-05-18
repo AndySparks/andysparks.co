@@ -23,8 +23,7 @@ export default function AboutPage() {
   const introContent = page.content.slice(0, splitIndex);
   const restContent = page.content.slice(splitIndex);
 
-  // Split intro into the h2 heading and the body paragraphs
-  // so the heading renders full-width and only paragraphs sit beside the photo
+  // Heading renders full-width; only paragraphs wrap beside the photo.
   const firstParagraphIndex = introContent.indexOf("\n\n", introContent.indexOf("##"));
   const introHeading = introContent.slice(0, firstParagraphIndex);
   const introBody = introContent.slice(firstParagraphIndex).trim();

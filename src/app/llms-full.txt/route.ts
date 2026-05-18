@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import type { EssayFrontmatter } from "@/lib/frontmatter";
 
 export function GET() {
   const sections: string[] = [];
@@ -11,21 +12,18 @@ export function GET() {
 
 ---`);
 
-  // About page
   const aboutPath = path.join(process.cwd(), "content/pages/about.md");
   if (fs.existsSync(aboutPath)) {
     const { content } = matter(fs.readFileSync(aboutPath, "utf8"));
     sections.push(`## About\n\n${content.trim()}`);
   }
 
-  // Coaching page
   const coachingPath = path.join(process.cwd(), "content/pages/coaching.md");
   if (fs.existsSync(coachingPath)) {
     const { content } = matter(fs.readFileSync(coachingPath, "utf8"));
     sections.push(`## Coaching\n\n${content.trim()}`);
   }
 
-  // All essays
   const essaysDir = path.join(process.cwd(), "content/essays");
   const files = fs.readdirSync(essaysDir).filter((f) => f.endsWith(".md"));
 
@@ -33,10 +31,11 @@ export function GET() {
     .map((file) => {
       const raw = fs.readFileSync(path.join(essaysDir, file), "utf8");
       const { data, content } = matter(raw);
+      const meta = data as EssayFrontmatter;
       return {
-        title: data.title || file.replace(/\.md$/, ""),
-        date: data.date || "",
-        description: data.description || "",
+        title: meta.title || file.replace(/\.md$/, ""),
+        date: meta.date || "",
+        description: meta.description || "",
         content: content.trim(),
         slug: file.replace(/\.md$/, ""),
       };
@@ -54,7 +53,6 @@ export function GET() {
     );
   }
 
-  // Links
   sections.push(`## Links
 
 - Homepage: https://andysparks.co

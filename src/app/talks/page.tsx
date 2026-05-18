@@ -1,5 +1,5 @@
 import { Container } from "@/components/Container";
-import { getAllTalks } from "@/lib/talks";
+import { getAllTalks } from "@/lib/talks-registry";
 import Link from "next/link";
 
 export const metadata = {

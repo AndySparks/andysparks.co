@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { getTalkBySlug } from "@/lib/talks";
+import { getTalkBySlug } from "@/lib/talks-registry";
 
 export const alt = "Drinking the Radioactive Gatorade";
 export const size = { width: 1200, height: 630 };

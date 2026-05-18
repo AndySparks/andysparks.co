@@ -1,5 +1,7 @@
+import type { JsonLdSchema } from "@/lib/jsonld";
+
 type JsonLdProps = {
-  data: Record<string, unknown>;
+  data: JsonLdSchema;
 };
 
 export function JsonLd({ data }: JsonLdProps) {

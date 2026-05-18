@@ -1,22 +1,16 @@
 import type { ReactNode } from "react";
 
 /**
- * Slide variants drive visual treatment. Each variant maps to a CSS class
- * in src/styles/talks.css and, where needed, its own layout component.
- */
-/**
- * Five variants. Kept deliberately small per Jedi Council review 2026-04-20:
+ * Slide variants drive visual treatment. Each maps to a CSS class in
+ * src/styles/talks.css.
  *
  *  - `title`     first slide only
- *  - `statement` all prose slides on parchment (absorbs former quote, section, diagram)
+ *  - `statement` prose slides on parchment (covers quote/section/diagram via modifiers)
  *  - `bullets`   list content (rare, stripped of ornament)
  *  - `terminal`  dark register — demo pauses, machine screenshots, images
  *  - `poll`      audience breaks, full-bleed ember
- *
- * Former variants `quote`, `machine`, `demo`, `section`, `diagram`, `image` map
- * to one of these five via className modifiers where needed.
  */
-export type SlideVariant =
+type SlideVariant =
   | "title"
   | "statement"
   | "bullets"
@@ -44,7 +38,7 @@ export type Slide = {
   className?: string;
 };
 
-export type TalkSegment = {
+type TalkSegment = {
   number: number;
   name: string;
   timeBudget: string;     // e.g. "10 min"
@@ -64,34 +58,3 @@ export type Talk = {
 };
 
 export type TalkMeta = Omit<Talk, "slides" | "segments">;
-
-/**
- * Talk loader. Talks are TS modules under content/talks/ — unlike essays (markdown),
- * slide content is structured data, so TS gives compile-time validation.
- *
- * Keep filenames equal to slug: content/talks/<slug>.ts exports default Talk.
- */
-
-// Imports are static so slides compile into the bundle. Add a line per talk.
-// Note: content file is .tsx because slide body content uses JSX fragments.
-import drinkTheRadioactiveGatorade from "../../content/talks/drink-the-radioactive-gatorade";
-import goToMarketSprint from "../../content/talks/go-to-market-sprint";
-
-const TALKS: Record<string, Talk> = {
-  "drink-the-radioactive-gatorade": drinkTheRadioactiveGatorade,
-  "go-to-market-sprint": goToMarketSprint,
-};
-
-export function getAllTalks(): TalkMeta[] {
-  return Object.values(TALKS)
-    .map(({ slides: _slides, segments: _segments, ...meta }) => meta)
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-export function getAllTalkSlugs(): string[] {
-  return Object.keys(TALKS);
-}
-
-export function getTalkBySlug(slug: string): Talk | null {
-  return TALKS[slug] ?? null;
-}

@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import type { EssayFrontmatter } from "@/lib/frontmatter";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://andysparks.co";
@@ -13,8 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const essayPages: MetadataRoute.Sitemap = files.map((file) => {
     const content = fs.readFileSync(path.join(essaysDir, file), "utf8");
     const { data } = matter(content);
+    const meta = data as EssayFrontmatter;
     const slug = file.replace(/\.md$/, "");
-    const date = data.date ? new Date(data.date) : undefined;
+    const date = meta.date ? new Date(meta.date) : undefined;
 
     if (date && date > latestEssayDate) latestEssayDate = date;
 

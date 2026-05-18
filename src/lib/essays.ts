@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import type { EssayFrontmatter } from "./frontmatter";
 
 const essaysDirectory = path.join(process.cwd(), "content/essays");
 
@@ -27,16 +28,17 @@ export function getAllEssays(): EssayMeta[] {
       const fullPath = path.join(essaysDirectory, fileName);
       const fileContents = fs.readFileSync(fullPath, "utf8");
       const { data } = matter(fileContents);
+      const meta = data as EssayFrontmatter;
 
       return {
         slug,
-        title: data.title || slug,
-        date: data.date || "2020-01-01",
-        description: data.description || "",
-        oldPath: data.oldPath,
-        image: data.image,
-        imageAlt: data.imageAlt,
-        tags: data.tags,
+        title: meta.title || slug,
+        date: meta.date || "2020-01-01",
+        description: meta.description || "",
+        oldPath: meta.oldPath,
+        image: meta.image,
+        imageAlt: meta.imageAlt,
+        tags: meta.tags,
       };
     });
 
@@ -51,16 +53,17 @@ export function getEssayBySlug(slug: string): Essay | null {
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
+  const meta = data as EssayFrontmatter;
 
   return {
     slug,
-    title: data.title || slug,
-    date: data.date || "2020-01-01",
-    description: data.description || "",
-    oldPath: data.oldPath,
-    image: data.image,
-    imageAlt: data.imageAlt,
-    tags: data.tags,
+    title: meta.title || slug,
+    date: meta.date || "2020-01-01",
+    description: meta.description || "",
+    oldPath: meta.oldPath,
+    image: meta.image,
+    imageAlt: meta.imageAlt,
+    tags: meta.tags,
     content,
   };
 }
@@ -86,17 +89,4 @@ export function getRelatedEssays(slug: string, limit = 3): EssayMeta[] {
     .sort((a, b) => b.score - a.score || new Date(b.essay.date).getTime() - new Date(a.essay.date).getTime());
 
   return scored.slice(0, limit).map((s) => s.essay);
-}
-
-export function getRedirectMap(): Record<string, string> {
-  const essays = getAllEssays();
-  const redirects: Record<string, string> = {};
-
-  for (const essay of essays) {
-    if (essay.oldPath) {
-      redirects[essay.oldPath] = `/essays/${essay.slug}`;
-    }
-  }
-
-  return redirects;
 }
