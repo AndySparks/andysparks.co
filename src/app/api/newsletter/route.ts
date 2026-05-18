@@ -3,9 +3,13 @@ import { Resend } from "resend";
 
 const AUDIENCE_ID = "aff60c34-aad3-4f91-9875-7e2c6ee50fc3";
 
+type NewsletterRequest = {
+  email?: string;
+};
+
 export async function POST(request: NextRequest) {
-  const body = await request.json();
-  const { email } = body;
+  const body = (await request.json()) as NewsletterRequest;
+  const email = typeof body?.email === "string" ? body.email : "";
 
   if (!email) {
     return NextResponse.json(

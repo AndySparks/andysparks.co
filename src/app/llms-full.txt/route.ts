@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import type { EssayFrontmatter } from "@/lib/frontmatter";
 
 export function GET() {
   const sections: string[] = [];
@@ -30,10 +31,11 @@ export function GET() {
     .map((file) => {
       const raw = fs.readFileSync(path.join(essaysDir, file), "utf8");
       const { data, content } = matter(raw);
+      const meta = data as EssayFrontmatter;
       return {
-        title: data.title || file.replace(/\.md$/, ""),
-        date: data.date || "",
-        description: data.description || "",
+        title: meta.title || file.replace(/\.md$/, ""),
+        date: meta.date || "",
+        description: meta.description || "",
         content: content.trim(),
         slug: file.replace(/\.md$/, ""),
       };

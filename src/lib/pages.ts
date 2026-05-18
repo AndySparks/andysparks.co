@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import type { PageFrontmatter } from "./frontmatter";
 
 const pagesDirectory = path.join(process.cwd(), "content/pages");
 
@@ -15,9 +16,10 @@ export function getPageContent(slug: string): PageContent | null {
 
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
+  const meta = data as PageFrontmatter;
 
   return {
-    title: data.title || slug,
+    title: meta.title || slug,
     content,
   };
 }

@@ -1,8 +1,21 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
+type ContactRequest = {
+  name?: string;
+  email?: string;
+  message?: string;
+  website?: string;
+  "cf-turnstile-response"?: string;
+};
+
+type TurnstileVerifyResponse = {
+  success: boolean;
+  "error-codes"?: string[];
+};
+
 export async function POST(request: NextRequest) {
-  const body = await request.json();
+  const body = (await request.json()) as ContactRequest;
   const { name, email, message, website } = body;
   const turnstileToken = body["cf-turnstile-response"];
 
@@ -39,7 +52,7 @@ export async function POST(request: NextRequest) {
       }),
     }
   );
-  const result = await verification.json();
+  const result = (await verification.json()) as TurnstileVerifyResponse;
   if (!result.success) {
     return NextResponse.json(
       { error: "Verification failed. Please try again." },
