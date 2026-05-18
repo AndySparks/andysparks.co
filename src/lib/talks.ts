@@ -10,7 +10,7 @@ import type { ReactNode } from "react";
  *  - `terminal`  dark register — demo pauses, machine screenshots, images
  *  - `poll`      audience breaks, full-bleed ember
  */
-export type SlideVariant =
+type SlideVariant =
   | "title"
   | "statement"
   | "bullets"
@@ -38,7 +38,7 @@ export type Slide = {
   className?: string;
 };
 
-export type TalkSegment = {
+type TalkSegment = {
   number: number;
   name: string;
   timeBudget: string;     // e.g. "10 min"

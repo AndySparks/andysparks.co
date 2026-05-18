@@ -87,16 +87,3 @@ export function getRelatedEssays(slug: string, limit = 3): EssayMeta[] {
 
   return scored.slice(0, limit).map((s) => s.essay);
 }
-
-export function getRedirectMap(): Record<string, string> {
-  const essays = getAllEssays();
-  const redirects: Record<string, string> = {};
-
-  for (const essay of essays) {
-    if (essay.oldPath) {
-      redirects[essay.oldPath] = `/essays/${essay.slug}`;
-    }
-  }
-
-  return redirects;
-}
