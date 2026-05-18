@@ -1,5 +1,5 @@
 import { DeckPresent } from "@/components/talks/DeckPresent";
-import { getTalkBySlug, getAllTalkSlugs } from "@/lib/talks";
+import { getTalkBySlug, getAllTalkSlugs } from "@/lib/talks-registry";
 import { notFound } from "next/navigation";
 import "../../../../styles/talks.css";
 

@@ -1,7 +1,7 @@
 import { DeckScroll } from "@/components/talks/DeckScroll";
 import { JsonLd } from "@/components/JsonLd";
 import { BreadcrumbJsonLd } from "@/components/BreadcrumbJsonLd";
-import { getTalkBySlug, getAllTalkSlugs } from "@/lib/talks";
+import { getTalkBySlug, getAllTalkSlugs } from "@/lib/talks-registry";
 import { notFound } from "next/navigation";
 import "../../../styles/talks.css";
 
