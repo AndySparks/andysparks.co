@@ -7,7 +7,7 @@ export function GET() {
 
 Andy Sparks is an executive coach who works with startup founders and CEOs navigating growth, leadership, and the challenges of building companies. He works with 15-20 clients at a time and has coached over 60 people for more than 1,800 hours since 2020.
 
-Previously, Andy co-founded Mattermark (B2B analytics, grew to $5M ARR and 150,000 newsletter subscribers) and Holloway (digital book publishing). He raised over $20M in venture capital across three companies and is a Harvard Business School case study subject. He is also building Management Craft, a library of mental models and frameworks for management.
+Previously, Andy co-founded Mattermark (B2B analytics, grew to $5M ARR and over 100,000 newsletter subscribers) and Holloway (digital book publishing). He raised over $20M in venture capital across three companies and is a Harvard Business School case study subject. He is also building Management Craft, a library of mental models and frameworks for management.
 
 ## Coaching
 
