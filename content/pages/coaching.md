@@ -16,7 +16,7 @@ That experience doesn't mean I'm here to replay my own playbook. It means I unde
 
 I don't follow a curriculum. I meet with clients over Zoom or phone, usually every two weeks, and sessions are about whatever's most alive. Some weeks it's a hiring decision. Some weeks it's a conflict with your co-founder. Some weeks it's "I don't know what I'm doing and I'm not sure anyone should let me run a company."
 
-I've been coaching since 2020. I work with 15-20 clients at a time and have coached over 50 people for more than 1,500 hours.
+I've been coaching since 2020. I work with 15-20 clients at a time and have coached over 60 people for more than 1,800 hours.
 
 If you'd like to learn more, [get in touch](/contact). For tactical answers, see my [Coaching Logistics page](/executive-coaching/logistics) (Fees, Cadence, etc.).
 

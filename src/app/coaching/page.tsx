@@ -9,7 +9,7 @@ import "../../styles/static-page.css";
 export const metadata = {
   title: "Executive Coaching for Startup Founders & CEOs",
   description:
-    "Executive coaching for startup founders and CEOs navigating growth, leadership, and the challenges of building companies. 1,500+ hours coaching startup leaders.",
+    "Executive coaching for startup founders and CEOs navigating growth, leadership, and the challenges of building companies. 1,800+ hours coaching startup leaders.",
   alternates: {
     canonical: "/coaching",
   },
@@ -56,7 +56,7 @@ const faqSchema = {
       name: "How much coaching experience does Andy Sparks have?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Andy has been coaching since 2020, works with 15-20 clients at a time, and has coached over 50 people for more than 1,500 hours.",
+        text: "Andy has been coaching since 2020, works with 15-20 clients at a time, and has coached over 60 people for more than 1,800 hours.",
       },
     },
     {
