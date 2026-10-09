@@ -21,6 +21,7 @@ Sessions happen over Zoom or phone, usually every two weeks, and cover whatever 
 
 - Homepage: https://andysparks.co
 - Coaching: https://andysparks.co/coaching
+- Coaching logistics (fees, availability, cancellations): https://andysparks.co/coaching/logistics
 - About: https://andysparks.co/about
 - Essays: https://andysparks.co/essays
 - Contact: https://andysparks.co/contact

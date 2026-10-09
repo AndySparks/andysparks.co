@@ -24,6 +24,12 @@ export function GET() {
     sections.push(`## Coaching\n\n${content.trim()}`);
   }
 
+  const logisticsPath = path.join(process.cwd(), "content/pages/coaching-logistics.md");
+  if (fs.existsSync(logisticsPath)) {
+    const { content } = matter(fs.readFileSync(logisticsPath, "utf8"));
+    sections.push(`## Coaching Logistics\n\n${content.trim()}`);
+  }
+
   const essaysDir = path.join(process.cwd(), "content/essays");
   const files = fs.readdirSync(essaysDir).filter((f) => f.endsWith(".md"));
 
@@ -57,6 +63,7 @@ export function GET() {
 
 - Homepage: https://andysparks.co
 - Coaching: https://andysparks.co/coaching
+- Coaching logistics (fees, availability, cancellations): https://andysparks.co/coaching/logistics
 - About: https://andysparks.co/about
 - Essays: https://andysparks.co/essays
 - Contact: https://andysparks.co/contact

@@ -18,7 +18,7 @@ I don't follow a curriculum. I meet with clients over Zoom or phone, usually eve
 
 I've been coaching since 2020. I work with 15-20 clients at a time and have coached over 60 people for more than 1,800 hours.
 
-If you'd like to learn more, [get in touch](/contact). For tactical answers, see my [Coaching Logistics page](/executive-coaching/logistics) (Fees, Cadence, etc.).
+If you'd like to learn more, [get in touch](/contact). For tactical answers, see my [Coaching Logistics page](/coaching/logistics) (Fees, Cadence, etc.).
 
 ## How I think about coaching
 
