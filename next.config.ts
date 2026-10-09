@@ -77,6 +77,37 @@ function buildRedirects() {
     permanent: true,
   });
 
+  // Every other URL the pre-2026 sites served that 404'd after the rebuild,
+  // from a Wayback Machine sweep on 2026-10-09. Deliberately left as 404s:
+  // /untitled (Webflow style-guide page), /meetups (Tumblr system page),
+  // /courses (empty), and /books + /playlists (no equivalent page yet).
+  const legacy: [source: string, destination: string][] = [
+    // Webflow-era pages (live until the March 2026 rebuild)
+    ["/exhibits/a-message-to-garcia", "/essays/if-you-want-people-to-remember-tell-a-story-message-to-garcia"],
+    ["/post/12-the-should-factory", "/essays/issue-12-the-should-factory"],
+    ["/newsletters", "/newsletter"],
+    ["/captains-log", "/newsletter"],
+    ["/hoo-boy-welcome", "/newsletter"],
+    ["/hoo-boy-archive", "/essays"],
+    ["/podcasts", "/media"],
+    // Tumblr-era listing pages and posts that weren't carried into /essays
+    ["/archive/:path*", "/essays"],
+    ["/tagged/:path*", "/essays"],
+    ["/page/:n(\\d+)", "/essays"],
+    ["/mobile/:path*", "/essays"],
+    ["/liked/:path*", "/essays"],
+    ["/bad-day-remedies", "/essays"],
+    ["/do-what-you-love", "/essays"],
+    ["/motivation", "/essays"],
+    ["/shutting-down-my-startup", "/essays"],
+    ["/startup-related-blogs", "/essays"],
+    ["/the-chronicles-of-500-startups", "/essays"],
+  ];
+
+  for (const [source, destination] of legacy) {
+    redirects.push({ source, destination, permanent: true });
+  }
+
   // Case-insensitive root-level old paths
   redirects.push({
     source: "/Losing-a-Battle-and-Focusing-on-Winning-the-War",
