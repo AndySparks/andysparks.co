@@ -41,6 +41,28 @@ function buildRedirects() {
     permanent: true,
   });
 
+  // Pre-2026 site coaching pages. The March 2026 rebuild moved coaching to
+  // /coaching; these URLs live on in client emails, contracts, and search.
+  // Specific paths first — Next matches redirects in order.
+  redirects.push({
+    source: "/executive-coaching/logistics",
+    destination: "/coaching/logistics",
+    permanent: true,
+  });
+
+  redirects.push({
+    source: "/executive-coaching/kick-off",
+    destination: "/coaching/kick-off",
+    permanent: true,
+  });
+
+  // /approach was superseded by "How I think about coaching" on /coaching.
+  redirects.push({
+    source: "/executive-coaching/:path*",
+    destination: "/coaching",
+    permanent: true,
+  });
+
   // Old Tumblr numeric-ID URLs that match existing essays
   redirects.push({
     source: "/post/119618212704/failure-depression-and-yoda",
